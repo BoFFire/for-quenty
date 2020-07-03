@@ -1,0 +1,3497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: en.yml conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 18:25+0100\n"
+"PO-Revision-Date: 2020-07-03 18:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Api-Version: 1.0.24 20200529-1"
+
+msgid "settings"
+msgstr "Settings"
+
+msgid "profile"
+msgstr "Profile"
+
+msgid "account"
+msgstr "Account"
+
+msgid "privacy"
+msgstr "Privacy"
+
+msgid "_services"
+msgstr "Services"
+
+msgid "_applications"
+msgstr "Applications"
+
+msgid "_help"
+msgstr "Help"
+
+msgid "ok"
+msgstr "OK"
+
+msgid "cancel"
+msgstr "Cancel"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "username"
+msgstr "Username"
+
+msgid "email"
+msgstr "Email"
+
+msgid "are_you_sure"
+msgstr "Are you sure?"
+
+msgid "are_you_sure_delete_account"
+msgstr "Are you sure you want to close your account? This can’t be undone!"
+
+msgid "are_you_sure_ignore_user"
+msgstr "You are going to ignore that user. Are you sure?"
+
+msgid "fill_me_out"
+msgstr "Fill me out"
+
+msgid "public"
+msgstr "Public"
+
+msgid "limited"
+msgstr "Limited"
+
+msgid "search"
+msgstr "Search"
+
+msgid "nsfw"
+msgstr "NSFW"
+
+msgid "find_people"
+msgstr "Find people or #tags"
+
+msgid "more"
+msgstr "More"
+
+msgid "all_aspects"
+msgstr "All aspects"
+
+msgid "no_results"
+msgstr "No results found"
+
+msgid "_contacts"
+msgstr "Contacts"
+
+msgid "_terms"
+msgstr "Terms"
+
+msgid "_statistics"
+msgstr "Statistics"
+
+msgid "activerecord.errors.models.user.attributes.person.invalid"
+msgstr "is invalid."
+
+msgid "activerecord.errors.models.user.attributes.username.taken"
+msgstr "is already taken."
+
+msgid "activerecord.errors.models.user.attributes.username.invalid"
+msgstr "is invalid. We only allow letters, numbers, and underscores."
+
+msgid "activerecord.errors.models.user.attributes.email.taken"
+msgstr "is already taken."
+
+msgid "activerecord.errors.models.person.attributes.diaspora_handle.taken"
+msgstr "is already taken."
+
+msgid "activerecord.errors.models.contact.attributes.person_id.taken"
+msgstr "must be unique among this user’s contacts."
+
+msgid "activerecord.errors.models.reshare.attributes.root_guid.taken"
+msgstr "That good, eh? You've already reshared that post!"
+
+msgid ""
+"activerecord.errors.models.poll.attributes.poll_answers."
+"not_enough_poll_answers"
+msgstr "Not enough poll options provided."
+
+msgid ""
+"activerecord.errors.models.poll_participation.attributes.poll."
+"already_participated"
+msgstr "You’ve already participated in this poll!"
+
+msgid "errors.messages.carrierwave_processing_error"
+msgstr "failed to be processed"
+
+msgid "errors.messages.carrierwave_integrity_error"
+msgstr "is not of an allowed file type"
+
+msgid "errors.messages.carrierwave_download_error"
+msgstr "could not be downloaded"
+
+msgid "errors.messages.extension_whitelist_error"
+msgstr ""
+"You are not allowed to upload %{extension} files, allowed types: "
+"%{allowed_types}"
+
+msgid "errors.messages.extension_blacklist_error"
+msgstr ""
+"You are not allowed to upload %{extension} files, prohibited types: "
+"%{prohibited_types}"
+
+msgid "errors.messages.content_type_whitelist_error"
+msgstr "You are not allowed to upload %{content_type} files"
+
+msgid "errors.messages.content_type_blacklist_error"
+msgstr "You are not allowed to upload %{content_type} files"
+
+msgid "errors.messages.rmagick_processing_error"
+msgstr "Failed to manipulate with rmagick, maybe it is not an image?"
+
+msgid "errors.messages.mini_magick_processing_error"
+msgstr ""
+"Failed to manipulate with MiniMagick, maybe it is not an image? Original "
+"Error: %{e}"
+
+msgid "errors.messages.min_size_error"
+msgstr "File size should be greater than %{min_size}"
+
+msgid "errors.messages.max_size_error"
+msgstr "File size should be less than %{max_size}"
+
+msgid "error_messages.helper.correct_the_following_errors_and_try_again"
+msgstr "Correct the following errors and try again."
+
+msgid "error_messages.need_javascript"
+msgstr ""
+"This website requires JavaScript to function properly. If you disabled "
+"JavaScript, please enable it and refresh this page."
+
+msgid "error_messages.csrf_token_fail"
+msgstr "The CSRF token is invalid. Please sign in and try again."
+
+msgid "admins.admin_bar.pages"
+msgstr "Pages"
+
+msgid "admins.admin_bar.dashboard"
+msgstr "Dashboard"
+
+msgid "admins.admin_bar.user_search"
+msgstr "User search"
+
+msgid "admins.admin_bar.weekly_user_stats"
+msgstr "Weekly user stats"
+
+msgid "admins.admin_bar.pod_stats"
+msgstr "Pod stats"
+
+msgid "admins.admin_bar.report"
+msgstr "Reports"
+
+msgid "admins.admin_bar.sidekiq_monitor"
+msgstr "Sidekiq monitor"
+
+msgid "admins.admin_bar.pod_network"
+msgstr "Pod network"
+
+msgid "admins.dashboard.pod_status"
+msgstr "Pod status"
+
+msgid "admins.dashboard.fetching_diaspora_version"
+msgstr "Determining latest diaspora* version..."
+
+msgid "admins.user_search.you_currently"
+msgid_plural "admins.user_search.you_currently.zero"
+msgstr[0] "You currently have one invite left %{link}"
+msgstr[1] "You currently have no invites left %{link}"
+
+msgid "admins.user_search.view_profile"
+msgstr "View profile"
+
+msgid "admins.user_search.add_invites"
+msgstr "Add invites"
+
+msgid "admins.user_search.close_account"
+msgstr "Close account"
+
+msgid "admins.user_search.lock_account"
+msgstr "Lock account"
+
+msgid "admins.user_search.unlock_account"
+msgstr "Unlock account"
+
+msgid "admins.user_search.are_you_sure"
+msgstr "Are you sure you want to close this account?"
+
+msgid "admins.user_search.are_you_sure_lock_account"
+msgstr "Are you sure you want to lock this account?"
+
+msgid "admins.user_search.are_you_sure_unlock_account"
+msgstr "Are you sure you want to unlock this account?"
+
+msgid "admins.user_search.account_closing_scheduled"
+msgstr ""
+"The account of %{name} is scheduled to be closed. It will be processed in a "
+"few moments..."
+
+msgid "admins.user_search.account_locking_scheduled"
+msgstr ""
+"The account of %{name} is scheduled to be locked. It will be processed in a "
+"few moments..."
+
+msgid "admins.user_search.account_unlocking_scheduled"
+msgstr ""
+"The account of %{name} is scheduled to be unlocked. It will be processed in "
+"a few moments..."
+
+msgid "admins.user_search.make_admin"
+msgstr "Make admin"
+
+msgid "admins.user_search.remove_admin"
+msgstr "Remove as admin"
+
+msgid "admins.user_search.make_moderator"
+msgstr "Make moderator"
+
+msgid "admins.user_search.remove_moderator"
+msgstr "Remove as moderator"
+
+msgid "admins.user_search.make_spotlight"
+msgstr "Add to community spotlight"
+
+msgid "admins.user_search.remove_spotlight"
+msgstr "Remove from community spotlight"
+
+msgid "admins.user_search.add_admin"
+msgstr "%{name} has been made an admin."
+
+msgid "admins.user_search.delete_admin"
+msgstr "%{name} has been removed from the list of admins."
+
+msgid "admins.user_search.add_moderator"
+msgstr "%{name} has been made a moderator."
+
+msgid "admins.user_search.delete_moderator"
+msgstr "%{name} has been removed from the list of moderators."
+
+msgid "admins.user_search.add_spotlight"
+msgstr "%{name} has been added to community spotlight."
+
+msgid "admins.user_search.delete_spotlight"
+msgstr "%{name} has been removed from community spotlight."
+
+msgid "admins.user_search.does_not_exist"
+msgstr "User does not exist!"
+
+msgid "admins.user_search.role_implemented"
+msgstr "%{name} has already been given this role!"
+
+msgid "admins.user_search.role_removal_implemented"
+msgstr "%{name} has already been removed from this role!"
+
+msgid "admins.user_search.email_to"
+msgstr "Email to invite"
+
+msgid "admins.user_search.invite"
+msgstr "Invite"
+
+msgid "admins.user_search.under_13"
+msgstr "Show users that are under 13 (COPPA)"
+
+msgid "admins.user_search.users"
+msgid_plural "admins.user_search.users.zero"
+msgstr[0] "%{count} user found"
+msgstr[1] "%{count} users found"
+
+msgid "admins.user_entry.id"
+msgstr "ID"
+
+msgid "admins.user_entry.guid"
+msgstr "GUID"
+
+msgid "admins.user_entry.email"
+msgstr "Email"
+
+msgid "admins.user_entry.diaspora_handle"
+msgstr "diaspora* ID"
+
+msgid "admins.user_entry.last_seen"
+msgstr "Last seen"
+
+msgid "admins.user_entry.account_closed"
+msgstr "Account closed"
+
+msgid "admins.user_entry.nsfw"
+msgstr "#nsfw"
+
+msgid "admins.user_entry.admin"
+msgstr "Admin"
+
+msgid "admins.user_entry.moderator"
+msgstr "Moderator"
+
+msgid "admins.user_entry.spotlight"
+msgstr "Spotlight"
+
+msgid "admins.user_entry.unknown"
+msgstr "Unknown"
+
+msgid "admins.user_entry.invite_token"
+msgstr "Invite token"
+
+msgid "admins.user_entry.yes"
+msgstr "Yes"
+
+msgid "admins.user_entry.no"
+msgstr "No"
+
+msgid "admins.weekly_user_stats.current_server"
+msgstr "Current server date is %{date}"
+
+msgid "admins.weekly_user_stats.amount_of"
+msgid_plural "admins.weekly_user_stats.amount_of.zero"
+msgstr[0] "Number of new users this week: %{count}"
+msgstr[1] "Number of new users this week: none"
+
+msgid "admins.stats.week"
+msgstr "Week"
+
+msgid "admins.stats.2weeks"
+msgstr "2 weeks"
+
+msgid "admins.stats.month"
+msgstr "Month"
+
+msgid "admins.stats.daily"
+msgstr "Daily"
+
+msgid "admins.stats.usage_statistic"
+msgstr "Usage statistics"
+
+msgid "admins.stats.go"
+msgstr "Go"
+
+msgid "admins.stats.display_results"
+msgstr "Displaying results from the %{segment} segment"
+
+msgid "admins.stats.posts"
+msgid_plural "admins.stats.posts.zero"
+msgstr[0] "%{count} post"
+msgstr[1] "%{count} posts"
+
+msgid "admins.stats.comments"
+msgid_plural "admins.stats.comments.zero"
+msgstr[0] "%{count} comment"
+msgstr[1] "%{count} comments"
+
+msgid "admins.stats.shares"
+msgid_plural "admins.stats.shares.zero"
+msgstr[0] "%{count} share"
+msgstr[1] "%{count} shares"
+
+msgid "admins.stats.users"
+msgid_plural "admins.stats.users.zero"
+msgstr[0] "%{count} user"
+msgstr[1] "%{count} users"
+
+msgid "admins.stats.current_segment"
+msgstr ""
+"The current segment is averaging %{post_yest} posts per user, from "
+"%{post_day}"
+
+msgid "admins.stats.50_most"
+msgstr "50 most popular tags"
+
+msgid "admins.stats.tag_name"
+msgstr "Tag name: %{name_tag} Count: %{count_tag}"
+
+msgid "admins.pods.pod_network"
+msgstr "Pod network"
+
+msgid "admins.pods.pod_desktop_view"
+msgstr ""
+"This page is not available on mobile view, please switch to %{desktop_link}."
+
+msgid "admins.pods.pod_desktop_link"
+msgstr "desktop view"
+
+msgid "aspects.edit.confirm_remove_aspect"
+msgstr "Are you sure you want to delete this aspect?"
+
+msgid "aspects.edit.rename"
+msgstr "Rename"
+
+msgid "aspects.edit.aspect_list_is_visible"
+msgstr "Contacts in this aspect are able to see each other."
+
+msgid "aspects.edit.aspect_list_is_not_visible"
+msgstr "Contacts in this aspect are not able to see each other."
+
+msgid "aspects.edit.update"
+msgstr "Update"
+
+msgid "aspects.edit.updating"
+msgstr "Updating"
+
+msgid "aspects.no_contacts_message.you_should_add_some_more_contacts"
+msgstr "You should add some more contacts!"
+
+msgid "aspects.no_contacts_message.try_adding_some_more_contacts"
+msgstr "You can search or %{invite_link} more contacts."
+
+msgid "aspects.no_contacts_message.invite_link_text"
+msgstr "invite"
+
+msgid "aspects.no_contacts_message.or_spotlight"
+msgstr "Or you can share with %{link}"
+
+msgid "aspects.no_contacts_message.community_spotlight"
+msgstr "Community spotlight"
+
+msgid "aspects.aspect_listings.add_an_aspect"
+msgstr "+ Add an aspect"
+
+msgid "aspects.destroy.success"
+msgstr "%{name} was successfully removed."
+
+msgid "aspects.destroy.success_auto_follow_back"
+msgstr ""
+"%{name} was successfully removed. You used this aspect to automatically "
+"follow back users. Check your user settings to select a new auto follow back "
+"aspect."
+
+msgid "aspects.destroy.failure"
+msgstr "%{name} could not be removed."
+
+msgid "aspects.update.success"
+msgstr "Your aspect, %{name}, has been successfully edited."
+
+msgid "aspects.update.failure"
+msgstr "Your aspect, %{name}, had too long name to be saved."
+
+msgid "aspects.add_to_aspect.failure"
+msgstr "Failed to add contact to aspect."
+
+msgid "aspects.add_to_aspect.success"
+msgstr "Successfully added contact to aspect."
+
+msgid "aspects.seed.family"
+msgstr "Family"
+
+msgid "aspects.seed.work"
+msgstr "Work"
+
+msgid "aspects.seed.acquaintances"
+msgstr "Acquaintances"
+
+msgid "aspects.seed.friends"
+msgstr "Friends"
+
+msgid "aspects.index.donate"
+msgstr "Donate"
+
+msgid "aspects.index.keep_pod_running"
+msgstr ""
+"Keep %{pod} running fast and buy servers their coffee fix with a monthly "
+"donation!"
+
+msgid "aspects.index.donate_liberapay"
+msgstr "Donate to liberapay"
+
+msgid "aspects.index.welcome_to_diaspora"
+msgstr "Welcome to diaspora*, %{name}!"
+
+msgid "aspects.index.introduce_yourself"
+msgstr "This is your stream. Jump in and introduce yourself."
+
+msgid "aspects.index.new_here.title"
+msgstr "Welcome new users"
+
+msgid "aspects.index.new_here.follow"
+msgstr "Follow %{link} and welcome new users to diaspora*!"
+
+msgid "aspects.index.new_here.learn_more"
+msgstr "Learn more"
+
+msgid "aspects.index.help.need_help"
+msgstr "Need help?"
+
+msgid "aspects.index.help.here_to_help"
+msgstr "The diaspora* community is here!"
+
+msgid "aspects.index.help.do_you"
+msgstr "Do you:"
+
+msgid "aspects.index.help.have_a_question"
+msgstr "... have a %{link}?"
+
+msgid "aspects.index.help.tag_question"
+msgstr "question"
+
+msgid "aspects.index.help.find_a_bug"
+msgstr "... find a %{link}?"
+
+msgid "aspects.index.help.tag_bug"
+msgstr "bug"
+
+msgid "aspects.index.help.feature_suggestion"
+msgstr "... have a %{link} suggestion?"
+
+msgid "aspects.index.help.tag_feature"
+msgstr "feature"
+
+msgid "aspects.index.help.tutorials_and_wiki"
+msgstr "%{faq}, %{tutorial} & %{wiki}: help for your first steps."
+
+msgid "aspects.index.help.tutorial_link_text"
+msgstr "Tutorials"
+
+msgid "aspects.index.help.support_forum"
+msgstr "You can also join the %{support_forum}."
+
+msgid "aspects.index.help.support_forum_link"
+msgstr "support forum"
+
+msgid "aspects.index.help.any_problem"
+msgstr "Got a problem?"
+
+msgid "aspects.index.help.contact_podmin"
+msgstr "Contact the administrator of your pod!"
+
+msgid "aspects.index.help.mail_podmin"
+msgstr "Podmin email"
+
+msgid "aspects.index.services.heading"
+msgstr "Connect services"
+
+msgid "aspects.index.services.content"
+msgstr "You can connect the following services to diaspora*:"
+
+msgid "aspects.aspect_stream.stay_updated"
+msgstr "Stay updated"
+
+msgid "aspects.aspect_stream.stay_updated_explanation"
+msgstr ""
+"Your main stream is populated with all of your contacts, tags you follow, "
+"and posts from some creative members of the community."
+
+msgid "aspects.aspect_stream.make_something"
+msgstr "Make something"
+
+msgid "aspect_memberships.destroy.success"
+msgstr "Successfully removed person from aspect."
+
+msgid "aspect_memberships.destroy.failure"
+msgstr "Failed to remove person from aspect."
+
+msgid "aspect_memberships.destroy.no_membership"
+msgstr "Could not find the selected person in that aspect."
+
+msgid "aspect_memberships.destroy.forbidden"
+msgstr "You are not allowed to do that."
+
+msgid "aspect_memberships.destroy.invalid_statement"
+msgstr "Duplicate record rejected."
+
+msgid "bookmarklet.heading"
+msgstr "Bookmarklet"
+
+msgid "bookmarklet.post_something"
+msgstr "Post to diaspora*"
+
+msgid "bookmarklet.explanation"
+msgstr "Post to diaspora* from anywhere by bookmarking this link => %{link}."
+
+msgid "color_themes.dark"
+msgstr "Dark"
+
+msgid "color_themes.dark_green"
+msgstr "Dark green"
+
+msgid "color_themes.egyptian_blue"
+msgstr "Egyptian blue"
+
+msgid "color_themes.magenta"
+msgstr "Magenta"
+
+msgid "color_themes.original"
+msgstr "Original gray"
+
+msgid "color_themes.original_white"
+msgstr "Original white background"
+
+msgid "comments.create.fail"
+msgstr "Comment creation has failed"
+
+msgid "comments.new_comment.comment"
+msgstr "Comment"
+
+msgid "comments.new_comment.commenting"
+msgstr "Commenting..."
+
+msgid "comments.destroy.success"
+msgstr "Comment %{id} has been successfully deleted"
+
+msgid "comments.destroy.fail"
+msgstr "Comment deletion has failed"
+
+msgid "comments.not_found"
+msgstr "Post or comment not found"
+
+msgid "contacts.index.start_a_conversation"
+msgstr "Start a conversation"
+
+msgid "contacts.index.title"
+msgstr "Contacts"
+
+msgid "contacts.index.no_contacts"
+msgstr "Looks like you need to add some contacts!"
+
+msgid "contacts.index.no_contacts_message"
+msgstr "Check out %{community_spotlight}"
+
+msgid "contacts.index.community_spotlight"
+msgstr "Community spotlight"
+
+msgid "contacts.index.no_contacts_in_aspect"
+msgstr ""
+"You don't have any contacts in this aspect yet. Below is a list of your "
+"existing contacts which you can add to this aspect."
+
+msgid "contacts.index.my_contacts"
+msgstr "My contacts"
+
+msgid "contacts.index.all_contacts"
+msgstr "All contacts"
+
+msgid "contacts.index.only_sharing_with_me"
+msgstr "Only sharing with me"
+
+msgid "contacts.index.add_contact"
+msgstr "Add contact"
+
+msgid "contacts.index.user_search"
+msgstr "Contact search"
+
+msgid "contacts.spotlight.community_spotlight"
+msgstr "Community spotlight"
+
+msgid "contacts.spotlight.suggest_member"
+msgstr "Suggest a member"
+
+msgid "contacts.spotlight.no_members"
+msgstr "There are no members yet."
+
+msgid "conversations.index.conversations_inbox"
+msgstr "Conversations – Inbox"
+
+msgid "conversations.index.new_conversation"
+msgstr "New conversation"
+
+msgid "conversations.index.no_messages"
+msgstr "No messages"
+
+msgid "conversations.index.inbox"
+msgstr "Inbox"
+
+msgid "conversations.index.no_contacts"
+msgstr "You need to add some contacts before you can start a conversation"
+
+msgid "conversations.show.reply"
+msgstr "Reply"
+
+msgid "conversations.show.replying"
+msgstr "Replying..."
+
+msgid "conversations.show.hide"
+msgstr "Hide and mute conversation"
+
+msgid "conversations.show.delete"
+msgstr "Delete conversation"
+
+msgid "conversations.show.last_message"
+msgstr "Last message received %{timeago}"
+
+msgid "conversations.new.to"
+msgstr "To"
+
+msgid "conversations.new.subject"
+msgstr "Subject"
+
+msgid "conversations.new.subject_default"
+msgstr "No subject"
+
+msgid "conversations.new.message"
+msgstr "Message"
+
+msgid "conversations.new.send"
+msgstr "Send"
+
+msgid "conversations.new.sending"
+msgstr "Sending..."
+
+msgid "conversations.create.sent"
+msgstr "Message sent"
+
+msgid "conversations.create.fail"
+msgstr "Invalid message"
+
+msgid "conversations.new_conversation.fail"
+msgstr "Invalid message"
+
+msgid "conversations.destroy.delete_success"
+msgstr "Conversation successfully deleted"
+
+msgid "conversations.destroy.hide_success"
+msgstr "Conversation successfully hidden"
+
+msgid "conversations.not_found"
+msgstr "Conversation not found"
+
+msgid "date.formats.fullmonth_day"
+msgstr "%B %d"
+
+msgid "date.formats.birthday"
+msgstr "%B %d"
+
+msgid "date.formats.birthday_with_year"
+msgstr "%B %d %Y"
+
+msgid "help.title_header"
+msgstr "Help"
+
+msgid "help.tutorials"
+msgstr "tutorials"
+
+msgid "help.tutorial"
+msgstr "tutorial"
+
+msgid "help.irc"
+msgstr "IRC"
+
+msgid "help.wiki"
+msgstr "wiki"
+
+msgid "help.faq"
+msgstr "FAQ"
+
+msgid "help.markdown"
+msgstr "Markdown"
+
+msgid "help.here"
+msgstr "here"
+
+msgid "help.foundation_website"
+msgstr "diaspora* foundation website"
+
+msgid "help.third_party_tools"
+msgstr "Third-party tools"
+
+msgid "help.getting_started_tutorial"
+msgstr "”Getting started” tutorial series"
+
+msgid "help.community_guidelines"
+msgstr "community guidelines"
+
+msgid "help.getting_help.title"
+msgstr "Getting help"
+
+msgid "help.getting_help.getting_started_q"
+msgstr "Help! I need some basic help to get me started!"
+
+msgid "help.getting_help.getting_started_a"
+msgstr ""
+"You’re in luck. Try the %{tutorial_series} on our project site. It will take "
+"you step-by-step through the registration process and teach you all the "
+"basic things you need to know about using diaspora*."
+
+msgid "help.getting_help.get_support_q"
+msgstr ""
+"What if my question is not answered in this FAQ? Where else can I get "
+"support?"
+
+msgid "help.getting_help.get_support_a_website"
+msgstr "Visit our %{link}"
+
+msgid "help.getting_help.get_support_a_tutorials"
+msgstr "Check out our %{tutorials}"
+
+msgid "help.getting_help.get_support_a_wiki"
+msgstr "Search the %{link}"
+
+msgid "help.getting_help.get_support_a_irc"
+msgstr "Join us on %{irc} (live chat)"
+
+msgid "help.getting_help.get_support_a_faq"
+msgstr "Read our %{faq} page on wiki"
+
+msgid "help.getting_help.get_support_a_hashtag"
+msgstr "Ask in a public post on diaspora* using the %{question} hashtag"
+
+msgid "help.getting_help.get_support_a_discourse"
+msgstr ""
+"Search for existing discussions relating to your enquiry or open a new "
+"thread in our %{discourse} platform"
+
+msgid "help.account_and_data_management.title"
+msgstr "Account and data management"
+
+msgid "help.account_and_data_management.move_pods_q"
+msgstr "How do I move my seed (account) from one pod to another?"
+
+msgid "help.account_and_data_management.move_pods_a"
+msgstr ""
+"Version 0.7.0.0 of diaspora* provides the first stage of account migration: "
+"you can now export all your data from the “Account” section of the user "
+"settings. Keep your data safely! In a future release you will be able to "
+"migrate your whole account, including posts and contacts, to another pod."
+
+msgid "help.account_and_data_management.download_data_q"
+msgstr ""
+"Can I download a copy of all of my data contained in my seed (account)?"
+
+msgid "help.account_and_data_management.download_data_a"
+msgstr ""
+"Yes. At the bottom of the Account tab of your settings page you will find "
+"two buttons: one for downloading your data and one for downloading your "
+"photos."
+
+msgid "help.account_and_data_management.close_account_q"
+msgstr "How do I delete my seed (account)?"
+
+msgid "help.account_and_data_management.close_account_a"
+msgstr ""
+"Go to the bottom of your settings page and click the “Close account” button. "
+"You will be asked to enter your password to complete the process. Remember, "
+"if you close your account, you will <strong>never</strong> be able to re-"
+"register your username on that pod."
+
+msgid "help.account_and_data_management.data_visible_to_podmin_q"
+msgstr "How much of my information can my pod administrator see?"
+
+msgid "help.account_and_data_management.data_visible_to_podmin_a"
+msgstr ""
+"In short: everything. Communication between pods is always encrypted (using "
+"SSL and diaspora*’s own transport encryption), but the storage of data on "
+"pods is not encrypted. If they wanted to, the database administrator for "
+"your pod (usually the person running the pod) could access all your profile "
+"data and everything that you post (as is the case for most websites that "
+"store user data). This is why we give you the choice which pod you sign up "
+"to, so you can choose a pod whose admin you are happy to trust with your "
+"data. Running your own pod provides more privacy since you then control "
+"access to the database."
+
+msgid "help.account_and_data_management.data_other_podmins_q"
+msgstr "Can the administrators of other pods see my information?"
+
+msgid "help.account_and_data_management.data_other_podmins_a"
+msgstr ""
+"Once you are sharing with someone on another pod, any posts you share with "
+"them and a copy of your profile data are stored (cached) on their pod, and "
+"are accessible to that pod’s database administrator. When you delete a post "
+"or profile data it is deleted from your pod and a delete request is sent to "
+"any other pods where it had previously been stored. Your images are never "
+"stored on any pod but your own; only links to them are transmitted to other "
+"pods."
+
+msgid "help.aspects.title"
+msgstr "Aspects"
+
+msgid "help.aspects.what_is_an_aspect_q"
+msgstr "What is an aspect?"
+
+msgid "help.aspects.what_is_an_aspect_a"
+msgstr ""
+"Aspects are the way you group your contacts on diaspora*. An aspect is one "
+"of the faces you show to the world. It might be who you are at work, or who "
+"you are to your family, or who you are to your friends in a club you belong "
+"to."
+
+msgid "help.aspects.who_sees_post_q"
+msgstr "When I post to an aspect, who sees it?"
+
+msgid "help.aspects.who_sees_post_a"
+msgstr ""
+"If you make a limited post, it will only be visible to the people you had "
+"placed in that aspect (or aspects, if it is made to multiple aspects) before "
+"making the post. Contacts you have who aren’t in the aspect have no way of "
+"seeing the post. Limited posts will never be visible to anyone who you "
+"haven’t placed into one of your aspects."
+
+msgid "help.aspects.contacts_know_aspect_q"
+msgstr "Do my contacts know which aspects I have put them in?"
+
+msgid "help.aspects.contacts_know_aspect_a"
+msgstr "No. They cannot see the name of the aspect under any circumstances."
+
+msgid "help.aspects.person_multiple_aspects_q"
+msgstr "Can I add a person to multiple aspects?"
+
+msgid "help.aspects.person_multiple_aspects_a"
+msgstr ""
+"Yes. Go to your contacts page and click on “My contacts”. For each contact "
+"you can use the menu on the right to add them to (or remove them from) as "
+"many aspects as you want. Or you can add them to a new aspect (or remove "
+"them from an aspect) by clicking the aspect selector button on their profile "
+"page. Or you can even just move the pointer over their name where you see it "
+"in the stream, and a “hovercard” will appear. You can change the aspects "
+"they are in right there."
+
+msgid "help.aspects.remove_notification_q"
+msgstr ""
+"If I remove someone from an aspect, or all of my aspects, are they notified "
+"of this?"
+
+msgid "help.aspects.remove_notification_a"
+msgstr ""
+"No. They are also not notified if you add them to more aspects, when you are "
+"already sharing with them."
+
+msgid "help.aspects.change_aspect_of_post_q"
+msgstr ""
+"Once I have posted something, can I change the aspect(s) that can see it?"
+
+msgid "help.aspects.change_aspect_of_post_a"
+msgstr ""
+"No, but you can always make a new post with the same content and post it to "
+"a different aspect."
+
+msgid "help.aspects.post_multiple_aspects_q"
+msgstr "Can I post content to multiple aspects at once?"
+
+msgid "help.aspects.post_multiple_aspects_a"
+msgstr ""
+"Yes. When you are making a post, use the aspect selector button to select or "
+"deselect aspects. “All aspects” is the default setting. Your post will be "
+"visible to all the aspects you select. You could also select the aspects you "
+"want to post to in the side-bar. When you post, the aspect(s) that you have "
+"selected in the list on the left will automatically be selected in the "
+"aspect selector when you start to make a new post."
+
+msgid "help.aspects.restrict_posts_i_see_q"
+msgstr ""
+"Can I restrict the posts in my stream to just those from certain aspects?"
+
+msgid "help.aspects.restrict_posts_i_see_a"
+msgstr ""
+"Yes. Click “My aspects” in the side-bar and then click individual aspects in "
+"the list to select or deselect them. Only the posts by people in the "
+"selected aspects will appear in your stream."
+
+msgid "help.aspects.rename_aspect_q"
+msgstr "How do I rename an aspect?"
+
+msgid "help.aspects.rename_aspect_a"
+msgstr ""
+"Click “My aspects” in the side-bar from a stream view and click the pencil "
+"icon by the aspect you want to rename, or go to your Contacts page and "
+"select the relevant aspect. Then click the edit icon next to the aspect name "
+"at the top of this page, change the name and press “Update”."
+
+msgid "help.aspects.delete_aspect_q"
+msgstr "How do I delete an aspect?"
+
+msgid "help.aspects.delete_aspect_a"
+msgstr ""
+"Click “My aspects” in the side-bar from a stream view and click the pencil "
+"icon by the aspect you want to delete, or go to your Contacts page and "
+"select the relevant aspect. Then click the trash icon in the top right of "
+"the page."
+
+msgid "help.mentions.title"
+msgstr "Mentions"
+
+msgid "help.mentions.what_is_a_mention_q"
+msgstr "What is a “mention”?"
+
+msgid "help.mentions.what_is_a_mention_a"
+msgstr ""
+"A mention is a link to a person’s profile page that appears in a post. When "
+"someone is mentioned they receive a notification that calls their attention "
+"to the post."
+
+msgid "help.mentions.how_to_mention_q"
+msgstr "How do I mention someone when making a post?"
+
+msgid "help.mentions.how_to_mention_a"
+msgstr ""
+"Type the “@” sign and start typing their name. A drop-down menu should "
+"appear to let you select them more easily. Note that it is only possible to "
+"mention people you have added to an aspect."
+
+msgid "help.mentions.mention_in_comment_q"
+msgstr "Can I mention someone in a comment?"
+
+msgid "help.mentions.mention_in_comment_a"
+msgstr ""
+"Since version 0.7.0.0, yes! You can mention someone in a comment the same "
+"way you would do it in a post, by typing “@” and then start typing their "
+"name. Please note that when you comment on a post which is not public, you "
+"can only mention users who have already interacted with the post."
+
+msgid "help.mentions.see_mentions_q"
+msgstr "Is there a way to see the posts in which I have been mentioned?"
+
+msgid "help.mentions.see_mentions_a"
+msgstr "Yes, click “@Mentions” in the left-hand column on your home page."
+
+msgid "help.pods.title"
+msgstr "Pods"
+
+msgid "help.pods.what_is_a_pod_q"
+msgstr "What is a pod?"
+
+msgid "help.pods.what_is_a_pod_a"
+msgstr ""
+"A pod is a server running the diaspora* software and connected to the "
+"diaspora* network. “Pod” is a metaphor referring to pods on plants which "
+"contain seeds, in the way that a server contains a number of user accounts. "
+"There are many different pods. You can add friends from other pods and "
+"communicate with them. There’s no need to open an account on different pods! "
+"One is enough – in this way, you can think of a diaspora* pod as similar to "
+"an email provider. There are public pods, private pods, and with some effort "
+"you can even run your own."
+
+msgid "help.pods.find_people_q"
+msgstr "I just joined a pod, how can I find people to share with?"
+
+msgid "help.pods.find_people_a"
+msgstr ""
+"If you want to invite your friends to join diaspora*, use the invitation "
+"link or the email link in the side-bar. Follow #tags to discover others who "
+"share your interests, and add those who post things that interest you to an "
+"aspect. Shout out that you’re #newhere in a public post."
+
+msgid "help.pods.use_search_box_q"
+msgstr "How do I use the search box to find particular individuals?"
+
+msgid "help.pods.use_search_box_a"
+msgstr ""
+"You can search for people by entering their username or their diaspora* name "
+"(the name that is shown on their profile). If neither of these methods work, "
+"enter their full diaspora* ID (username@podname.org). If your search doesn’t "
+"work the first time, it could be due to network latency. Try it again."
+
+msgid "help.posts_and_posting.title"
+msgstr "Posts and posting"
+
+msgid "help.posts_and_posting.stream_full_of_posts_q"
+msgstr ""
+"Why is my stream full of posts from people I don’t know and don’t share with?"
+
+msgid "help.posts_and_posting.stream_full_of_posts_a1"
+msgstr "Your stream is made up of three types of posts:"
+
+msgid "help.posts_and_posting.stream_full_of_posts_li1"
+msgstr ""
+"Posts by people you are sharing with, which come in two types: public posts "
+"and limited posts shared with an aspect that you are part of. To remove "
+"these posts from your stream, simply stop sharing with the person."
+
+msgid "help.posts_and_posting.stream_full_of_posts_li2"
+msgstr ""
+"Public posts containing one of the tags that you follow. To remove these, "
+"stop following that tag."
+
+msgid "help.posts_and_posting.stream_full_of_posts_li3"
+msgstr ""
+"Public posts by people listed in the community spotlight. These can be "
+"removed by unchecking the “Show community spotlight in stream?” option in "
+"the Account tab of your Settings."
+
+msgid "help.posts_and_posting.hide_posts_q"
+msgstr "How do I hide a post?"
+
+msgid "help.posts_and_posting.hide_posts_a"
+msgstr ""
+"If you point your mouse at the top of a post, an X appears on the right. "
+"Click it to hide the post and mute notifications about it. You can still see "
+"the post if you visit the profile page of the person who posted it."
+
+msgid "help.posts_and_posting.post_notification_q"
+msgstr ""
+"How do I get notifications, or stop getting notifications, about a post?"
+
+msgid "help.posts_and_posting.post_notification_a"
+msgstr ""
+"You will find a bell icon next to the X at the top right of a post. Click "
+"this to enable or disable notifications for that post."
+
+msgid "help.posts_and_posting.ignore_user_q"
+msgstr "How do I stop someone’s posts from appearing in my stream?"
+
+msgid "help.posts_and_posting.ignore_user_a1"
+msgstr ""
+"If you are currently sharing with that person, removing them from your "
+"aspects will stop many of their posts from appearing in your stream. A more "
+"complete method is to “ignore” that account. This will prevent any of their "
+"posts from appearing in your stream, and they will no longer be able to like "
+"or comment on your posts. They will, however, still be able to reshare your "
+"posts, comment on reshares of your posts, and their comments on posts by "
+"other people which appear in your stream will still be visible to you."
+
+msgid "help.posts_and_posting.ignore_user_a2"
+msgstr ""
+"To ignore an account, click the “ignore” icon (a circle with a diagonal line "
+"through it) at the top right of one of their posts. Their posts will "
+"instantly disappear from your stream. Alternatively, go to their profile "
+"page and click the ignore icon there. You will still be able to see their "
+"posts on their profile page, or by using the single-post view."
+
+msgid "help.posts_and_posting.ignore_user_a3"
+msgstr ""
+"A list of people you are ignoring can be found in your account settings "
+"under Privacy. To stop ignoring someone, remove them from the list on that "
+"page."
+
+msgid "help.posts_and_posting.post_report_q"
+msgstr "How do I report an offensive post?"
+
+msgid "help.posts_and_posting.post_report_a"
+msgstr ""
+"Click the alert triangle icon at the top right of the post to report it to "
+"your podmin. Enter a reason for reporting this post in the dialog box. "
+"Please only report posts that break our %{community_guidelines} or your "
+"pod’s terms of service, for example posts containing illegal content, or "
+"which are abusive or spam."
+
+msgid "help.posts_and_posting.character_limit_q"
+msgstr "What is the character limit for posts?"
+
+msgid "help.posts_and_posting.character_limit_a"
+msgstr ""
+"65,535 characters. That’s 65,395 more characters than you get on Twitter! ;)"
+
+msgid "help.posts_and_posting.char_limit_services_q"
+msgstr ""
+"What if I'm sharing my post with a connected service with a smaller "
+"character count?"
+
+msgid "help.posts_and_posting.char_limit_services_a"
+msgstr ""
+"In that case you should restrict your post to the smaller character count "
+"(140 in the case of Twitter; 1000 in the case of Tumblr), and the number of "
+"characters you have left to use is displayed when that service’s icon is "
+"highlighted. You can still post to these services if your post is longer "
+"than their limit, but the text will be truncated on those services with a "
+"link to the post on diaspora*."
+
+msgid "help.posts_and_posting.format_text_q"
+msgstr "How can I format the text in my posts (bold, italics, etc.)?"
+
+msgid "help.posts_and_posting.format_text_a"
+msgstr ""
+"diaspora* uses a simplified system called %{markdown}. The publisher has "
+"buttons to make it easy to format your text. If you want to format your post "
+"manually, you can find the full Markdown syntax %{here}. The preview tab "
+"means you can see how your message will look before you share it. Remember "
+"that you can’t edit it once posted, so use the preview to make sure it’s "
+"perfect before pressing Share!"
+
+msgid "help.posts_and_posting.insert_images_q"
+msgstr "How do I insert images into posts?"
+
+msgid "help.posts_and_posting.insert_images_a"
+msgstr ""
+"If you want to include an image stored on your computer in your post, click "
+"the little camera icon at the bottom of the publisher. You can also drag and "
+"drop an image, or multiple images, from your computer onto that icon. If you "
+"want to insert an image from the web into your post, click the image button "
+"on the top of the publisher, which will create the Markdown code for you."
+
+msgid "help.posts_and_posting.insert_images_comments_q"
+msgstr "Can I insert images into comments?"
+
+msgid "help.posts_and_posting.insert_images_comments_a"
+msgstr ""
+"You can use Markdown to insert an image from the web into a comment, just "
+"like in posts. However, you cannot upload images from your computer directly "
+"into comments. Upload them to an image-hosting service and then insert them "
+"using the image button above the publisher."
+
+msgid "help.posts_and_posting.size_of_images_q"
+msgstr "Can I customize the size of images in posts or comments?"
+
+msgid "help.posts_and_posting.size_of_images_a"
+msgstr ""
+"No. Images are resized automatically to fit the stream or single-post view. "
+"Markdown does not have a code for specifying the size of an image."
+
+msgid "help.posts_and_posting.embed_multimedia_q"
+msgstr ""
+"How do I embed a video, audio, or other multimedia content into a post?"
+
+msgid "help.posts_and_posting.embed_multimedia_a"
+msgstr ""
+"You can usually just paste the URL (e.g. http://www.youtube.com/watch?"
+"v=nnnnnnnnnnn ) into your post and the video or audio will be embedded "
+"automatically. The sites supported include: YouTube, Vimeo, SoundCloud, "
+"Flickr and a few more. diaspora* uses oEmbed for this feature. If you post a "
+"direct link to an audio or video file, diaspora* will embed it using "
+"standard HTML5 player. We’re supporting more media sources all the time. "
+"Remember to always post simple, full links – no shortened links; no "
+"operators after the base URL – and give it a little time before you refresh "
+"the page after posting for seeing the preview."
+
+msgid "help.posts_and_posting.post_location_q"
+msgstr "How do I add my location to a post?"
+
+msgid "help.posts_and_posting.post_location_a"
+msgstr ""
+"Click the pin icon next to the camera in the publisher. This will insert "
+"your location from OpenStreetMap. You can edit your location – you might "
+"only want to include the city you’re in rather than the specific street "
+"address."
+
+msgid "help.posts_and_posting.post_poll_q"
+msgstr "How do I add a poll to my post?"
+
+msgid "help.posts_and_posting.post_poll_a"
+msgstr ""
+"Click the graph icon to generate a poll. Type a question and at least two "
+"answers. Don’t forget to make your post public if you want everyone to be "
+"able to participate in your poll."
+
+msgid "help.private_posts.title"
+msgstr "Private posts"
+
+msgid "help.private_posts.who_sees_post_q"
+msgstr ""
+"When I post a message to an aspect (i.e., a private post), who can see it?"
+
+msgid "help.private_posts.who_sees_post_a"
+msgstr ""
+"Only logged-in diaspora* users you had placed in that aspect before making "
+"the private post can see it."
+
+msgid "help.private_posts.can_comment_q"
+msgstr "Who can comment on or like my private post?"
+
+msgid "help.private_posts.can_comment_a"
+msgstr ""
+"Only logged-in diaspora* users you had placed in that aspect before making "
+"the private post can comment on or like it."
+
+msgid "help.private_posts.can_reshare_q"
+msgstr "Who can reshare my private post?"
+
+msgid "help.private_posts.can_reshare_a"
+msgstr ""
+"Nobody. Private posts are not resharable. Logged-in diaspora* users in that "
+"aspect can potentially copy and paste it, however. It’s up to you whether "
+"you trust those people!"
+
+msgid "help.private_posts.see_comment_q"
+msgstr "When I comment on or like a private post, who can see it?"
+
+msgid "help.private_posts.see_comment_a"
+msgstr ""
+"Only the people that the post was shared with (the people who are in the "
+"aspects selected by the original poster) can see its comments and likes. "
+
+msgid "help.public_posts.title"
+msgstr "Public posts"
+
+msgid "help.public_posts.who_sees_post_q"
+msgstr "When I post something publicly, who can see it?"
+
+msgid "help.public_posts.who_sees_post_a"
+msgstr ""
+"Anyone using the internet can potentially see a post you mark public, so "
+"make sure you really do want your post to be public. It’s a great way of "
+"reaching out to the world."
+
+msgid "help.public_posts.find_public_post_q"
+msgstr "How can other people find my public post?"
+
+msgid "help.public_posts.find_public_post_a"
+msgstr ""
+"Your public posts will appear in the streams of anyone following you. If you "
+"included #tags in your public post, anyone following those tags will find "
+"your post in their streams. Every public post also has a specific URL that "
+"anyone can view, even if they’re not logged in – thus public posts may be "
+"linked to directly from Twitter, blogs, etc. Public posts may also be "
+"indexed by search engines."
+
+msgid "help.public_posts.can_comment_reshare_like_q"
+msgstr "Who can comment on, reshare, or like my public post?"
+
+msgid "help.public_posts.can_comment_reshare_like_a"
+msgstr ""
+"Any logged-in diaspora* user can comment on, reshare, or like your public "
+"post. The exception to this is people you have ignored, who won’t be able to "
+"like or comment on your posts."
+
+msgid "help.public_posts.see_comment_reshare_like_q"
+msgstr "When I comment on, reshare, or like a public post, who can see it?"
+
+msgid "help.public_posts.see_comment_reshare_like_a"
+msgstr ""
+"Comments, likes, and reshares of public posts are also public. Any logged-in "
+"diaspora* user and anyone else on the internet can see your interactions "
+"with a public post."
+
+msgid "help.public_posts.deselect_aspect_posting_q"
+msgstr ""
+"What happens when I deselect one or more aspects in the left-hand column "
+"when making a public post?"
+
+msgid "help.public_posts.deselect_aspect_posting_a"
+msgstr ""
+"Deselecting aspects does not affect a public post. It will still be public "
+"and will appear in the streams of all of your contacts. To make a post "
+"visible only to specific aspects, you need to select those aspects from the "
+"aspect selector under the publisher."
+
+msgid "help.profile.title"
+msgstr "Profile"
+
+msgid "help.profile.whats_in_profile_q"
+msgstr "What’s in my profile?"
+
+msgid "help.profile.whats_in_profile_a"
+msgstr ""
+"Your profile is in two parts: your basic profile and your extended profile. "
+"Your basic profile contains your name, the five tags you chose to describe "
+"yourself, and your photo. Your extended profile contains your biography, "
+"location, gender, and birthday. All this information is optional – it’s up "
+"to you whether you provide it, and you can make this profile information as "
+"identifiable or anonymous as you like. Your extended profile is displayed in "
+"the left-hand column of your profile page, under your profile picture."
+
+msgid "help.profile.who_sees_profile_q"
+msgstr "Who sees my profile?"
+
+msgid "help.profile.who_sees_profile_a"
+msgstr ""
+"Your basic profile (name, profile image and #tags) is public. Your extended "
+"profile is private by default, but you can make it all publicly accessible "
+"if you want. Only people you are sharing with (meaning, you have added them "
+"to one of your aspects) can see your extended profile if you keep it private."
+" Other people will see only your public information. Any profile information "
+"you make public can be viewed by anyone using the web, and can be indexed by "
+"search engines"
+
+msgid "help.profile.what_do_tags_do_q"
+msgstr "What do the tags in my basic profile do?"
+
+msgid "help.profile.what_do_tags_do_a"
+msgstr ""
+"They help people get to know you. Your profile picture will also appear on "
+"the left-hand side of the stream pages of those tags, along with anyone else "
+"who has them in their basic profile."
+
+msgid "help.resharing_posts.title"
+msgstr "Resharing posts"
+
+msgid "help.resharing_posts.reshare_public_post_aspects_q"
+msgstr "Can I reshare a public post to selected aspects?"
+
+msgid "help.resharing_posts.reshare_public_post_aspects_a"
+msgstr ""
+"No, when you reshare a public post it automatically becomes one of your "
+"public posts. To share it with certain aspects, copy and paste the contents "
+"of the post into a new, limited post."
+
+msgid "help.resharing_posts.reshare_private_post_aspects_q"
+msgstr "Can I reshare a private post to selected aspects?"
+
+msgid "help.resharing_posts.reshare_private_post_aspects_a"
+msgstr ""
+"No, it is not possible to reshare any private post. This is to respect the "
+"intentions of the original poster, who shared it only with a particular "
+"group of people."
+
+msgid "help.sharing.title"
+msgstr "Sharing"
+
+msgid "help.sharing.add_to_aspect_q"
+msgstr ""
+"What happens when I add someone to one of my aspects, or when someone adds "
+"me to one of their aspects?"
+
+msgid "help.sharing.add_to_aspect_a1"
+msgstr ""
+"Let’s say that Amy adds Ben to an aspect, but Ben has not (yet) added Amy to "
+"an aspect:"
+
+msgid "help.sharing.add_to_aspect_li1"
+msgstr ""
+"Ben will receive a notification that Amy has “started sharing” with Ben."
+
+msgid "help.sharing.add_to_aspect_li2"
+msgstr "Amy will start to see Ben’s public posts in her stream."
+
+msgid "help.sharing.add_to_aspect_li3"
+msgstr "Amy will not see any of Ben’s private posts."
+
+msgid "help.sharing.add_to_aspect_li4"
+msgstr "Ben will not see Amy’s public or private posts in his stream."
+
+msgid "help.sharing.add_to_aspect_li5"
+msgstr ""
+"But if Ben goes to Amy’s profile page, then he will see the private posts "
+"that Amy makes to the aspect that she has placed him in (as well as her "
+"public posts, which anyone can see there)."
+
+msgid "help.sharing.add_to_aspect_li6"
+msgstr ""
+"Ben will be able to see Amy’s private profile (biography, location, gender, "
+"birthday)."
+
+msgid "help.sharing.add_to_aspect_li7"
+msgstr "Amy will appear under “Only sharing with me” on Ben’s contacts page."
+
+msgid "help.sharing.add_to_aspect_li8"
+msgstr "Amy will also be able to @mention Ben in a post."
+
+msgid "help.sharing.add_to_aspect_a2"
+msgstr ""
+"This is known as asymmetrical sharing. If and when Ben also adds Amy to an "
+"aspect then it would become mutual sharing, with both Amy’s and Ben’s public "
+"posts and relevant private posts appearing in each other’s streams, and Amy "
+"would be able to view Ben’s private profile. They would then also be able to "
+"send each other private messages."
+
+msgid "help.sharing.sharing_notification_q"
+msgstr "How do I know when someone starts sharing with me?"
+
+msgid "help.sharing.sharing_notification_a"
+msgstr ""
+"You should receive a notification each time someone starts sharing with you."
+
+msgid "help.sharing.only_sharing_q"
+msgstr ""
+"Who are the people listed under “Only sharing with me” on my contacts page?"
+
+msgid "help.sharing.only_sharing_a"
+msgstr ""
+"These are people that have added you to one of their aspects, but who are "
+"not (yet) in any of your aspects. In other words, they are sharing with you, "
+"but you are not sharing with them: you can think of this as them “following” "
+"you. If you add them to an aspect, they will then appear under that aspect "
+"and not under “Only sharing with me”. See above."
+
+msgid "help.sharing.list_not_sharing_q"
+msgstr ""
+"Is there a list of people whom I have added to one of my aspects, but who "
+"have not added me to one of theirs?"
+
+msgid "help.sharing.list_not_sharing_a"
+msgstr ""
+"No, but you can see whether or not someone is sharing with you by visiting "
+"their profile page. If they are, there will be a green tick next to their "
+"diaspora* ID. If they are not, there will be a gray circle."
+
+msgid "help.sharing.see_old_posts_q"
+msgstr ""
+"When I add someone to an aspect, can they see older posts that I have "
+"already posted to that aspect?"
+
+msgid "help.sharing.see_old_posts_a"
+msgstr ""
+"No. They will only be able to see new posts to that aspect. They (and "
+"everyone else) can see your older public posts on your profile page, and "
+"they may also see them in their stream."
+
+msgid "help.tags.title"
+msgstr "Tags"
+
+msgid "help.tags.what_are_tags_for_q"
+msgstr "What are tags for?"
+
+msgid "help.tags.what_are_tags_for_a"
+msgstr ""
+"Tags are a way to categorize a post, usually by topic. Searching for a tag "
+"shows all posts, both public and private, with that tag that you have "
+"permission to see. This lets people who are interested in a given topic find "
+"public posts about it."
+
+msgid "help.tags.tags_in_comments_q"
+msgstr "Can I put tags in comments or just in posts?"
+
+msgid "help.tags.tags_in_comments_a"
+msgstr ""
+"A tag added to a comment will still appear as a link to that tag’s page, but "
+"it will not make that post (or comment) appear on that tag page. This only "
+"works for tags in posts."
+
+msgid "help.tags.followed_tags_q"
+msgstr "What are “#Followed Tags” and how do I follow a tag?"
+
+msgid "help.tags.followed_tags_a"
+msgstr ""
+"After searching for a tag you can click the button at the top of the tag’s "
+"page to “follow” that tag. It will then appear in your list of followed tags "
+"in the left-hand menu. Clicking one of your followed tags takes you to that "
+"tag’s page so you can see recent posts containing that tag. Click on "
+"#Followed Tags to see a stream of posts that include any one of your "
+"followed tags. Posts containing that tag will also be included in your main "
+"stream."
+
+msgid "help.tags.people_tag_page_q"
+msgstr "Who are the people listed on the left-hand side of a tag page?"
+
+msgid "help.tags.people_tag_page_a"
+msgstr ""
+"They are people who have listed that tag to describe themselves in their "
+"public profile."
+
+msgid "help.tags.filter_tags_q"
+msgstr "How can I filter/exclude some tags from my stream?"
+
+msgid "help.tags.filter_tags_a"
+msgstr ""
+"This is not yet available directly through diaspora*, but some "
+"%{third_party_tools} have been written that might provide this."
+
+msgid "help.keyboard_shortcuts.title"
+msgstr "Keyboard shortcuts"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_q"
+msgstr "What keyboard shortcuts are available?"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_a1"
+msgstr "In the stream view you can use the following keyboard shortcuts:"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li1"
+msgstr "j – Jump to the next post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li2"
+msgstr "k – Jump to the previous post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li3"
+msgstr "c – Comment on the current post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li4"
+msgstr "l – Like the current post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li5"
+msgstr "r – Reshare the current post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li6"
+msgstr "m – Expand the current post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li7"
+msgstr "o – Open the first link in the current post"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li8"
+msgstr "Ctrl+Enter – Send the message you are writing"
+
+msgid "help.miscellaneous.title"
+msgstr "Miscellaneous"
+
+msgid "help.miscellaneous.back_to_top_q"
+msgstr ""
+"Is there a quick way to go back to the top of a page after I scroll down?"
+
+msgid "help.miscellaneous.back_to_top_a"
+msgstr ""
+"Yes. After scrolling down a page, click on the grey arrow that appears in "
+"the bottom right-hand corner of your browser window."
+
+msgid "help.miscellaneous.photo_albums_q"
+msgstr "Are there photo or video albums?"
+
+msgid "help.miscellaneous.photo_albums_a"
+msgstr ""
+"No, not currently. However you can view a person’s uploaded pictures under "
+"the Photos tab of their profile page."
+
+msgid "help.miscellaneous.subscribe_feed_q"
+msgstr "Can I subscribe to someone’s public posts with a feed reader?"
+
+msgid "help.miscellaneous.subscribe_feed_a"
+msgstr ""
+"Yes, but this is still not a polished feature and the formatting of the "
+"results is still pretty rough. If you want to try it anyway, go to someone’s "
+"profile page and click the feed button in your browser, or you can copy the "
+"profile URL (e.g. https://podname.org/people/somenumber) and paste it into a "
+"feed reader. The resulting feed address looks like this: https://podname."
+"org/public/username.atom – diaspora* uses Atom rather than RSS."
+
+msgid "help.miscellaneous.diaspora_app_q"
+msgstr "Is there a diaspora* app for Android or iOS?"
+
+msgid "help.miscellaneous.diaspora_app_a"
+msgstr ""
+"There have been several Android apps in development by community members. "
+"Some are long-abandoned projects and so do not work well with the current "
+"version of diaspora*. Don’t expect much from these apps at the moment. There "
+"is currently no app for iOS. The best way to access diaspora* from your "
+"mobile device is through a browser, because we’ve designed a mobile version "
+"of the site which should work well on all devices, although it does not yet "
+"have complete functionality."
+
+msgid "home.default.headline"
+msgstr "Welcome to %{pod_name}"
+
+msgid "home.default.part_of_diaspora"
+msgstr "Part of the %{diaspora_site_link}"
+
+msgid "home.default.diaspora_site_link"
+msgstr "diaspora* federated network"
+
+msgid "home.default.byline"
+msgstr "The online social world where you are in control"
+
+msgid "home.default.be_who_you_want_to_be"
+msgstr "Be who you want to be"
+
+msgid "home.default.be_who_you_want_to_be_info"
+msgstr ""
+"A lot of networks insist that you use your real identity. Not diaspora*. "
+"Here you can choose who you want to be, and share as much or as little about "
+"yourself as you want. It really is up to you how you want to interact with "
+"other people."
+
+msgid "home.default.choose_your_audience"
+msgstr "Choose your audience"
+
+msgid "home.default.choose_your_audience_info"
+msgstr ""
+"diaspora*’s aspects allow you to share with just those people you want to. "
+"You can be as public or as private as you like. Share a funny photo with the "
+"whole world, or a deep secret just with your closest friends. You’re in "
+"control."
+
+msgid "home.default.own_your_data"
+msgstr "Own your own data"
+
+msgid "home.default.own_your_data_info"
+msgstr ""
+"Many networks use your data to make money by analysing your interactions and "
+"using this information to advertise things to you. diaspora* doesn’t use "
+"your data for any purpose other than allowing you to connect and share with "
+"others."
+
+msgid "home.podmin.headline"
+msgstr "Welcome, friend."
+
+msgid "home.podmin.byline"
+msgstr "You’re about to change the Internet. Let’s get you set up, shall we?"
+
+msgid "home.podmin.configure_your_pod"
+msgstr "Configure your pod"
+
+msgid "home.podmin.create_an_account"
+msgstr "Create an account"
+
+msgid "home.podmin.make_yourself_an_admin"
+msgstr "Make yourself an admin"
+
+msgid "home.podmin.update_your_pod"
+msgstr "Update your pod"
+
+msgid "home.podmin.getting_help"
+msgstr "Getting help"
+
+msgid "home.podmin.contribute"
+msgstr "Contribute"
+
+msgid "home.podmin.configuration_info"
+msgstr ""
+"Open %{database_path} and %{diaspora_path} in your favourite text editor and "
+"carefully review them, they are extensively commented."
+
+msgid "home.podmin.create_an_account_info"
+msgstr "%{sign_up_link} for a new account."
+
+msgid "home.podmin.make_yourself_an_admin_info"
+msgstr ""
+"You can find instructions in the %{wiki}. This should add an "
+"“%{admin_dashboard}” link to your user menu in the header when you are "
+"logged in. It gives you stuff like user search and stats for your pod."
+
+msgid "home.podmin.update_your_pod_info"
+msgstr "You can find %{update_instructions}."
+
+msgid "home.podmin.update_instructions"
+msgstr "update instructions in the diaspora* wiki"
+
+msgid "home.podmin.getting_help_info"
+msgstr ""
+"We listed some %{faq} including some additional tips and tricks and "
+"solutions for the most common problems. Also feel free to %{irc}."
+
+msgid "home.podmin.faq_for_podmins"
+msgstr "FAQ for pod maintainers in our wiki"
+
+msgid "home.podmin.contact_irc"
+msgstr "contact us on IRC"
+
+msgid "home.podmin.contribute_info"
+msgstr ""
+"Make diaspora* even better! If you find any bugs please %{report_bugs}."
+
+msgid "home.podmin.report_bugs"
+msgstr "report them"
+
+msgid "invitation_codes.not_valid"
+msgstr "That invite code is no longer valid"
+
+msgid "invitation_codes.already_logged_in"
+msgstr ""
+"You have been invited by %{inviter} to join this pod but you are already "
+"logged in."
+
+msgid "invitations.create.sent"
+msgstr "Invitations have been sent to: %{emails}"
+
+msgid "invitations.create.rejected"
+msgstr "The following email addresses had problems: %{emails}"
+
+msgid "invitations.create.no_more"
+msgstr "You have no more invitations."
+
+msgid "invitations.create.empty"
+msgstr "Please enter at least one email address."
+
+msgid "invitations.create.note_already_sent"
+msgstr "Invitations have already been sent to: %{emails}"
+
+msgid "invitations.create.closed"
+msgstr "Invitations are closed on this diaspora* pod."
+
+msgid "invitations.new.language"
+msgstr "Language"
+
+msgid "invitations.new.invite_someone_to_join"
+msgstr "Invite someone to join diaspora*!"
+
+msgid "invitations.new.comma_separated_plz"
+msgstr "You can enter multiple email addresses separated by commas."
+
+msgid "invitations.new.send_an_invitation"
+msgstr "Send an invitation"
+
+msgid "invitations.new.sending_invitation"
+msgstr "Sending invitation..."
+
+msgid "invitations.new.paste_link"
+msgstr ""
+"Share this link with your friends to invite them to diaspora*, or email them "
+"the link directly."
+
+msgid "invitations.new.codes_left"
+msgid_plural "invitations.new.codes_left.zero"
+msgstr[0] "One invite left on this code"
+msgstr[1] "No invites left on this code"
+
+msgid "layouts.header.profile"
+msgstr "Profile"
+
+msgid "layouts.header.settings"
+msgstr "Settings"
+
+msgid "layouts.header.logout"
+msgstr "Log out"
+
+msgid "layouts.header.code"
+msgstr "Code"
+
+msgid "layouts.header.toggle_navigation"
+msgstr "Toggle navigation"
+
+msgid "layouts.application.powered_by"
+msgstr "Powered by diaspora*"
+
+msgid "layouts.application.whats_new"
+msgstr "What’s new?"
+
+msgid "layouts.application.statistics_link"
+msgstr "Pod statistics"
+
+msgid "layouts.application.discourse"
+msgstr "Project discussions and support"
+
+msgid "layouts.application.switch_to_touch_optimized_mode"
+msgstr "Switch to touch-optimized mode"
+
+msgid "layouts.application.switch_to_standard_mode"
+msgstr "Switch to standard mode"
+
+msgid "layouts.application.public_feed"
+msgstr "Public diaspora* feed for %{name}"
+
+msgid "layouts.application.back_to_top"
+msgstr "Back to top"
+
+msgid "layouts.application.source_package"
+msgstr "Download the source code package"
+
+msgid "layouts.application.be_excellent"
+msgstr "Be excellent to each other! ♥"
+
+msgid "likes.create.error"
+msgstr "Failed to like."
+
+msgid "likes.create.fail"
+msgstr "Like creation has failed"
+
+msgid "likes.destroy.error"
+msgstr "Failed to unlike."
+
+msgid "likes.people_like_this"
+msgid_plural "likes.people_like_this.zero"
+msgstr[0] "%{count} like"
+msgstr[1] "No likes"
+
+msgid "likes.people_like_this_comment"
+msgid_plural "likes.people_like_this_comment.zero"
+msgstr[0] "%{count} like"
+msgstr[1] "No likes"
+
+msgid "likes.people_dislike_this"
+msgid_plural "likes.people_dislike_this.zero"
+msgstr[0] "%{count} dislike"
+msgstr[1] "No dislikes"
+
+msgid "likes.not_found"
+msgstr "Post or like not found"
+
+msgid "notifications.started_sharing"
+msgid_plural "notifications.started_sharing.zero"
+msgstr[0] "%{actors} started sharing with you."
+msgstr[1] "%{actors} started sharing with you."
+
+msgid "notifications.private_message"
+msgid_plural "notifications.private_message.zero"
+msgstr[0] "%{actors} sent you a message."
+msgstr[1] "%{actors} sent you a message."
+
+msgid "notifications.comment_on_post"
+msgid_plural "notifications.comment_on_post.zero"
+msgstr[0] "%{actors} commented on your post %{post_link}."
+msgstr[1] "%{actors} commented on your post %{post_link}."
+
+msgid "notifications.also_commented"
+msgid_plural "notifications.also_commented.zero"
+msgstr[0] "%{actors} also commented on %{post_author}’s post %{post_link}."
+msgstr[1] "%{actors} also commented on %{post_author}’s post %{post_link}."
+
+msgid "notifications.mentioned"
+msgid_plural "notifications.mentioned.other"
+msgstr[0] "%{actors} has mentioned you in the post %{post_link}."
+msgstr[1] "%{actors} have mentioned you in the post %{post_link}."
+
+msgid "notifications.mentioned_in_comment"
+msgid_plural "notifications.mentioned_in_comment.other"
+msgstr[0] ""
+"%{actors} has mentioned you in a <a href='%{comment_path}'>comment</a> to "
+"the post %{post_link}."
+msgstr[1] ""
+"%{actors} have mentioned you in a <a href='%{comment_path}'>comment</a> to "
+"the post %{post_link}."
+
+msgid "notifications.liked"
+msgid_plural "notifications.liked.zero"
+msgstr[0] "%{actors} has liked your post %{post_link}."
+msgstr[1] "%{actors} have liked your post %{post_link}."
+
+msgid "notifications.reshared"
+msgid_plural "notifications.reshared.zero"
+msgstr[0] "%{actors} has reshared your post %{post_link}."
+msgstr[1] "%{actors} have reshared your post %{post_link}."
+
+msgid "notifications.contacts_birthday"
+msgid_plural "notifications.contacts_birthday.zero"
+msgstr[0] "%{actors} has their birthday on %{date}."
+msgstr[1] "%{actors} have their birthday on %{date}."
+
+msgid "notifications.also_commented_deleted"
+msgid_plural "notifications.also_commented_deleted.zero"
+msgstr[0] "%{actors} commented on a deleted post."
+msgstr[1] "%{actors} commented on a deleted post."
+
+msgid "notifications.liked_post_deleted"
+msgid_plural "notifications.liked_post_deleted.zero"
+msgstr[0] "%{actors} liked your deleted post."
+msgstr[1] "%{actors} liked your deleted post."
+
+msgid "notifications.reshared_post_deleted"
+msgid_plural "notifications.reshared_post_deleted.zero"
+msgstr[0] "%{actors} reshared your deleted post."
+msgstr[1] "%{actors} reshared your deleted post."
+
+msgid "notifications.mentioned_deleted"
+msgid_plural "notifications.mentioned_deleted.other"
+msgstr[0] "%{actors} mentioned you in a deleted post."
+msgstr[1] "%{actors} mentioned you in a deleted post."
+
+msgid "notifications.mentioned_in_comment_deleted"
+msgid_plural "notifications.mentioned_in_comment_deleted.other"
+msgstr[0] "%{actors} mentioned you in a deleted comment."
+msgstr[1] "%{actors} mentioned you in a deleted comment."
+
+msgid "notifications.index.notifications"
+msgstr "Notifications"
+
+msgid "notifications.index.mark_all_as_read"
+msgstr "Mark all as read"
+
+msgid "notifications.index.mark_all_shown_as_read"
+msgstr "Mark all shown as read"
+
+msgid "notifications.index.mark_read"
+msgstr "Mark read"
+
+msgid "notifications.index.mark_unread"
+msgstr "Mark unread"
+
+msgid "notifications.index.show_all"
+msgstr "Show all"
+
+msgid "notifications.index.show_unread"
+msgstr "Show unread"
+
+msgid "notifications.index.all_notifications"
+msgstr "All notifications"
+
+msgid "notifications.index.also_commented"
+msgstr "Also commented"
+
+msgid "notifications.index.comment_on_post"
+msgstr "Comment on post"
+
+msgid "notifications.index.liked"
+msgstr "Liked"
+
+msgid "notifications.index.mentioned"
+msgstr "Mentioned in post"
+
+msgid "notifications.index.mentioned_in_comment"
+msgstr "Mentioned in comment"
+
+msgid "notifications.index.reshared"
+msgstr "Reshared"
+
+msgid "notifications.index.started_sharing"
+msgstr "Started sharing"
+
+msgid "notifications.index.contacts_birthday"
+msgstr "Birthday"
+
+msgid "notifications.index.no_notifications"
+msgstr "You don't have any notifications yet."
+
+msgid "notifications.index.and_others"
+msgid_plural "notifications.index.and_others.zero"
+msgstr[0] "and one more"
+msgstr[1] "and nobody else"
+
+msgid "notifications.index.and"
+msgstr "and"
+
+msgid "notifier.a_post_you_shared"
+msgstr "a post."
+
+msgid "notifier.a_private_message"
+msgstr "There’s a new private message in diaspora* for you to check out."
+
+msgid "notifier.a_limited_post_comment"
+msgstr ""
+"There’s a new comment on a limited post in diaspora* for you to check out."
+
+msgid "notifier.email_sent_by_diaspora"
+msgstr ""
+"This email was sent by %{pod_name}. If you'd like to stop getting emails "
+"like this,"
+
+msgid "notifier.click_here"
+msgstr "Click here"
+
+msgid "notifier.hello"
+msgstr "Hello %{name}!"
+
+msgid "notifier.thanks"
+msgstr "Thanks,"
+
+msgid "notifier.to_change_your_notification_settings"
+msgstr "to change your notification settings"
+
+msgid "notifier.single_admin.subject"
+msgstr "A message about your diaspora* account:"
+
+msgid "notifier.single_admin.admin"
+msgstr "Your diaspora* administrator"
+
+msgid "notifier.started_sharing.subject"
+msgstr "%{name} started sharing with you on diaspora*"
+
+msgid "notifier.started_sharing.sharing"
+msgstr "has started sharing with you!"
+
+msgid "notifier.started_sharing.view_profile"
+msgstr "View %{name}’s profile"
+
+msgid "notifier.comment_on_post.limited_subject"
+msgstr "There's a new comment on one of your posts"
+
+msgid "notifier.comment_on_post.reply"
+msgstr "Reply or view %{name}’s post >"
+
+msgid "notifier.also_commented.limited_subject"
+msgstr "There's a new comment on a post you commented"
+
+msgid "notifier.mentioned.subject"
+msgstr "%{name} has mentioned you on diaspora*"
+
+msgid "notifier.mentioned.limited_post"
+msgstr "You were mentioned in a limited post."
+
+msgid "notifier.mentioned_in_comment.limited_post"
+msgstr "You were mentioned in a comment to a limited post."
+
+msgid "notifier.mentioned_in_comment.reply"
+msgstr "Reply to or view this conversation >"
+
+msgid "notifier.private_message.subject"
+msgstr "There’s a new private message for you"
+
+msgid "notifier.private_message.reply_to_or_view"
+msgstr "Reply to or view this conversation >"
+
+msgid "notifier.liked.liked"
+msgstr "%{name} liked your post"
+
+msgid "notifier.liked.limited_post"
+msgstr "%{name} liked your limited post"
+
+msgid "notifier.liked.view_post"
+msgstr "View post >"
+
+msgid "notifier.reshared.reshared"
+msgstr "%{name} reshared your post"
+
+msgid "notifier.reshared.view_post"
+msgstr "View post >"
+
+msgid "notifier.contacts_birthday.subject"
+msgstr "%{name} has their birthday today"
+
+msgid "notifier.contacts_birthday.birthday"
+msgstr "%{name} has their birthday today. Wish them 'Happy Birthday'!"
+
+msgid "notifier.contacts_birthday.view_profile"
+msgstr "View %{name}’s profile"
+
+msgid "notifier.confirm_email.subject"
+msgstr "Please activate your new email address %{unconfirmed_email}"
+
+msgid "notifier.confirm_email.click_link"
+msgstr ""
+"To activate your new email address %{unconfirmed_email}, please follow this "
+"link:"
+
+msgid "notifier.csrf_token_fail.subject"
+msgstr "We received an unauthorized request from your account, %{name}"
+
+msgid "notifier.csrf_token_fail.body"
+msgstr ""
+"Hello %{name},\n"
+"\n"
+"diaspora* has detected an attempt to access your session which might be "
+"unauthorised. To avoid any chance of your data being compromised, you have "
+"been signed out. Don’t worry; you can safely sign in again now.\n"
+"\n"
+"A request has been made using a incorrect or missing CSRF token. This might "
+"be completely innocent, but it could be a cross-site request forgery (CSRF) "
+"attack.\n"
+"\n"
+"This could have been caused by:\n"
+"\n"
+"  - An add-on manipulating the request or making requests without the token;"
+"\n"
+"  - A tab left open from a past session;\n"
+"  - Another website making requests, with or without your permission;\n"
+"  - Various other external tools;\n"
+"  - Malicious code trying to access your data.\n"
+"\n"
+"For more information on CSRF see [%{link}](%{link}).\n"
+"\n"
+"If you see this message repeatedly, please check the points above, including "
+"any browser add-ons.\n"
+"\n"
+"Thank you,\n"
+"The diaspora* email robot!"
+
+msgid "notifier.report_email.type.post"
+msgstr "post"
+
+msgid "notifier.report_email.type.comment"
+msgstr "comment"
+
+msgid "notifier.report_email.subject"
+msgstr "A new %{type} was marked as offensive"
+
+msgid "notifier.report_email.body"
+msgstr ""
+"Hello,\n"
+"\n"
+"the %{type} with ID %{id} was marked as offensive.\n"
+"\n"
+"Reason: %{reason}\n"
+"\n"
+"[%{url}][1]\n"
+"\n"
+"Please review as soon as possible!\n"
+"\n"
+"\n"
+"Cheers,\n"
+"\n"
+"The diaspora* email robot!\n"
+"\n"
+"[1]: %{url}"
+
+msgid "notifier.export_email.subject"
+msgstr "Your personal data is ready for download, %{name}"
+
+msgid "notifier.export_email.body"
+msgstr ""
+"Hello %{name},\n"
+"\n"
+"Your data has been processed and is ready for download by following [this "
+"link](%{url}).\n"
+"\n"
+"Cheers,\n"
+"\n"
+"The diaspora* email robot!"
+
+msgid "notifier.export_failure_email.subject"
+msgstr "We’re sorry, there was an issue with your data, %{name}"
+
+msgid "notifier.export_failure_email.body"
+msgstr ""
+"Hello %{name}\n"
+"\n"
+"We’ve encountered an issue while processing your personal data for download."
+"\n"
+"Please try again!\n"
+"\n"
+"Sorry,\n"
+"\n"
+"The diaspora* email robot!"
+
+msgid "notifier.export_photos_email.subject"
+msgstr "Your photos are ready for download, %{name}"
+
+msgid "notifier.export_photos_email.body"
+msgstr ""
+"Hello %{name},\n"
+"\n"
+"Your photos have been processed and are ready for download by following "
+"[this link](%{url}).\n"
+"\n"
+"Cheers,\n"
+"\n"
+"The diaspora* email robot!"
+
+msgid "notifier.export_photos_failure_email.subject"
+msgstr "There was an issue with your photos, %{name}"
+
+msgid "notifier.export_photos_failure_email.body"
+msgstr ""
+"Hello %{name}\n"
+"\n"
+"We’ve encountered an issue while processing your photos for download.\n"
+"Please try again!\n"
+"\n"
+"Sorry,\n"
+"\n"
+"The diaspora* email robot!"
+
+msgid "notifier.invited_you"
+msgstr "%{name} invited you to diaspora*"
+
+msgid "notifier.invite.message"
+msgstr ""
+"Hello!\n"
+"\n"
+"You have been invited to join diaspora* by %{user}!\n"
+"\n"
+"Click this link to get started\n"
+"\n"
+"[%{invite_url}][1]\n"
+"\n"
+"Or you can add %{diaspora_id} to your contacts if you already have an "
+"account.\n"
+"\n"
+"\n"
+"Love,\n"
+"\n"
+"The diaspora* email robot!\n"
+"\n"
+"P.S.: Just in case you don't know (yet) what diaspora* is, [here][2] is the "
+"answer!\n"
+"\n"
+"[1]: %{invite_url}\n"
+"[2]: %{diasporafoundation_url}"
+
+msgid "notifier.remove_old_user.subject"
+msgstr "Your diaspora* account has been flagged for removal due to inactivity"
+
+msgid "notifier.remove_old_user.body"
+msgstr ""
+"Hello,\n"
+"\n"
+"It looks as though you no longer want your account at %{pod_url}, as you "
+"haven’t used it for %{after_days} days. To ensure our active users get the "
+"best performance from this diaspora* pod, we’d like to remove unwanted "
+"accounts from our database.\n"
+"\n"
+"We’d love you to stay part of diaspora*’s community, and you’re welcome to "
+"keep your account live if you want to.\n"
+"\n"
+"If you want to keep your account live, all you need to do is to sign in to "
+"your account before %{remove_after}. When you sign in, take a moment to have "
+"a look around diaspora*. It has changed a lot since you last looked in, and "
+"we think you’ll like the improvements we’ve made. Follow some #tags to find "
+"content you love.\n"
+"\n"
+"Sign in here: %{login_url}. If you’ve forgotten your sign-in details, you "
+"can ask for a reminder on that page.\n"
+"\n"
+"Hoping to see you again,\n"
+"\n"
+"The diaspora* email robot!"
+
+msgid "api.openid_connect.authorizations.new.redirection_message"
+msgstr "Are you sure you want to give access to %{redirect_uri}?"
+
+msgid "api.openid_connect.authorizations.new.access"
+msgstr "%{name} requires access to:"
+
+msgid "api.openid_connect.authorizations.new.no_requirement"
+msgstr "%{name} requires no permissions"
+
+msgid "api.openid_connect.authorizations.new.approve"
+msgstr "Approve"
+
+msgid "api.openid_connect.authorizations.new.deny"
+msgstr "Deny"
+
+msgid "api.openid_connect.authorizations.new.bad_request"
+msgstr "Missing client id or redirect URI"
+
+msgid "api.openid_connect.authorizations.new.client_id_not_found"
+msgstr ""
+"No client with client_id %{client_id} with redirect URI %{redirect_uri} found"
+
+msgid "api.openid_connect.authorizations.new.private_contacts_linkage_error"
+msgstr "private:read and private:modify require contacts:read as well"
+
+msgid "api.openid_connect.authorizations.new.unknown_scope"
+msgstr "Unknown scope: %{scope_name}"
+
+msgid "api.openid_connect.authorizations.destroy.fail"
+msgstr "The attempt to revoke the authorization with ID %{id} failed"
+
+msgid "api.openid_connect.user_applications.index.edit_applications"
+msgstr "Applications"
+
+msgid "api.openid_connect.user_applications.index.title"
+msgstr "Authorized applications"
+
+msgid "api.openid_connect.user_applications.index.access"
+msgstr "%{name} has access to:"
+
+msgid "api.openid_connect.user_applications.index.no_requirement"
+msgstr "%{name} requires no permissions"
+
+msgid "api.openid_connect.user_applications.no_applications"
+msgstr "You have no authorized applications"
+
+msgid "api.openid_connect.user_applications.revoke_autorization"
+msgstr "Revoke"
+
+msgid "api.openid_connect.user_applications.tos"
+msgstr "See the application's terms of service"
+
+msgid "api.openid_connect.user_applications.policy"
+msgstr "See the application's privacy policy"
+
+msgid "api.openid_connect.scopes.openid.name"
+msgstr "basic profile"
+
+msgid "api.openid_connect.scopes.openid.description"
+msgstr ""
+"This grants read access to basic profile information to the application."
+
+msgid "api.openid_connect.scopes.sub.name"
+msgstr "sub"
+
+msgid "api.openid_connect.scopes.sub.description"
+msgstr "This grants sub permissions to the application."
+
+msgid "api.openid_connect.scopes.name.name"
+msgstr "name"
+
+msgid "api.openid_connect.scopes.name.description"
+msgstr "This grants read access to name data to the application."
+
+msgid "api.openid_connect.scopes.nickname.name"
+msgstr "nickname"
+
+msgid "api.openid_connect.scopes.nickname.description"
+msgstr "This grants read access to nickname data to the application."
+
+msgid "api.openid_connect.scopes.picture.name"
+msgstr "picture"
+
+msgid "api.openid_connect.scopes.picture.description"
+msgstr ""
+"This grants read access to user's profile picture data to the application."
+
+msgid "api.openid_connect.scopes.contacts:read.name"
+msgstr "contacts:read"
+
+msgid "api.openid_connect.scopes.contacts:read.description"
+msgstr ""
+"This grants read permissions to contacts and related data (like aspects) to "
+"the application."
+
+msgid "api.openid_connect.scopes.contacts:modify.name"
+msgstr "contacts:modify"
+
+msgid "api.openid_connect.scopes.contacts:modify.description"
+msgstr ""
+"This grants write permissions to contacts and related data (like aspects) to "
+"the application."
+
+msgid "api.openid_connect.scopes.conversations.name"
+msgstr "conversations"
+
+msgid "api.openid_connect.scopes.conversations.description"
+msgstr ""
+"This grants read/write permission to private messaging to the application."
+
+msgid "api.openid_connect.scopes.email.name"
+msgstr "email"
+
+msgid "api.openid_connect.scopes.email.description"
+msgstr ""
+"This grants read access to the user's email address to the application."
+
+msgid "api.openid_connect.scopes.interactions.name"
+msgstr "interactions"
+
+msgid "api.openid_connect.scopes.interactions.description"
+msgstr ""
+"This grants read and write permissions on interacting wth posts to the "
+"application."
+
+msgid "api.openid_connect.scopes.notifications.name"
+msgstr "notifications"
+
+msgid "api.openid_connect.scopes.notifications.description"
+msgstr ""
+"This grants read and write permissions on interactions for the user to the "
+"application."
+
+msgid "api.openid_connect.scopes.private:read.name"
+msgstr "private:read"
+
+msgid "api.openid_connect.scopes.private:read.description"
+msgstr ""
+"This grants read privileges on private posts and streams to the application."
+
+msgid "api.openid_connect.scopes.private:modify.name"
+msgstr "private:modify"
+
+msgid "api.openid_connect.scopes.private:modify.description"
+msgstr ""
+"This grants modification privileges on private posts and streams, including "
+"allowing private sharing, to the application."
+
+msgid "api.openid_connect.scopes.public:read.name"
+msgstr "public:read"
+
+msgid "api.openid_connect.scopes.public:read.description"
+msgstr ""
+"This grants read permissions on public posts, interactions, and user data to "
+"the application."
+
+msgid "api.openid_connect.scopes.public:modify.name"
+msgstr "public:modify"
+
+msgid "api.openid_connect.scopes.public:modify.description"
+msgstr ""
+"This grants write permissions on public posts (including public post writing)"
+", interactions, and user data to the application."
+
+msgid "api.openid_connect.scopes.profile.name"
+msgstr "extended profile"
+
+msgid "api.openid_connect.scopes.profile.description"
+msgstr "This grants read access to extendend profile data to the application."
+
+msgid "api.openid_connect.scopes.profile:modify.name"
+msgstr "profile:modify"
+
+msgid "api.openid_connect.scopes.profile:modify.description"
+msgstr "This grants user profile update permissions to the application."
+
+msgid "api.openid_connect.scopes.profile:read_private.name"
+msgstr "profile:read_private"
+
+msgid "api.openid_connect.scopes.profile:read_private.description"
+msgstr ""
+"This grants read access to your private profile data to the application."
+
+msgid "api.openid_connect.scopes.tags:read.name"
+msgstr "tags:read"
+
+msgid "api.openid_connect.scopes.tags:read.description"
+msgstr ""
+"This grants read access to user's followed tags and tag streams to the "
+"application."
+
+msgid "api.openid_connect.scopes.tags:modify.name"
+msgstr "tags:modify"
+
+msgid "api.openid_connect.scopes.tags:modify.description"
+msgstr ""
+"This grants modification access to user's followed tags to the application."
+
+msgid "api.openid_connect.error_page.title"
+msgstr "Oh! Something went wrong :("
+
+msgid "api.openid_connect.error_page.contact_developer"
+msgstr ""
+"You should contact the developer of the application and include the "
+"following detailed error message:"
+
+msgid "api.openid_connect.error_page.login_required"
+msgstr "You must first login before you can authorize this application"
+
+msgid "api.openid_connect.error_page.could_not_authorize"
+msgstr "The application could not be authorized"
+
+msgid "people.person.thats_you"
+msgstr "That’s you!"
+
+msgid "people.index.results_for"
+msgstr "Users matching %{search_term}"
+
+msgid "people.index.no_results"
+msgstr "Hey! You need to search for something."
+
+msgid "people.index.couldnt_find_them"
+msgstr "Couldn’t find them?"
+
+msgid "people.index.search_handle"
+msgstr ""
+"Use their diaspora* ID (username@pod.tld) to be sure to find your friends."
+
+msgid "people.index.send_invite"
+msgstr "Still nothing? Send an invite!"
+
+msgid "people.index.no_one_found"
+msgstr "...and no one was found."
+
+msgid "people.index.searching"
+msgstr "Searching, please be patient..."
+
+msgid "people.index.looking_for"
+msgstr "Looking for posts tagged %{tag_link}?"
+
+msgid "people.show.has_not_shared_with_you_yet"
+msgstr "%{name} has not shared any posts with you yet!"
+
+msgid "people.show.does_not_exist"
+msgstr "Person does not exist!"
+
+msgid "people.show.closed_account"
+msgstr "This account has been closed."
+
+msgid "people.profile_sidebar.bio"
+msgstr "Bio"
+
+msgid "people.profile_sidebar.location"
+msgstr "Location"
+
+msgid "people.profile_sidebar.gender"
+msgstr "Gender"
+
+msgid "people.profile_sidebar.born"
+msgstr "Birthday"
+
+msgid "people.add_contact.invited_by"
+msgstr "You were invited by"
+
+msgid "photos.create.runtime_error"
+msgstr "Photo upload failed. Are you sure that your seatbelt is fastened?"
+
+msgid "photos.create.integrity_error"
+msgstr "Photo upload failed. Are you sure that was an image?"
+
+msgid "photos.create.type_error"
+msgstr "Photo upload failed. Are you sure an image was added?"
+
+msgid "photos.destroy.notice"
+msgstr "Photo deleted."
+
+msgid "photos.new_profile_photo.upload"
+msgstr "Upload a new profile photo!"
+
+msgid "polls.votes"
+msgid_plural "polls.votes.zero"
+msgstr[0] "%{count} vote so far"
+msgstr[1] "%{count} votes so far"
+
+msgid "posts.presenter.title"
+msgstr "A post from %{name}"
+
+msgid "posts.show.location"
+msgstr "Posted from: %{location}"
+
+msgid "posts.show.forbidden"
+msgstr "You are not allowed to do that"
+
+msgid "posts.show.photos_by"
+msgid_plural "posts.show.photos_by.zero"
+msgstr[0] "One photo by %{author}"
+msgstr[1] "No photos by %{author}"
+
+msgid "posts.show.reshare_by"
+msgstr "Reshare by %{author}"
+
+msgid "report.title"
+msgstr "Reports overview"
+
+msgid "report.post_label"
+msgstr "<strong>Post</strong>: %{content}"
+
+msgid "report.comment_label"
+msgstr "<strong>Comment</strong>: %{data}"
+
+msgid "report.reported_label"
+msgstr "<strong>Reported by</strong> %{person}"
+
+msgid "report.reason_label"
+msgstr "Reason:"
+
+msgid "report.review_link"
+msgstr "Mark as reviewed"
+
+msgid "report.delete_link"
+msgstr "Delete item"
+
+msgid "report.reported_user_details"
+msgstr "Details on reported user"
+
+msgid "report.confirm_deletion"
+msgstr "Are you sure to delete the item?"
+
+msgid "report.not_found"
+msgstr ""
+"The post/comment was not found. It seems that it was deleted by the user!"
+
+msgid "report.status.destroyed"
+msgstr "The post was destroyed"
+
+msgid "report.status.failed"
+msgstr "Something went wrong"
+
+msgid "report.unreviewed_reports"
+msgid_plural "report.unreviewed_reports.zero"
+msgstr[0] "There is one unreviewed report."
+msgstr[1] "There are no unreviewed reports."
+
+msgid "profiles.edit.basic"
+msgstr "My basic profile"
+
+msgid "profiles.edit.extended"
+msgstr "My extended profile"
+
+msgid "profiles.edit.settings"
+msgstr "Profile settings"
+
+msgid "profiles.edit.extended_visibility_text"
+msgstr "Visibility of your extended profile:"
+
+msgid "profiles.edit.public"
+msgstr "Public"
+
+msgid "profiles.edit.limited"
+msgstr "Limited"
+
+msgid "profiles.edit.basic_hint"
+msgstr ""
+"Every item in your profile is optional. Your basic profile will always be "
+"publicly visible."
+
+msgid "profiles.edit.extended_hint"
+msgstr ""
+"Click the switch to set your extended profile data visibility. Public means "
+"it is visible to the internet, limited means only people who you share with "
+"will see this information."
+
+msgid "profiles.edit.your_name"
+msgstr "Your name"
+
+msgid "profiles.edit.first_name"
+msgstr "First name"
+
+msgid "profiles.edit.last_name"
+msgstr "Last name"
+
+msgid "profiles.edit.your_gender"
+msgstr "Your gender"
+
+msgid "profiles.edit.your_birthday"
+msgstr "Your birthday"
+
+msgid "profiles.edit.your_tags"
+msgstr "Describe yourself in 5 words"
+
+msgid "profiles.edit.your_tags_placeholder"
+msgstr "Like #movies #kittens #travel #teacher #newyork"
+
+msgid "profiles.edit.your_bio"
+msgstr "Your bio"
+
+msgid "profiles.edit.your_location"
+msgstr "Your location"
+
+msgid "profiles.edit.your_photo"
+msgstr "Your photo"
+
+msgid "profiles.edit.update_profile"
+msgstr "Update profile"
+
+msgid "profiles.edit.allow_search"
+msgstr "Allow for people to search for you within diaspora*"
+
+msgid "profiles.edit.nsfw_explanation"
+msgstr ""
+"NSFW (“not safe for work”) is diaspora*’s self-governing community standard "
+"for content which may not be suitable to view while at work. If you plan to "
+"share such material frequently, please check this option so that everything "
+"you share will be hidden from people’s streams unless they choose to view "
+"them."
+
+msgid "profiles.edit.nsfw_explanation2"
+msgstr ""
+"If you choose not to select this option, please add the #nsfw tag each time "
+"you share such material."
+
+msgid "profiles.edit.nsfw_check"
+msgstr "Mark everything I share as NSFW"
+
+msgid "profiles.update.updated"
+msgstr "Profile updated"
+
+msgid "profiles.update.failed"
+msgstr "Failed to update profile"
+
+msgid "registrations.new.enter_email"
+msgstr "Enter your email address"
+
+msgid "registrations.new.enter_username"
+msgstr "Pick a username (only letters, numbers, and underscores)"
+
+msgid "registrations.new.enter_password"
+msgstr "Enter a password (six character minimum)"
+
+msgid "registrations.new.enter_password_again"
+msgstr "Enter the same password as before"
+
+msgid "registrations.new.sign_up"
+msgstr "Create account"
+
+msgid "registrations.new.email"
+msgstr "Email"
+
+msgid "registrations.new.username"
+msgstr "Username"
+
+msgid "registrations.new.password"
+msgstr "Password"
+
+msgid "registrations.new.password_confirmation"
+msgstr "Password confirmation"
+
+msgid "registrations.new.submitting"
+msgstr "Submitting..."
+
+msgid "registrations.new.terms"
+msgstr "By creating an account you accept the %{terms_link}."
+
+msgid "registrations.new.terms_link"
+msgstr "terms of service"
+
+msgid "registrations.create.success"
+msgstr "You’ve joined diaspora*!"
+
+msgid "registrations.closed.closed_pod"
+msgstr ""
+"This pod is currently closed to new registrations. However, you can still "
+"join the diaspora* network by registering on %{wiki}. Because all pods are "
+"interconnected, you will have access to the same content there."
+
+msgid "registrations.closed.another_pod"
+msgstr "another pod"
+
+msgid "registrations.closed.find_pods"
+msgstr "There’s a list of pods you can sign up to at %{poduptime}."
+
+msgid "registrations.closed.other_questions"
+msgstr ""
+"If you have any other questions regarding choosing a pod, check out our "
+"%{wiki}."
+
+msgid "registrations.invalid_invite"
+msgstr "The invite link you provided is no longer valid!"
+
+msgid "reshares.create.error"
+msgstr "Failed to reshare."
+
+msgid "reshares.reshare.reshared_via"
+msgstr "Reshared via"
+
+msgid "reshares.reshare.reshare_confirmation"
+msgstr "Reshare %{author}’s post?"
+
+msgid "reshares.reshare.deleted"
+msgstr "Original post deleted by author."
+
+msgid "reshares.comment_email_subject"
+msgstr "%{resharer}’s reshare of %{author}’s post"
+
+msgid "services.provider.tumblr"
+msgstr "Tumblr"
+
+msgid "services.provider.twitter"
+msgstr "Twitter"
+
+msgid "services.provider.wordpress"
+msgstr "WordPress"
+
+msgid "services.index.title"
+msgstr "Manage connected services"
+
+msgid "services.index.connect"
+msgstr "Connect"
+
+msgid "services.index.disconnect"
+msgstr "Disconnect"
+
+msgid "services.index.logged_in_as"
+msgstr "Logged in as %{nickname}."
+
+msgid "services.index.no_services_available"
+msgstr "There are no services available on this pod."
+
+msgid "services.index.not_logged_in"
+msgstr "Currently not logged in."
+
+msgid "services.index.really_disconnect"
+msgstr "Disconnect %{service}?"
+
+msgid "services.index.edit_services"
+msgstr "Edit services"
+
+msgid "services.index.services_explanation"
+msgstr ""
+"Connecting to third-party sharing services gives you the ability to publish "
+"your posts to them as you write them in diaspora*."
+
+msgid "services.index.share_to"
+msgstr "Share to %{provider}"
+
+msgid "services.create.success"
+msgstr "Authentication successful."
+
+msgid "services.create.failure"
+msgstr "Authentication failed."
+
+msgid "services.create.already_authorized"
+msgstr ""
+"A user with diaspora id %{diaspora_id} already authorized that "
+"%{service_name} account."
+
+msgid "services.create.read_only_access"
+msgstr "Access level is read-only, please try to authorize again later"
+
+msgid "services.destroy.success"
+msgstr "Successfully deleted authentication."
+
+msgid "services.failure.error"
+msgstr "There was an error connecting to that service"
+
+msgid "blocks.create.success"
+msgstr "All right, you won’t see that user in your stream again. #silencio!"
+
+msgid "blocks.create.failure"
+msgstr "I couldn’t ignore that user. #evasion"
+
+msgid "blocks.destroy.success"
+msgstr "Let’s see what they have to say! #sayhello"
+
+msgid "blocks.destroy.failure"
+msgstr "I couldn’t stop ignoring that user. #evasion"
+
+msgid "shared.aspect_dropdown.mobile_row_checked"
+msgstr "%{name} (remove)"
+
+msgid "shared.aspect_dropdown.mobile_row_unchecked"
+msgstr "%{name} (add)"
+
+msgid "shared.aspect_dropdown.toggle"
+msgid_plural "shared.aspect_dropdown.toggle.other"
+msgstr[0] "In %{count} aspect"
+msgstr[1] "In %{count} aspects"
+
+msgid "shared.publisher.formatWithMarkdown"
+msgstr "You can use %{markdown_link} to format your post"
+
+msgid "shared.publisher.posting"
+msgstr "Posting..."
+
+msgid "shared.publisher.share"
+msgstr "Share"
+
+msgid "shared.publisher.get_location"
+msgstr "Get your location"
+
+msgid "shared.publisher.remove_location"
+msgstr "Remove location"
+
+msgid "shared.publisher.whats_on_your_mind"
+msgstr "What’s on your mind?"
+
+msgid "shared.publisher.discard_post"
+msgstr "Discard post"
+
+msgid "shared.publisher.new_user_prefill.newhere"
+msgstr "newhere"
+
+msgid "shared.publisher.new_user_prefill.hello"
+msgstr "Hey everyone, I’m #%{new_user_tag}. "
+
+msgid "shared.publisher.new_user_prefill.i_like"
+msgstr "I’m interested in %{tags}. "
+
+msgid "shared.publisher.new_user_prefill.invited_by"
+msgstr "Thanks for the invite, "
+
+msgid "shared.publisher.poll.add_a_poll"
+msgstr "Add a poll"
+
+msgid "shared.invitations.invites"
+msgstr "Invites"
+
+msgid "shared.invitations.invite_your_friends"
+msgstr "Invite your friends"
+
+msgid "shared.invitations.by_email"
+msgstr "Invite people by email"
+
+msgid "shared.invitations.share_this"
+msgstr "Share this link via email, blog, or social networks!"
+
+msgid "shared.public_explain.control_your_audience"
+msgstr "Control your audience"
+
+msgid "shared.public_explain.new_user_welcome_message"
+msgstr ""
+"Use #hashtags to classify your posts and find people who share your "
+"interests. Call out awesome people with @Mentions"
+
+msgid "shared.public_explain.visibility_dropdown"
+msgstr ""
+"Use this dropdown to change visibility of your post. (We suggest you make "
+"this first one public.)"
+
+msgid "shared.public_explain.title"
+msgstr "Set up connected services"
+
+msgid "shared.public_explain.share"
+msgstr "Share"
+
+msgid "shared.public_explain.outside"
+msgstr ""
+"Public messages will be available for others outside of diaspora* to see."
+
+msgid "shared.public_explain.logged_in"
+msgstr "Logged in to %{service}"
+
+msgid "shared.public_explain.manage"
+msgstr "Manage connected services"
+
+msgid "shared.public_explain.atom_feed"
+msgstr "Atom feed"
+
+msgid "shared.stream_element.via"
+msgstr "Via %{link}"
+
+msgid "shared.stream_element.via_mobile"
+msgstr "Via mobile"
+
+msgid "status_messages.new.mentioning"
+msgstr "Mentioning: %{person}"
+
+msgid "status_messages.too_long"
+msgstr ""
+"Please make your status message fewer than %{count} characters. Right now it "
+"is %{current_length} characters"
+
+msgid "status_messages.bad_aspects"
+msgstr "Provided aspects IDs aren't applicable (non-existent or not owned)"
+
+msgid "stream_helper.no_more_posts"
+msgstr "You have reached the end of the stream."
+
+msgid "stream_helper.no_posts_yet"
+msgstr "There are no posts yet."
+
+msgid "tags.show.tagged_people"
+msgid_plural "tags.show.tagged_people.zero"
+msgstr[0] "1 person tagged with %{tag}"
+msgstr[1] "No one tagged with %{tag}"
+
+msgid "tags.show.follow"
+msgstr "Follow #%{tag}"
+
+msgid "tags.show.stop_following"
+msgstr "Stop following #%{tag}"
+
+msgid "tags.show.none"
+msgstr "The empty tag does not exist!"
+
+msgid "tags.name_too_long"
+msgstr ""
+"Please make your tag name fewer than %{count} characters. Right now it is "
+"%{current_length} characters"
+
+msgid "tag_followings.manage.title"
+msgstr "Manage followed tags"
+
+msgid "tag_followings.manage.no_tags"
+msgstr "You aren't following any tags."
+
+msgid "streams.community_spotlight_stream"
+msgstr "Community spotlight"
+
+msgid "streams.aspects_stream"
+msgstr "Aspects"
+
+msgid "streams.mentioned_stream"
+msgstr "@Mentions"
+
+msgid "streams.followed_tags_stream"
+msgstr "#Followed tags"
+
+msgid "streams.mentions.title"
+msgstr "@Mentions"
+
+msgid "streams.comment_stream.title"
+msgstr "Commented posts"
+
+msgid "streams.like_stream.title"
+msgstr "Like stream"
+
+msgid "streams.followed_tag.title"
+msgstr "#Followed tags"
+
+msgid "streams.followed_tag.add_a_tag"
+msgstr "Add a tag"
+
+msgid "streams.followed_tag.follow"
+msgstr "Follow"
+
+msgid "streams.followed_tag.all"
+msgstr "All tags"
+
+msgid "streams.admin.title"
+msgstr "Admin"
+
+msgid "streams.tags.title"
+msgstr "Posts tagged: %{tags}"
+
+msgid "streams.public.title"
+msgstr "Public activity"
+
+msgid "streams.multi.title"
+msgstr "Stream"
+
+msgid "streams.aspects.title"
+msgstr "My aspects"
+
+msgid "streams.aspects.all"
+msgstr "All aspects"
+
+msgid "streams.activity.title"
+msgstr "My activity"
+
+msgid "streams.liked.title"
+msgstr "Liked posts"
+
+msgid "streams.commented.title"
+msgstr "Commented posts"
+
+msgid "users.edit.edit_account"
+msgstr "Edit account"
+
+msgid "users.edit.change"
+msgstr "Change"
+
+msgid "users.edit.your_handle"
+msgstr "Your diaspora* ID"
+
+msgid "users.edit.your_email"
+msgstr "Your email"
+
+msgid "users.edit.your_email_private"
+msgstr "Your email will never be seen by other users"
+
+msgid "users.edit.change_email"
+msgstr "Change email"
+
+msgid "users.edit.email_awaiting_confirmation"
+msgstr ""
+"We have sent you an activation link to %{unconfirmed_email}. Until you "
+"follow this link and activate the new address, we will continue to use your "
+"original address %{email}."
+
+msgid "users.edit.change_password"
+msgstr "Change password"
+
+msgid "users.edit.new_password"
+msgstr "New password"
+
+msgid "users.edit.current_password"
+msgstr "Current password"
+
+msgid "users.edit.current_password_expl"
+msgstr "the one you sign in with..."
+
+msgid "users.edit.character_minimum_expl"
+msgstr "must be at least six characters"
+
+msgid "users.edit.change_language"
+msgstr "Change language"
+
+msgid "users.edit.change_color_theme"
+msgstr "Change color theme"
+
+msgid "users.edit.close_account_text"
+msgstr "Close account"
+
+msgid "users.edit.stream_preferences"
+msgstr "Stream preferences"
+
+msgid "users.edit.show_community_spotlight"
+msgstr "Show “community spotlight” in stream"
+
+msgid "users.edit.show_getting_started"
+msgstr "Show “getting started” hints"
+
+msgid "users.edit.following"
+msgstr "Sharing settings"
+
+msgid "users.edit.auto_follow_back"
+msgstr "Automatically share with users who start sharing with you"
+
+msgid "users.edit.auto_follow_aspect"
+msgstr "Aspect for users you automatically share with:"
+
+msgid "users.edit.default_post_visibility"
+msgstr "Default aspects selected for posting"
+
+msgid "users.edit.receive_email_notifications"
+msgstr "Receive email notifications when:"
+
+msgid "users.edit.started_sharing"
+msgstr "someone starts sharing with you"
+
+msgid "users.edit.someone_reported"
+msgstr "someone sends a report"
+
+msgid "users.edit.mentioned"
+msgstr "you are mentioned in a post"
+
+msgid "users.edit.mentioned_in_comment"
+msgstr "you are mentioned in a comment"
+
+msgid "users.edit.liked"
+msgstr "someone likes your post"
+
+msgid "users.edit.reshared"
+msgstr "someone reshares your post"
+
+msgid "users.edit.comment_on_post"
+msgstr "someone comments on your post"
+
+msgid "users.edit.also_commented"
+msgstr "someone comments on a post you’ve commented on"
+
+msgid "users.edit.private_message"
+msgstr "you receive a private message"
+
+msgid "users.edit.birthday"
+msgstr "someone has their birthday"
+
+msgid "users.edit.download_export"
+msgstr "Download my profile"
+
+msgid "users.edit.request_export"
+msgstr "Request my profile data"
+
+msgid "users.edit.request_export_update"
+msgstr "Refresh my profile data"
+
+msgid "users.edit.export_data"
+msgstr "Export data"
+
+msgid "users.edit.export_in_progress"
+msgstr ""
+"We are currently processing your data. Please check back in a few moments."
+
+msgid "users.edit.last_exported_html"
+msgstr "(Last updated %{timeago})"
+
+msgid "users.edit.download_export_photos"
+msgstr "Download my photos"
+
+msgid "users.edit.request_export_photos"
+msgstr "Request my photos"
+
+msgid "users.edit.request_export_photos_update"
+msgstr "Refresh my photos"
+
+msgid "users.edit.export_photos_in_progress"
+msgstr ""
+"We are currently processing your photos. Please check back in a few moments."
+
+msgid "users.edit.close_account.dont_go"
+msgstr "Hey, please don’t go!"
+
+msgid "users.edit.close_account.make_diaspora_better"
+msgstr ""
+"We’d love you to stay and help us make diaspora* better instead of leaving. "
+"If you really do want to leave, however, here’s what will happen next:"
+
+msgid "users.edit.close_account.mr_wiggles"
+msgstr "Mr Wiggles will be sad to see you go"
+
+msgid "users.edit.close_account.what_we_delete"
+msgstr ""
+"We will delete all of your posts and profile data as soon as possible. Your "
+"comments on other people’s posts will still appear, but they will be "
+"associated with your diaspora* ID rather than your name."
+
+msgid "users.edit.close_account.locked_out"
+msgstr ""
+"You will get signed out and locked out of your account until it has been "
+"deleted."
+
+msgid "users.edit.close_account.lock_username"
+msgstr ""
+"Your username will be locked. You will not be able to create a new account "
+"on this pod with the same ID."
+
+msgid "users.edit.close_account.no_turning_back"
+msgstr ""
+"There is no turning back! If you’re really sure, enter your password below."
+
+msgid "users.edit.protocol_handler.title"
+msgstr "web+diaspora:// protocol handler"
+
+msgid "users.edit.protocol_handler.description"
+msgstr ""
+"web+diaspora:// is a new web protocol that we have introduced. Any link to a "
+"diaspora* page on an external website that uses this protocol can be opened "
+"in the pod on which your diaspora* account is registered. Click the button "
+"below to set your browser to use %{pod_url} to recognise external "
+"web+diaspora:// links."
+
+msgid "users.edit.protocol_handler.browser"
+msgstr ""
+"This protocol is currently in the experimental stage and the success of "
+"interactions using it will depend on your browser. If you want to manage or "
+"remove this handler, you will do this via your browser settings. The button "
+"below will always be enabled, and you need to set the handler separately in "
+"each browser you use."
+
+msgid "users.edit.protocol_handler.register"
+msgstr "Register web+diaspora:// handler on this browser"
+
+msgid "users.privacy_settings.title"
+msgstr "Privacy settings"
+
+msgid "users.privacy_settings.strip_exif"
+msgstr ""
+"Strip metadata such as location, author, and camera model from uploaded "
+"images (recommended)"
+
+msgid "users.privacy_settings.ignored_users"
+msgstr "Ignored users"
+
+msgid "users.privacy_settings.stop_ignoring"
+msgstr "Stop ignoring"
+
+msgid "users.privacy_settings.no_user_ignored_message"
+msgstr "You are not currently ignoring any other user"
+
+msgid "users.destroy.success"
+msgstr ""
+"Your account has been locked. It may take 20 minutes for us to finish "
+"closing your account. Thank you for trying diaspora*."
+
+msgid "users.destroy.no_password"
+msgstr "Please enter your current password to close your account."
+
+msgid "users.destroy.wrong_password"
+msgstr "The entered password didn’t match your current password."
+
+msgid "users.getting_started.well_hello_there"
+msgstr "Well, hello there!"
+
+msgid "users.getting_started.community_welcome"
+msgstr "diaspora*’s community is happy to have you aboard!"
+
+msgid "users.getting_started.awesome_take_me_to_diaspora"
+msgstr "Awesome! Take me to diaspora*"
+
+msgid "users.getting_started.who_are_you"
+msgstr "Who are you?"
+
+msgid "users.getting_started.what_are_you_in_to"
+msgstr "What are you into?"
+
+msgid "users.getting_started.hashtag_explanation"
+msgstr ""
+"Hashtags allow you to talk about and follow your interests. They’re also a "
+"great way to find new people on diaspora*."
+
+msgid "users.getting_started.hashtag_suggestions"
+msgstr "Try following tags like #art, #movies, #gif, etc."
+
+msgid "users.update.password_changed"
+msgstr "Password changed. You can now log in with your new password."
+
+msgid "users.update.password_not_changed"
+msgstr "Password change failed"
+
+msgid "users.update.language_changed"
+msgstr "Language changed"
+
+msgid "users.update.language_not_changed"
+msgstr "Language change failed"
+
+msgid "users.update.settings_updated"
+msgstr "Settings updated"
+
+msgid "users.update.settings_not_updated"
+msgstr "Settings update failed"
+
+msgid "users.update.email_notifications_changed"
+msgstr "Email notifications changed"
+
+msgid "users.update.unconfirmed_email_changed"
+msgstr "Email changed. Needs activation."
+
+msgid "users.update.unconfirmed_email_not_changed"
+msgstr "Email change failed"
+
+msgid "users.update.follow_settings_changed"
+msgstr "Follow settings changed"
+
+msgid "users.update.follow_settings_not_changed"
+msgstr "Follow settings change failed."
+
+msgid "users.update.color_theme_changed"
+msgstr "Color theme successfully changed."
+
+msgid "users.update.color_theme_not_changed"
+msgstr "An error occurred while changing the color theme."
+
+msgid "users.public.does_not_exist"
+msgstr "User %{username} does not exist!"
+
+msgid "users.confirm_email.email_confirmed"
+msgstr "Email %{email} activated"
+
+msgid "users.confirm_email.email_not_confirmed"
+msgstr "Email could not be activated. Wrong link?"
+
+msgid "two_factor_auth.title"
+msgstr "Two-factor authentication"
+
+msgid "two_factor_auth.explanation"
+msgstr ""
+"Two-factor authentication is a powerful way to ensure you are the only one "
+"able to sign in to your account. When signing in, you will enter a 6-digit "
+"code along with your password to prove your identity. Be careful though: if "
+"you lose your phone and the recovery codes created when you activate this "
+"feature, access to your diaspora* account will be blocked forever."
+
+msgid "two_factor_auth.activated.status"
+msgstr "Two-factor authentication activated"
+
+msgid "two_factor_auth.activated.change_label"
+msgstr "Deactivate two-factor authentication by entering your password"
+
+msgid "two_factor_auth.activated.change_button"
+msgstr "Deactivate"
+
+msgid "two_factor_auth.deactivated.status"
+msgstr "Two-factor authentication not activated"
+
+msgid "two_factor_auth.deactivated.change_label"
+msgstr "Activate two-factor authentication"
+
+msgid "two_factor_auth.deactivated.change_button"
+msgstr "Activate"
+
+msgid "two_factor_auth.confirm.title"
+msgstr "Confirm activation"
+
+msgid "two_factor_auth.confirm.status"
+msgstr ""
+"Two-factor authentication is not fully activated yet, you need to confirm "
+"activation with a TOTP token"
+
+msgid "two_factor_auth.confirm.scan_title"
+msgstr "Scan the QR code"
+
+msgid "two_factor_auth.confirm.scan_explanation"
+msgstr ""
+"Please scan the QR code with a TOTP capable app, such as andOTP (Android), "
+"FreeOTP (iOS), SailOTP (SailfishOS)."
+
+msgid "two_factor_auth.confirm.manual_explanation"
+msgstr ""
+"In case you can’t scan the QR code automatically you can manually enter the "
+"secret in your app."
+
+msgid "two_factor_auth.confirm.manual_explanation_cont"
+msgstr ""
+"We are using time-based one-time passwords (TOTP) with six-digit tokens. In "
+"case your app prompts you for a time interval and algorithm enter 30 seconds "
+"and sha1 respectively. <br /> The spaces are just for readability, please "
+"enter the code without them."
+
+msgid "two_factor_auth.confirm.input_title"
+msgstr "Confim with TOTP token"
+
+msgid "two_factor_auth.confirm.input_explanation"
+msgstr ""
+"After scanning or entering the secret, enter the six-digit code you see and "
+"confirm the setup."
+
+msgid "two_factor_auth.confirm.activate_button"
+msgstr "Confirm and activate"
+
+msgid "two_factor_auth.input_token.label"
+msgstr "Two-factor token"
+
+msgid "two_factor_auth.input_token.placeholder"
+msgstr "six-digit two-factor token"
+
+msgid "two_factor_auth.recovery.title"
+msgstr "Recovery codes"
+
+msgid "two_factor_auth.recovery.reminder"
+msgstr "Alternatively, you can use one of the recovery codes."
+
+msgid "two_factor_auth.recovery.explanation"
+msgstr ""
+"If you ever lose access to your phone, you can use one of the recovery codes "
+"below to regain access to your account. Keep the recovery codes safe. For "
+"example, you may print them and store them with other important documents."
+
+msgid "two_factor_auth.recovery.explanation_short"
+msgstr ""
+"Recovery codes allow you to regain access to your account if you lose your "
+"phone. Note that you can use each recovery code only once."
+
+msgid "two_factor_auth.recovery.invalidation_notice"
+msgstr ""
+"If you've lost your recovery codes, you can regenerate them here. Your old "
+"recovery codes will be invalidated."
+
+msgid "two_factor_auth.recovery.button"
+msgstr "Generate new recovery codes"
+
+msgid "two_factor_auth.flash.success_activation"
+msgstr "Successfully activated two-factor authentication"
+
+msgid "two_factor_auth.flash.success_deactivation"
+msgstr "Successfully deactivated two-factor authentication"
+
+msgid "two_factor_auth.flash.error_token"
+msgstr "Token was incorrect or invalid"
+
+msgid "will_paginate.previous_label"
+msgstr "&laquo; previous"
+
+msgid "will_paginate.next_label"
+msgstr "next &raquo;"
+
+msgid "simple_captcha.placeholder"
+msgstr "Enter the image value"
+
+msgid "simple_captcha.label"
+msgstr "Enter the code in the box:"
+
+msgid "simple_captcha.message.default"
+msgstr "The secret code did not match with the image"
+
+msgid "simple_captcha.message.user"
+msgstr "The secret image and code were different"
+
+msgid "simple_captcha.message.failed"
+msgstr "Human verification failed"
+
+msgid "statistics.name"
+msgstr "Name"
+
+msgid "statistics.network"
+msgstr "Network"
+
+msgid "statistics.services"
+msgstr "Services"
+
+msgid "statistics.total_users"
+msgstr "Total users"
+
+msgid "statistics.active_users_halfyear"
+msgstr "Active users half year"
+
+msgid "statistics.active_users_monthly"
+msgstr "Active users monthly"
+
+msgid "statistics.local_posts"
+msgstr "Local posts"
+
+msgid "statistics.local_comments"
+msgstr "Local comments"
+
+msgid "statistics.version"
+msgstr "Version"
+
+msgid "statistics.registrations"
+msgstr "Registrations"
+
+msgid "statistics.enabled"
+msgstr "Available"
+
+msgid "statistics.disabled"
+msgstr "Not available"
+
+msgid "statistics.open"
+msgstr "Open"
+
+msgid "statistics.closed"
+msgstr "Closed"
