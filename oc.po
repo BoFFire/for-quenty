@@ -1,0 +1,3458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oc.yml conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 18:27+0100\n"
+"PO-Revision-Date: 2020-07-03 18:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: Occitan (post 1500)\n"
+"Language: oc\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Api-Version: 1.0.24 20200529-1"
+
+msgid "_applications"
+msgstr "Aplicacions"
+
+msgid "_contacts"
+msgstr "Contactes"
+
+msgid "_help"
+msgstr "Ajuda"
+
+msgid "_services"
+msgstr "Servicis"
+
+msgid "_statistics"
+msgstr "Estatisticas"
+
+msgid "_terms"
+msgstr "Condicions d'utilizacion"
+
+msgid "account"
+msgstr "Compte"
+
+msgid "activerecord.errors.models.contact.attributes.person_id.taken"
+msgstr "deu èsser unic entre los contactes d'aqueste utilizaire."
+
+msgid "activerecord.errors.models.person.attributes.diaspora_handle.taken"
+msgstr "es ja pres."
+
+msgid ""
+"activerecord.errors.models.poll.attributes.poll_answers."
+"not_enough_poll_answers"
+msgstr "I a pas pro de causidas possiblas"
+
+msgid ""
+"activerecord.errors.models.poll_participation.attributes.poll."
+"already_participated"
+msgstr "Avètz ja paticipat a aquel sondatge !"
+
+msgid "activerecord.errors.models.reshare.attributes.root_guid.taken"
+msgstr "Es tròp crane non ? Avètz ja partejat aquesta publicacion !"
+
+msgid "activerecord.errors.models.user.attributes.email.taken"
+msgstr "es ja utilizat."
+
+msgid "activerecord.errors.models.user.attributes.person.invalid"
+msgstr "es invalid."
+
+msgid "activerecord.errors.models.user.attributes.username.invalid"
+msgstr ""
+"es invalid. Autorizam pas que las letras, chifras e caractèrs de "
+"soslinhament."
+
+msgid "activerecord.errors.models.user.attributes.username.taken"
+msgstr "es ja pres."
+
+msgid "admins.admin_bar.dashboard"
+msgstr "Tablèu de bòrd"
+
+msgid "admins.admin_bar.pages"
+msgstr "Paginas"
+
+msgid "admins.admin_bar.pod_network"
+msgstr "Ret del pod"
+
+msgid "admins.admin_bar.pod_stats"
+msgstr "Estats del Pod"
+
+msgid "admins.admin_bar.report"
+msgstr "Senhalaments"
+
+msgid "admins.admin_bar.sidekiq_monitor"
+msgstr "Monitor Sidekiq"
+
+msgid "admins.admin_bar.user_search"
+msgstr "Cercar un utilizaire"
+
+msgid "admins.admin_bar.weekly_user_stats"
+msgstr "Estatisticas d'utilizaire setmanièras"
+
+msgid "admins.dashboard.fetching_diaspora_version"
+msgstr "A determinar la darrièra version de diaspora*..."
+
+msgid "admins.dashboard.pod_status"
+msgstr "Estat del pod"
+
+msgid "admins.pods.pod_desktop_link"
+msgstr "vista complèta"
+
+msgid "admins.pods.pod_desktop_view"
+msgstr ""
+"Aquesta pagina es pas disponibla en vista pel mobil, mercés de cambiar per "
+"la %{desktop_link}."
+
+msgid "admins.pods.pod_network"
+msgstr "Ret del pod"
+
+msgid "admins.stats.2weeks"
+msgstr "2 setmanas"
+
+msgid "admins.stats.50_most"
+msgstr "Las 50 etiquetas mai popularas"
+
+msgid "admins.stats.comments"
+msgid_plural "admins.stats.comments.zero"
+msgstr[0] "%{count} comentari"
+msgstr[1] "Pas cap de comentari"
+
+msgid "admins.stats.current_segment"
+msgstr ""
+"La categoria considerada a una mejana de %{post_yest} messatges per "
+"utilizaire, dempuèi %{post_day}"
+
+msgid "admins.stats.daily"
+msgstr "Quotidiana"
+
+msgid "admins.stats.display_results"
+msgstr "Afichatge dels resultats pel periòde %{segment}"
+
+msgid "admins.stats.go"
+msgstr "Executar"
+
+msgid "admins.stats.month"
+msgstr "Mes"
+
+msgid "admins.stats.posts"
+msgid_plural "admins.stats.posts.zero"
+msgstr[0] "%{count} publicacion"
+msgstr[1] "Pas cap de publicacion"
+
+msgid "admins.stats.shares"
+msgid_plural "admins.stats.shares.zero"
+msgstr[0] "%{count} partiment"
+msgstr[1] "Pas cap de partiment"
+
+msgid "admins.stats.tag_name"
+msgstr "Nom de l'etiqueta : %{name_tag} Nombre : %{count_tag}"
+
+msgid "admins.stats.usage_statistic"
+msgstr "Estatisticas d'utilizacion"
+
+msgid "admins.stats.users"
+msgid_plural "admins.stats.users.zero"
+msgstr[0] "%{count} utilizaire"
+msgstr[1] "Pas cap d'utilizaire"
+
+msgid "admins.stats.week"
+msgstr "Setmana"
+
+msgid "admins.user_entry.account_closed"
+msgstr "Compte tampat"
+
+msgid "admins.user_entry.admin"
+msgstr "Admin"
+
+msgid "admins.user_entry.diaspora_handle"
+msgstr "identificant diaspora*"
+
+msgid "admins.user_entry.email"
+msgstr "Corrièl"
+
+msgid "admins.user_entry.guid"
+msgstr "GUID"
+
+msgid "admins.user_entry.id"
+msgstr "ID"
+
+msgid "admins.user_entry.invite_token"
+msgstr "Geton de convit"
+
+msgid "admins.user_entry.last_seen"
+msgstr "Darrièra connexion"
+
+msgid "admins.user_entry.moderator"
+msgstr "Moderator"
+
+msgid "admins.user_entry.no"
+msgstr "Non"
+
+msgid "admins.user_entry.nsfw"
+msgstr "#nsfw"
+
+msgid "admins.user_entry.spotlight"
+msgstr "Especials"
+
+msgid "admins.user_entry.unknown"
+msgstr "Desconegut"
+
+msgid "admins.user_entry.yes"
+msgstr "Òc"
+
+msgid "admins.user_search.account_closing_scheduled"
+msgstr ""
+"La tampadura del compte %{name} es planificada. Serà efectuada dins gaire de "
+"temps."
+
+msgid "admins.user_search.account_locking_scheduled"
+msgstr "Lo compte de %{name} va èsser verrolhat dins un momenton"
+
+msgid "admins.user_search.account_unlocking_scheduled"
+msgstr "Lo compte de %{name} va èsser desverrolhat dins un momenton."
+
+msgid "admins.user_search.add_admin"
+msgstr "%{name} es admin."
+
+msgid "admins.user_search.add_invites"
+msgstr "Apondre de convits"
+
+msgid "admins.user_search.add_moderator"
+msgstr "%{name} es moderator."
+
+msgid "admins.user_search.add_spotlight"
+msgstr "%{name} es estat apondut als especials de la comunitat."
+
+msgid "admins.user_search.are_you_sure"
+msgstr "Sètz segur que volètz tampar aqueste compte ?"
+
+msgid "admins.user_search.are_you_sure_lock_account"
+msgstr "Sètz segur que volètz verrolhar aqueste compte ?"
+
+msgid "admins.user_search.are_you_sure_unlock_account"
+msgstr "Sètz segur que volètz desverrolhar aqueste compte ?"
+
+msgid "admins.user_search.close_account"
+msgstr "Tampar aqueste compte"
+
+msgid "admins.user_search.delete_admin"
+msgstr "%{name} es estat tirat de la lista dels admin."
+
+msgid "admins.user_search.delete_moderator"
+msgstr "%{name} es estat tirat de la lista dels moderators."
+
+msgid "admins.user_search.delete_spotlight"
+msgstr "%{name} es estat tirat dels especials de la comunitat."
+
+msgid "admins.user_search.does_not_exist"
+msgstr "L’utilizaire existís pas"
+
+msgid "admins.user_search.email_to"
+msgstr "Adreça electronica de la persona de convidar"
+
+msgid "admins.user_search.invite"
+msgstr "Convidar"
+
+msgid "admins.user_search.lock_account"
+msgstr "Verrolhar lo compte"
+
+msgid "admins.user_search.make_admin"
+msgstr "Far venir admin"
+
+msgid "admins.user_search.make_moderator"
+msgstr "Far venir moderator"
+
+msgid "admins.user_search.make_spotlight"
+msgstr "Apondre als especials de la comunitat"
+
+msgid "admins.user_search.remove_admin"
+msgstr "Quitar d’èsser admin"
+
+msgid "admins.user_search.remove_moderator"
+msgstr "Quitar d’èsser moderator"
+
+msgid "admins.user_search.remove_spotlight"
+msgstr "Tirar dels especials de la comunitat"
+
+msgid "admins.user_search.role_implemented"
+msgstr "Òm a ja donat aquel ròtle a %{name} !"
+
+msgid "admins.user_search.role_removal_implemented"
+msgstr "Òm a ja tirat aquel ròtle a %{name} !"
+
+msgid "admins.user_search.under_13"
+msgstr "Mostrar los utilizaires qu'an mens de 13 ans (COPPA)"
+
+msgid "admins.user_search.unlock_account"
+msgstr "Desverrolhar lo compte"
+
+msgid "admins.user_search.users"
+msgid_plural "admins.user_search.users.zero"
+msgstr[0] "%{count} utilizaire trobat"
+msgstr[1] "Cap d'utilizaire pas trobat"
+
+msgid "admins.user_search.view_profile"
+msgstr "Afichar lo perfil"
+
+msgid "admins.user_search.you_currently"
+msgid_plural "admins.user_search.you_currently.zero"
+msgstr[0] "Vos demòra actualament un convit %{link}"
+msgstr[1] "Vos demòra pas mai de convit %{link} actualament"
+
+msgid "admins.weekly_user_stats.amount_of"
+msgid_plural "admins.weekly_user_stats.amount_of.zero"
+msgstr[0] "%{count} novèl utilizaire aquesta setmana"
+msgstr[1] "Pas cap de novèl utilizaire aquesta setmana "
+
+msgid "admins.weekly_user_stats.current_server"
+msgstr "La data actuala del servidor es %{date}"
+
+msgid "all_aspects"
+msgstr "Totes los aspèctes"
+
+msgid "api.openid_connect.authorizations.destroy.fail"
+msgstr "La temptativa de revocacion de l'autorizacion amb ID %{id} a fracassat"
+
+msgid "api.openid_connect.authorizations.new.access"
+msgstr "%{name} a besonh d'accedir a :"
+
+msgid "api.openid_connect.authorizations.new.approve"
+msgstr "Aprovar"
+
+msgid "api.openid_connect.authorizations.new.bad_request"
+msgstr "ID client mancant o URL de redireccion"
+
+msgid "api.openid_connect.authorizations.new.client_id_not_found"
+msgstr ""
+"Pas de client amb client_id %{client_id} amb URL de redireccion "
+"%{redirect_uri} pas trobat"
+
+msgid "api.openid_connect.authorizations.new.deny"
+msgstr "Regetar"
+
+msgid "api.openid_connect.authorizations.new.no_requirement"
+msgstr "%{name} a pas besonh de permissions"
+
+msgid "api.openid_connect.authorizations.new.redirection_message"
+msgstr "Sètz segur que volètz donar accès a %{redirect_uri} ?"
+
+msgid "api.openid_connect.error_page.contact_developer"
+msgstr ""
+"Deuriatz contactar lo desvolopaire de l'aplicacion e inclure lo messatge "
+"d'error detalhat seguent :"
+
+msgid "api.openid_connect.error_page.could_not_authorize"
+msgstr "L'aplicacion a pas pugut èsser autorizada"
+
+msgid "api.openid_connect.error_page.login_required"
+msgstr ""
+"D'en primièr, vos cal vos connectar per fin de poder autorizar aquesta "
+"aplicacion"
+
+msgid "api.openid_connect.error_page.title"
+msgstr "Ops ! Quicòm a trucat :("
+
+msgid "api.openid_connect.scopes.aud.description"
+msgstr "Aquò dòna la permission aud a l'aplicacion"
+
+msgid "api.openid_connect.scopes.aud.name"
+msgstr "aud"
+
+msgid "api.openid_connect.scopes.name.description"
+msgstr "Aquò dòna la permission del nom a l'aplicacion"
+
+msgid "api.openid_connect.scopes.name.name"
+msgstr "nom"
+
+msgid "api.openid_connect.scopes.nickname.description"
+msgstr "Aquò dina las permissions ligadas a l'escais a l'aplicacion"
+
+msgid "api.openid_connect.scopes.nickname.name"
+msgstr "Escais"
+
+msgid "api.openid_connect.scopes.openid.description"
+msgstr "Aquò permet a l'aplicacion de veire vòstre perfil basic"
+
+msgid "api.openid_connect.scopes.openid.name"
+msgstr "perfil basic"
+
+msgid "api.openid_connect.scopes.picture.description"
+msgstr "Aquò dòna las permissions ligadas als imatges a l'aplicacion"
+
+msgid "api.openid_connect.scopes.picture.name"
+msgstr "imatge"
+
+msgid "api.openid_connect.scopes.profile.description"
+msgstr "Aquò autoriza l'aplicacion a legir vòstre perfil complet"
+
+msgid "api.openid_connect.scopes.profile.name"
+msgstr "perfil complet"
+
+msgid "api.openid_connect.scopes.read.description"
+msgstr ""
+"Aquò autoriza l'aplicacion a legir vòstre flux d'actualitat, vòstras "
+"conversacions e vòtre perfil complet"
+
+msgid "api.openid_connect.scopes.read.name"
+msgstr "veire perfil, flux e conversacions"
+
+msgid "api.openid_connect.scopes.sub.description"
+msgstr "Aquò autreja de sospermissions a l'aplicacion"
+
+msgid "api.openid_connect.scopes.sub.name"
+msgstr "jos"
+
+msgid "api.openid_connect.scopes.write.description"
+msgstr ""
+"Aquò permet a l'aplicacion de mandar de publicacions novèlas, escriure de "
+"conversacions e publicar de reaccions."
+
+msgid "api.openid_connect.scopes.write.name"
+msgstr "mandar publicacions, conversacions e reaccions"
+
+msgid "api.openid_connect.user_applications.index.access"
+msgstr "%{name} a accès a :"
+
+msgid "api.openid_connect.user_applications.index.edit_applications"
+msgstr "Aplicacions"
+
+msgid "api.openid_connect.user_applications.index.no_requirement"
+msgstr "%{name} as pas besonh d'autorizacions."
+
+msgid "api.openid_connect.user_applications.index.title"
+msgstr "Aplicacions autorizadas"
+
+msgid "api.openid_connect.user_applications.no_applications"
+msgstr "Avètz cap d’aplicacion autorizada"
+
+msgid "api.openid_connect.user_applications.policy"
+msgstr "Veire la politica de confidencialitat de l'aplicacion"
+
+msgid "api.openid_connect.user_applications.revoke_autorization"
+msgstr "Revocar"
+
+msgid "api.openid_connect.user_applications.tos"
+msgstr "Veire las condicions d'utilizacion de l'aplicacion"
+
+msgid "are_you_sure"
+msgstr "Sètz segur ?"
+
+msgid "are_you_sure_delete_account"
+msgstr "Sètz segur que volètz tampar vòstre compte ? Aquò se pòt pas anullar !"
+
+msgid "are_you_sure_ignore_user"
+msgstr "Sètz per ignorar aquel utilizaire. Confirmatz ?"
+
+msgid "aspect_memberships.destroy.failure"
+msgstr "La persona a pas pogut èsser levada de l'aspècte amb succès."
+
+msgid "aspect_memberships.destroy.forbidden"
+msgstr "Sètz pas autorizat a far aquò"
+
+msgid "aspect_memberships.destroy.invalid_statement"
+msgstr "Impossible de duplicar l'enregistrament."
+
+msgid "aspect_memberships.destroy.no_membership"
+msgstr "Se pòt pas trobar la persona seleccionada dins aqueste aspècte."
+
+msgid "aspect_memberships.destroy.success"
+msgstr "La persona es estada levada de l'aspècte amb succès."
+
+msgid "aspects.add_to_aspect.failure"
+msgstr "Fracàs de l'apondon del contacte a l'aspècte."
+
+msgid "aspects.add_to_aspect.success"
+msgstr "Lo contacte es ben estat apondut a l'aspècte."
+
+msgid "aspects.aspect_listings.add_an_aspect"
+msgstr "+ Apondre un aspècte"
+
+msgid "aspects.aspect_stream.make_something"
+msgstr "Fasètz quicòm"
+
+msgid "aspects.aspect_stream.stay_updated"
+msgstr "Demoratz al fial"
+
+msgid "aspects.aspect_stream.stay_updated_explanation"
+msgstr ""
+"Vòstre flux principal conten totes vòstres contactes, etiquetas seguidas, e "
+"publicacions de qualques sòcis creatius de la comunautat."
+
+msgid "aspects.destroy.failure"
+msgstr "%{name} a pas pogut èsser suprimit."
+
+msgid "aspects.destroy.success"
+msgstr "%{name} es ben estat levat."
+
+msgid "aspects.destroy.success_auto_follow_back"
+msgstr ""
+"%{name} es ben estat levat. Emplegàvetz aqueste aspècte per seguir "
+"automaticament los utilizaires. Verificatz vòstres paramètres d'utilizaire "
+"per causir un novèl aspècte per aquò."
+
+msgid "aspects.edit.aspect_list_is_not_visible"
+msgstr "Los contactes dins aqueste aspècte se pòdon veire entre eles."
+
+msgid "aspects.edit.aspect_list_is_visible"
+msgstr "Los contactes dins aqueste aspècte se pòdon veire entre eles."
+
+msgid "aspects.edit.confirm_remove_aspect"
+msgstr "Sètz segur de volètz suprimir aqueste aspècte ?"
+
+msgid "aspects.edit.rename"
+msgstr "Renomenar"
+
+msgid "aspects.edit.update"
+msgstr "Metre a jorn"
+
+msgid "aspects.edit.updating"
+msgstr "En cors de mesa a jorn"
+
+msgid "aspects.index.donate"
+msgstr "Far un don"
+
+msgid "aspects.index.donate_liberapay"
+msgstr "Far un don a liberapay"
+
+msgid "aspects.index.help.any_problem"
+msgstr "Avètz agut un problèma ?"
+
+msgid "aspects.index.help.contact_podmin"
+msgstr "Contactar l'administrator de vòstre pod !"
+
+msgid "aspects.index.help.do_you"
+msgstr "Volètz :"
+
+msgid "aspects.index.help.feature_suggestion"
+msgstr "... far una suggestion de %{link} ?"
+
+msgid "aspects.index.help.find_a_bug"
+msgstr "... signalar %{link} ?"
+
+msgid "aspects.index.help.have_a_question"
+msgstr "... pausar una %{link} ?"
+
+msgid "aspects.index.help.here_to_help"
+msgstr "La comunautat diaspora* es aquí !"
+
+msgid "aspects.index.help.mail_podmin"
+msgstr "Corrièl del podmin"
+
+msgid "aspects.index.help.need_help"
+msgstr "Besonh d'ajuda ?"
+
+msgid "aspects.index.help.support_forum"
+msgstr "Podètz tanben contactar lo %{support_forum}."
+
+msgid "aspects.index.help.support_forum_link"
+msgstr "forum d’assisténcia"
+
+msgid "aspects.index.help.tag_bug"
+msgstr "bug"
+
+msgid "aspects.index.help.tag_feature"
+msgstr "suggestion"
+
+msgid "aspects.index.help.tag_question"
+msgstr "question"
+
+msgid "aspects.index.help.tutorial_link_text"
+msgstr "Tutorials"
+
+msgid "aspects.index.help.tutorials_and_wiki"
+msgstr ""
+"%{faq}, %{tutorial} e %{wiki} : vos ajudan per vòstres primièrs passes."
+
+msgid "aspects.index.introduce_yourself"
+msgstr "Es vòstre flux. Rejonhètz-nos e presentatz-vos."
+
+msgid "aspects.index.keep_pod_running"
+msgstr ""
+"Permetètz a %{pod} de foncionar rapidament e ofrissètz una dòsi de cafè "
+"mesadièra a nòstres servidors !"
+
+msgid "aspects.index.new_here.follow"
+msgstr "Seguissètz %{link} e aculhissètz los novèls utilizaires de diaspora* !"
+
+msgid "aspects.index.new_here.learn_more"
+msgstr "Ne saber mai"
+
+msgid "aspects.index.new_here.title"
+msgstr "Aculhir los novèls venguts"
+
+msgid "aspects.index.services.content"
+msgstr "Podètz connectar aqueles servicis a diaspora* :"
+
+msgid "aspects.index.services.heading"
+msgstr "Connectar de servicis"
+
+msgid "aspects.index.welcome_to_diaspora"
+msgstr "Benvenguda dins diaspora*, %{name} !"
+
+msgid "aspects.no_contacts_message.community_spotlight"
+msgstr "Actualitat de la comunautat"
+
+msgid "aspects.no_contacts_message.invite_link_text"
+msgstr "convidar"
+
+msgid "aspects.no_contacts_message.or_spotlight"
+msgstr "O podètz partejar amb %{link}"
+
+msgid "aspects.no_contacts_message.try_adding_some_more_contacts"
+msgstr "Podètz recercar o %{invite_link} mai de contactes."
+
+msgid "aspects.no_contacts_message.you_should_add_some_more_contacts"
+msgstr "Vos cal apondre un pauc mai de contactes !"
+
+msgid "aspects.seed.acquaintances"
+msgstr "Coneissenças"
+
+msgid "aspects.seed.family"
+msgstr "Familha"
+
+msgid "aspects.seed.friends"
+msgstr "Amics"
+
+msgid "aspects.seed.work"
+msgstr "Trabalh"
+
+msgid "aspects.update.failure"
+msgstr ""
+"Lo nom del vòstre aspecte, %{name}, es tròp long, enregistrament impossible."
+
+msgid "aspects.update.success"
+msgstr "La modificacion de vòstre aspècte %{name}, a capitat."
+
+msgid "blocks.create.failure"
+msgstr "Ai pas pogut ignorar aqueste utilizaire. #evasion"
+
+msgid "blocks.create.success"
+msgstr ""
+"D'acòrdi, tornaretz pas veire aqueste utilizaire dins vòstre flux. #silenci !"
+
+msgid "blocks.destroy.failure"
+msgstr "Ai pas pogut quitar d'ignorar aqueste utilizaire. #evasion"
+
+msgid "blocks.destroy.success"
+msgstr "Vejam çò qu'an a dire ! #digatzbonjorn"
+
+msgid "bookmarklet.explanation"
+msgstr ""
+"Publicatz sus diaspora* d'ont que siá en apondent aqueste ligam => %{link}."
+
+msgid "bookmarklet.heading"
+msgstr "Publicacion rapida"
+
+msgid "bookmarklet.post_something"
+msgstr "Publicatz sus diaspora*"
+
+msgid "cancel"
+msgstr "Anullar"
+
+msgid "color_themes.dark"
+msgstr "Escur"
+
+msgid "color_themes.dark_green"
+msgstr "Verd escur"
+
+msgid "color_themes.egyptian_blue"
+msgstr "Blau egipcian"
+
+msgid "color_themes.magenta"
+msgstr "Magenta"
+
+msgid "color_themes.original"
+msgstr "Gris d’origina"
+
+msgid "color_themes.original_white"
+msgstr "Fons blanc d’origina"
+
+msgid "comments.create.error"
+msgstr "Fracàs al moment de comentar."
+
+msgid "comments.new_comment.comment"
+msgstr "Comentar"
+
+msgid "comments.new_comment.commenting"
+msgstr "Comentari en cors de mandadís..."
+
+msgid "contacts.index.add_contact"
+msgstr "Apondre un contacte"
+
+msgid "contacts.index.all_contacts"
+msgstr "Totes los contactes"
+
+msgid "contacts.index.community_spotlight"
+msgstr "Actualitat de la comunautat"
+
+msgid "contacts.index.my_contacts"
+msgstr "Mos contactes"
+
+msgid "contacts.index.no_contacts"
+msgstr "Sembla que vos cal apondre mai de contactes !"
+
+msgid "contacts.index.no_contacts_in_aspect"
+msgstr ""
+"Avètz pas encara de contactes dins aqueste aspècte. Çai-jos i a una lista de "
+"vòstre contactes que podètz apondre a aqueste aspècte."
+
+msgid "contacts.index.no_contacts_message"
+msgstr "Consultatz %{community_spotlight}"
+
+msgid "contacts.index.only_sharing_with_me"
+msgstr "Partejan solament amb ieu"
+
+msgid "contacts.index.start_a_conversation"
+msgstr "Començar una conversacion"
+
+msgid "contacts.index.title"
+msgstr "Contactes"
+
+msgid "contacts.index.user_search"
+msgstr "Cercar un contacte"
+
+msgid "contacts.spotlight.community_spotlight"
+msgstr "Actualitat de la comunitat"
+
+msgid "contacts.spotlight.no_members"
+msgstr "I a pas encara cap de membre."
+
+msgid "contacts.spotlight.suggest_member"
+msgstr "Suggerir un membre"
+
+msgid "conversations.create.fail"
+msgstr "Messatge invalid"
+
+msgid "conversations.create.sent"
+msgstr "Messatge mandat"
+
+msgid "conversations.destroy.delete_success"
+msgstr "Conversacion escafada amb succès"
+
+msgid "conversations.destroy.hide_success"
+msgstr "Conversacion amagada amb succès"
+
+msgid "conversations.index.conversations_inbox"
+msgstr "Discussions - Bóstia de recepcion"
+
+msgid "conversations.index.inbox"
+msgstr "Bóstia de recepcion"
+
+msgid "conversations.index.new_conversation"
+msgstr "Novèla conversacion"
+
+msgid "conversations.index.no_contacts"
+msgstr "Vos cal apondre de contactes abans de poder començar una conversacion"
+
+msgid "conversations.index.no_messages"
+msgstr "Pas cap de messatges"
+
+msgid "conversations.new.message"
+msgstr "Messatge"
+
+msgid "conversations.new.send"
+msgstr "Mandar"
+
+msgid "conversations.new.sending"
+msgstr "Mandadís..."
+
+msgid "conversations.new.subject"
+msgstr "Subjècte"
+
+msgid "conversations.new.subject_default"
+msgstr "Pas de subjècte"
+
+msgid "conversations.new.to"
+msgstr "Per"
+
+msgid "conversations.new_conversation.fail"
+msgstr "Messatge invalid"
+
+msgid "conversations.show.delete"
+msgstr "Suprimir la conversacion"
+
+msgid "conversations.show.hide"
+msgstr "Amagar e metre en mut la conversacion"
+
+msgid "conversations.show.last_message"
+msgstr "Darrièr messatge recebut %{timeago}"
+
+msgid "conversations.show.reply"
+msgstr "Respondre"
+
+msgid "conversations.show.replying"
+msgstr "Responsa..."
+
+msgid "date.formats.birthday"
+msgstr "%d de %B"
+
+msgid "date.formats.birthday_with_year"
+msgstr "%d de %B de %Y"
+
+msgid "date.formats.fullmonth_day"
+msgstr "%d de %B"
+
+msgid "delete"
+msgstr "Suprimir"
+
+msgid "email"
+msgstr "Corrièl"
+
+msgid "error_messages.csrf_token_fail"
+msgstr "Lo geton CSRF es invalid. Mercés de vos conectar e de tornar ensajar."
+
+msgid "error_messages.helper.correct_the_following_errors_and_try_again"
+msgstr "Corregissètz las errors seguentas, e tornatz ensajar."
+
+msgid "error_messages.need_javascript"
+msgstr ""
+"Aqueste site Internet requerís JavaScript per foncionar coma cal. S’avètz "
+"desactivat JavaScript, mercés de l'activar e d'actualizar aquesta pagina."
+
+msgid "errors.messages.carrierwave_download_error"
+msgstr "a pas pogut èsser telecargat"
+
+msgid "errors.messages.carrierwave_integrity_error"
+msgstr "es pas un tipe de fichièr autorizat"
+
+msgid "errors.messages.carrierwave_processing_error"
+msgstr "fracàs del tractament"
+
+msgid "errors.messages.content_type_blacklist_error"
+msgstr "Es pas permés de mandar de fichièrs %{content_type}"
+
+msgid "errors.messages.content_type_whitelist_error"
+msgstr "Es pas permés de mandar de fichièrs %{content_type}"
+
+msgid "errors.messages.extension_blacklist_error"
+msgstr ""
+"Es pas permés de mandar de fichièrs %{extension}, los formats defenduts son :"
+" %{prohibited_types}"
+
+msgid "errors.messages.extension_whitelist_error"
+msgstr ""
+"Es pas permés de mandar de fichièrs %{extension}, los formats autorizats "
+"son : %{allowed_types}"
+
+msgid "errors.messages.max_size_error"
+msgstr "La talha del fichièr deu èsser mens que %{max_size}"
+
+msgid "errors.messages.min_size_error"
+msgstr "La talha del fichièr deu èsser màger que %{min_size}"
+
+msgid "errors.messages.mini_magick_processing_error"
+msgstr ""
+"Fracàs de la manipulacion amb MiniMagick, ben qu’es pas un imatge ? Error "
+"d’origina : %{e}"
+
+msgid "errors.messages.rmagick_processing_error"
+msgstr "Fracàs de la manipulacion amb rmagick, ben qu’es pas un imatge ?"
+
+msgid "fill_me_out"
+msgstr "Escriure aicí"
+
+msgid "find_people"
+msgstr "Recercar de personas o de #etiquetas"
+
+msgid "help.account_and_data_management.close_account_a"
+msgstr ""
+"Anatz en bas de la pagina e clicatz lo boton « Tampar lo compte ». Vòstre "
+"senhal vos serà demandat per acabar lo processús. Vos rapelam que se tampetz "
+"vòstre compte, ne poiretz <strong>pas mai</strong> tornar crear un sus "
+"aqueste pod amb lo meteis nom d'utilizaire."
+
+msgid "help.account_and_data_management.close_account_q"
+msgstr "Cossí pòdi suprimir mon compte (apelat seed) ?"
+
+msgid "help.account_and_data_management.data_other_podmins_a"
+msgstr ""
+"A partir del moment que partejatz amb qualqu'un d'un autre pod, totas las "
+"publicacions que partejatz amb eles e una còpia de vòstre perfil seràn "
+"gardadas (en cache) sus lor pod e seràn accessiblas a l'administrator de la "
+"basa de donadas d'aquel pod. Quand suprimissètz una publicacion o una donada "
+"del perfil, es suprimit de vòstre pod e una demanda de supression es mandada "
+"a totes los pods ont son estadas gardadas. Vòstres imatges son pas jamai "
+"gardats sus d'autres pods ; i a pas que lo ligam cap a eles qu'es transmés "
+"als autres pods."
+
+msgid "help.account_and_data_management.data_other_podmins_q"
+msgstr "Los administrators dels autres pods pòdon veire mas informacions ?"
+
+msgid "help.account_and_data_management.data_visible_to_podmin_a"
+msgstr ""
+"En un mot : tot. La comunicacion entre los pods es totjorn chifrada (en "
+"utilizant SSL e lo pròpri transpòrt chifrat de diaspora*), mai las donadas "
+"enregistradas suls pods son pas chifradas. Se volián los administrators de "
+"la basa de donada de vòstre pod (sovent la persona en carga del pod) poiriá "
+"accedir a totas las donadas de vòstre perfil e a tot çò que publicatz (coma "
+"es lo cas per lo màger dels sites qu'enregistran las informacions dels "
+"utilizaires). Aquò explica perque vos donam la possibilitat de causir sus "
+"quin pod vos marcar, pr'amor podètz causir un pod que l'administrator li "
+"fisatz vòstras donadas. Executar vòstre pod vos dòna mai de confidencialitat "
+"perque auretz lo contraròtle sus la basa de donadas."
+
+msgid "help.account_and_data_management.data_visible_to_podmin_q"
+msgstr ""
+"Quina quantitat de mas informacions l'administrator del pod pòt veire ?"
+
+msgid "help.account_and_data_management.download_data_a"
+msgstr ""
+"Òc. En dejós de los paramètres de Compte trobaretz dos botons : un per "
+"telecargar vòstras donadas e un per telecargar vòstras fotos."
+
+msgid "help.account_and_data_management.download_data_q"
+msgstr ""
+"Pòdi telecargar una còpia de totas las donadas contengudas dins mon compte "
+"(apelat seed) ?"
+
+msgid "help.account_and_data_management.move_pods_a"
+msgstr ""
+"La version 0.7.0.0 de diaspora* fornís la primièra etapa per la migracion de "
+"comptes : podètz ara exportar totas vòstras donadas a partir de la seccion "
+"« Compte » en los paramètres. Gardatz vòstras donadas en seguretat ! Dins "
+"una version venenta poiretz migrar vòstre compte, aquò inclutz las "
+"publicacions, los contactes, a un autre pod."
+
+msgid "help.account_and_data_management.move_pods_q"
+msgstr "Cossí desplaçar mon compte (apelat seed) d'un pod a un autre ?"
+
+msgid "help.account_and_data_management.title"
+msgstr "Gestion del compte e de las donadas"
+
+msgid "help.aspects.change_aspect_of_post_a"
+msgstr ""
+"Non, mas podètz totjorn crear una nòva publicacion amb lo meteis contengut e "
+"o publicar sus un autre aspècte."
+
+msgid "help.aspects.change_aspect_of_post_q"
+msgstr ""
+"Un còp qu'ai publicat quicòm, pòdi cambiar los aspècte(s) qu'o pòdon veire ?"
+
+msgid "help.aspects.contacts_know_aspect_a"
+msgstr "Non pas. Pòdon pas veire lo nom de l'aspècte qualqu'arribe."
+
+msgid "help.aspects.contacts_know_aspect_q"
+msgstr "Mos contactes pòdon saber dins quin aspècte los ai meses ?"
+
+msgid "help.aspects.delete_aspect_a"
+msgstr ""
+"Clicatz « Mos aspèctes » dins la barra dins la vista del flux d’actualitat e "
+"clicatz l’icòna del gredon a costat del aspècte que volètz suprimir, o anatz "
+"sus vòstra pagina de Contactes e seleccionatz l’aspècte concernit. Puèi "
+"clicatz l’icòna del bordilhièr amont a man drecha de la pagina."
+
+msgid "help.aspects.delete_aspect_q"
+msgstr "Cossí pòdi suprimir un aspècte ?"
+
+msgid "help.aspects.person_multiple_aspects_a"
+msgstr ""
+"Òc-ben. Anatz a vòstra pagina de contactes e clicatz sus « Mos contactes ». "
+"Per cada contacte podètz utilizar lo menú a man drecha per lo apondre (o "
+"levar) a tan d’aspèctes que volètz. O podètz los apondre a un novèl aspècte "
+"(o los levar d’un aspècte) en clicant sul boton de seleccion d’aspècte sus "
+"lor pagina de perfil. O podètz tanben solament bolegar lo puntaire sus lor "
+"nom ont lo vesètz dins vòstre flux d’actualitat, un cadron apareissarà. "
+"Podètz cambiar l’aspècte ont son d’aquí."
+
+msgid "help.aspects.person_multiple_aspects_q"
+msgstr "Pòdi apondre una persona a mantun aspècte ?"
+
+msgid "help.aspects.post_multiple_aspects_a"
+msgstr ""
+"Òc. Quand publicatz una publicacion, utilizatz lo boton per causir los "
+"aspèctes. « Totes los aspèctes » es la causida per defaut dins los "
+"paramètres. Podètz tanben causir los aspèctes dins la barra de menú. Quand "
+"publicatz, lo(s) aspèctes qu'avètz causits dins la lista a man esquèrra "
+"seràn automaticament seleccionats per las publicacions venentas."
+
+msgid "help.aspects.post_multiple_aspects_q"
+msgstr "Pòdi mandar un messatge a mantun aspècte a l'encòp ?"
+
+msgid "help.aspects.remove_notification_a"
+msgstr ""
+"Non. Tanpauc seràn pas avisats se los ajustatz dins mai aspèctes, del moment "
+"que ja partejatz amb eles."
+
+msgid "help.aspects.remove_notification_q"
+msgstr ""
+"Se suprimissi qualqu'un d'un de mos aspèctes, o totas las personas d'un "
+"aspècte, son prevengudas ?"
+
+msgid "help.aspects.rename_aspect_a"
+msgstr ""
+"Clicatz « Mos aspèctes » sul costat esquèrra de la pagina de flux e clicatz "
+"sul gredonèl sus la dreita de l'aspècte de renomenar o podètz tanben anar a "
+"la pagina « Contactes » e seleccionar l'aspècte concernit. Clicatz alara "
+"l'icòna « renomenar » al costat del nom amont de la pagina, cambiatz lo nom "
+"e clicatz « Metre a jorn »."
+
+msgid "help.aspects.rename_aspect_q"
+msgstr "Pòdi tornar nommar un aspècte ?"
+
+msgid "help.aspects.restrict_posts_i_see_a"
+msgstr ""
+"Òc-ben. Clicatz « Mos aspèctes » sus la barra e puèi clicatz sus cada "
+"aspècte dins la lista per los seleccionar o deseleccionar. Pas que las "
+"publicacions del mond dels aspèctes seleccionats seràn dins vòstre flux."
+
+msgid "help.aspects.restrict_posts_i_see_q"
+msgstr "Pòdi afichar unicament los messatges de certans aspèctes ?"
+
+msgid "help.aspects.title"
+msgstr "Aspèctes"
+
+msgid "help.aspects.what_is_an_aspect_a"
+msgstr ""
+"Los aspèctes son lo biais qu'avètz d'amassar vòstres contactes sus diaspora*."
+" Un aspècte es una de las fàcias que fasètz veire al mond. Pòt èsser vos al "
+"trabalh, o qual sètz per vòstra familha, o qual sètz per vòstres amics d'un "
+"club ont sètz marcat."
+
+msgid "help.aspects.what_is_an_aspect_q"
+msgstr "De qué es un aspècte ?"
+
+msgid "help.aspects.who_sees_post_a"
+msgstr ""
+"Se fasètz una publicacion limitada, serà visibla pas que pel mond qu'avètz "
+"plaçat dins aqueste aspècte (o aspèctes, s'es fach per mai d'un aspècte) "
+"abans de publicar. Los contactes qu'avètz e que son pas dins l'aspècte, an "
+"pas cap de biais de veire la publicacion. Las publicacions limitadas seràn "
+"pas jamai visiblas pel mond qu'avètz pas plaçat dins vòstres aspèctes."
+
+msgid "help.aspects.who_sees_post_q"
+msgstr "Quand publiqui en un aspècte, qual pòt o veire ?"
+
+msgid "help.chat.add_contact_roster_a"
+msgstr ""
+"D'en primièr, vos cal activar la conversacion per un aspècte ont es la "
+"persona. Per aquò far, anatz sus %{contacts_page}, seleccionatz l'aspècte "
+"que volètz e clicatz l'icòna de conversacion per l'activar sus l'aspècte.\n"
+"%{toggle_privilege} Poiriatz, se vos agrada mai, crear un aspècte especial "
+"apelat « Chat » e i ajustar lo mond amb qui volètz parlar. Un còp fach, "
+"dobrissètz l'interfàcia de conversacion e causissètz la persona amb qui "
+"volètz parlar."
+
+msgid "help.chat.add_contact_roster_q"
+msgstr "Cossí discutir amb qualqu'un dins diaspora* ?"
+
+msgid "help.chat.contacts_page"
+msgstr "pagina dels contactes"
+
+msgid "help.chat.title"
+msgstr "Chat"
+
+msgid "help.community_guidelines"
+msgstr "règlas de comportament de la comunautat"
+
+msgid "help.faq"
+msgstr "FAQ"
+
+msgid "help.foundation_website"
+msgstr "site internet de la fondacion diaspora*"
+
+msgid "help.getting_help.get_support_a_discourse"
+msgstr ""
+"Cercar de discutidas ligadas a vòstra demanda o dobrir un novèl subjècte "
+"dins nòstra plataforma %{discourse}"
+
+msgid "help.getting_help.get_support_a_faq"
+msgstr "Legir la pagina %{faq} de nòstre wiki"
+
+msgid "help.getting_help.get_support_a_hashtag"
+msgstr ""
+"Pausatz una question dins un messatge public sus diaspora* en utilizant "
+"l'hashtag %{question}"
+
+msgid "help.getting_help.get_support_a_irc"
+msgstr "Rejonhètz-nos sus %{irc} (Chat instantanèu)"
+
+msgid "help.getting_help.get_support_a_tutorials"
+msgstr "Referissètz-vos a nòstres %{tutorials}"
+
+msgid "help.getting_help.get_support_a_website"
+msgstr "Visitatz nòstre %{link}"
+
+msgid "help.getting_help.get_support_a_wiki"
+msgstr "Recercatz dins lo %{link}"
+
+msgid "help.getting_help.get_support_q"
+msgstr ""
+"De qué far se ma question a pas de responsa dins la FAQ ? A quines autres "
+"endreits pòdi obténer de documentacion ?"
+
+msgid "help.getting_help.getting_started_a"
+msgstr ""
+"Sètz astruc. Ensajatz las %{tutorial_series} sul site de nòstre projècte. "
+"Vos ajudarà pas a pas de l'inscripcion cap a las causas basicas que vos cal "
+"saber per utilizar diaspora*."
+
+msgid "help.getting_help.getting_started_q"
+msgstr "Ajudatz-me ! Ai besonh d'ajuda per debutar !"
+
+msgid "help.getting_help.title"
+msgstr "Obténer d'ajuda"
+
+msgid "help.getting_started_tutorial"
+msgstr "Seria de tutorials « Mos primièrs passes »"
+
+msgid "help.here"
+msgstr "aicí"
+
+msgid "help.irc"
+msgstr "IRC"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_a1"
+msgstr "Dins lo flux, podètz utilizar los acorchis de clavièr seguents :"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li1"
+msgstr "j - Anar al messatge seguent"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li2"
+msgstr "k - Anar al messatge precedent"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li3"
+msgstr "c - Comentar lo messatge corrent"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li4"
+msgstr "l - Marcat lo messatge corrent coma m'agradant"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li5"
+msgstr "r - Repartejar aqueste messatge"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li6"
+msgstr "m - Afichar l'ensemble del messatge"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li7"
+msgstr "o - Dobrir lo primièr ligam d'aqueste messatge"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li8"
+msgstr "ctrl + entrada - Mandar lo messatge en cors de redaccion"
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_q"
+msgstr "Quines son los acorchis de clavièr existents ?"
+
+msgid "help.keyboard_shortcuts.title"
+msgstr "Acorchis de clavièr"
+
+msgid "help.markdown"
+msgstr "Markdown"
+
+msgid "help.mentions.how_to_mention_a"
+msgstr ""
+"Picatz lo signe « @ » e començatz a escriure lor nom. Una lista desrotlanta "
+"deuriá aparéisser per vos permetre de los causir mai simplament. Notatz "
+"qu'es solament possible de mencionar de mond qu'avètz aponduts a un aspècte."
+
+msgid "help.mentions.how_to_mention_q"
+msgstr "Cossí pòdi mencionar qualqu'un quand escrivi un messatge ?"
+
+msgid "help.mentions.mention_in_comment_a"
+msgstr ""
+"Dempuèi la version 0.7.0.0 podètz ! Podètz mencionar qualqu’un dins un "
+"comentari del meteis biais qu’o fasètz dins una publicacion, n’utilizar “@” "
+"e començatz a picar lor nom. Notatz que per las publicacions pas publicas, "
+"podètz pas que mencionar qualqu’un qu’a interagit amb la publicacion."
+
+msgid "help.mentions.mention_in_comment_q"
+msgstr "Pòdi mencionar qualqu'un dins un comentari ?"
+
+msgid "help.mentions.see_mentions_a"
+msgstr ""
+"Òc, clicatz « @Mencions » dins la colomna d'esquèrra de vòstra pagina "
+"d'acuèlh."
+
+msgid "help.mentions.see_mentions_q"
+msgstr "I a un biais de veire las publicacions que soi mencionat dedins ?"
+
+msgid "help.mentions.title"
+msgstr "Mencions"
+
+msgid "help.mentions.what_is_a_mention_a"
+msgstr ""
+"Una mencion es un ligam cap al perfil d’una persona qu’apareis sus una "
+"publicacion. Quand qualqu’un es mencionat, receb una notificacion per atirar "
+"son atencion sus la publicacion."
+
+msgid "help.mentions.what_is_a_mention_q"
+msgstr "De qué es una « mencion » ?"
+
+msgid "help.miscellaneous.back_to_top_a"
+msgstr ""
+"Òc. Aprèp aver davalat la pagina, clicatz sus la flècha en gris "
+"qu'apareisserà a man drecha dins lo cunh de la fenèstra."
+
+msgid "help.miscellaneous.back_to_top_q"
+msgstr ""
+"I a una manièra rapida per tornar amont de la pagina un còp arribat aval ?"
+
+msgid "help.miscellaneous.diaspora_app_a"
+msgstr ""
+"I a agut un molon d'aplicacions Android desvolopadas per de membres de la "
+"comunautat. Qualques son abandonadas dempuèi un brave temps e doncas "
+"foncionan pas tròp ben amb la version actuala de diaspora*. N'esperetz pas "
+"tròp d'aquelas pel moment. D'aquela passa i a pas cap d'aplicacion iOS. La "
+"melhora manièra d'accedir a diaspora* d'un mobil es amb un navigator, "
+"pr'amor qu'avèm creat una version mobila del site que deu foncionar sul "
+"màger mobil, encara qu'i aja pas totas las foncionalitats."
+
+msgid "help.miscellaneous.diaspora_app_q"
+msgstr "Existís una aplicacion diaspora* per Android o iOS ?"
+
+msgid "help.miscellaneous.photo_albums_a"
+msgstr ""
+"Pas pel moment. Pasmens, podètz veire los imatges mandats d'una persona dins "
+"l'onglet Fòtos de lor pagina de perfil."
+
+msgid "help.miscellaneous.photo_albums_q"
+msgstr "I a d'albums de fotografias o de vidèos ?"
+
+msgid "help.miscellaneous.subscribe_feed_a"
+msgstr ""
+"Òc, mai es pas encara una foncion lustrada e lo format dels resultats es "
+"totjorn un pauc brut. S'avètz enveja d'ensajar aquò, anatz sus la pagina de "
+"perfil de qualqu'un e clicatz sul boton de flux dins vòstre navigador, o "
+"podètz copiar l'URL del perfil (ex. https://nomdelpod.org/mond/unnumero) e "
+"pegatz aquò dins un lector de flux. L'adreça del flux semblarà a aquò :"
+" https://podname.org/public/username.atom – diaspora* utiliza Atom e non pas "
+"RSS."
+
+msgid "help.miscellaneous.subscribe_feed_q"
+msgstr ""
+"Me pòdi inscriure als messatges publics d'una persona amb un lector de "
+"fluxes ?"
+
+msgid "help.miscellaneous.title"
+msgstr "Divèrs"
+
+msgid "help.pods.find_people_a"
+msgstr ""
+"Se volètz convidar vòstres amics a venir sus diaspora*, utilizatz lo ligam "
+"d’invitacion o lo ligam per corrièl. Seguètz d’#etiquetas per conéisser de "
+"mond que partejan vòstres interèsses , e ajustatz aqueles que publican de "
+"causas que vos interèssan a un aspècte. Cridatz fòrt que sètz #novèlaquí "
+"dins una publicacion publica."
+
+msgid "help.pods.find_people_q"
+msgstr ""
+"Veni de rejónher un pod, cossí pòdi trobar de monde per partejar amb eles ?"
+
+msgid "help.pods.title"
+msgstr "Pods"
+
+msgid "help.pods.use_search_box_a"
+msgstr ""
+"Se coneissètz lor ID diaspora* complet (ex. : utilizaire@nomdelpod.org), "
+"podètz los trobar en los cercant. Se sètz sul meteis servidor, podètz los "
+"trobar sonque amb los noms d'utilizaire. Autrament podètz los cercar amb lor "
+"nom de perfil (lo nom que vesètz sus l'ecran). Se una recèrca capita pas lo "
+"primièr còp, tornatz ensajar."
+
+msgid "help.pods.use_search_box_q"
+msgstr ""
+"Cossí me cal utilizar lo camp de recèrca per trobar qualqu'un en particular ?"
+
+msgid "help.pods.what_is_a_pod_a"
+msgstr ""
+"Un pod es un servidor qu’executa lo programa diaspora* e qu’es connectat al "
+"malhum diaspora*. « Pod » es una metafòra que fa referéncia a l'anglés, que "
+"significa dòlça, perque conten de grans coma lo servidor que conten de "
+"comptes d'utilizaires. I a un melon de pods. Podètz apondre d’amics d’autres "
+"pods e comunicar amb eles. Cal pas dobrir de compte suls diferents pods ! "
+"Cal pas qu’un compte – d’aquel biais podètz pensar un pod coma un "
+"fornisseire de corrièls. I a de pods publics, de pods privats, e amb un "
+"bocin d’esfòrces podètz aver lo vòstre."
+
+msgid "help.pods.what_is_a_pod_q"
+msgstr "Qu'es aquò un pod ?"
+
+msgid "help.posts_and_posting.char_limit_services_a"
+msgstr ""
+"En aquel cas deuriatz restrénher vòstras publicacions al nombre de caractèrs "
+"autorizats pel servici (140 per Twitter, 1000 per Tumblr), lo nombre de "
+"caractèrs demòran s’aficharà se l’icòna del servici es seleccionada. Podètz "
+"pr’aquò escriure de tèxtes mai grands, mai lo tèxte serà talhat e un ligam "
+"plaçat cap a la publicacion sus diaspora*."
+
+msgid "help.posts_and_posting.char_limit_services_q"
+msgstr ""
+"Quin es lo limit de caractèrs pels messatges partejats amb un servici qu'a "
+"un limit de caractèrs mai pichon ?"
+
+msgid "help.posts_and_posting.character_limit_a"
+msgstr "65 535 caractèrs. Son 65 395 caractèrs de mai que Twitter ! :)"
+
+msgid "help.posts_and_posting.character_limit_q"
+msgstr "Qual es lo limit de caractèrs per las publicacions ?"
+
+msgid "help.posts_and_posting.embed_multimedia_a"
+msgstr ""
+"Normalament pas cal pas que pegar l’URL (ex. http://www.youtube.com/watch?"
+"v=nnnnnnnnnnn) dins vòstra publicacion e la vidèo o l’àudio serà apondut "
+"automaticament. Los sites compatibles son : YouTube, Vimeo, SoundCloud, "
+"Flickr e qualques mai. diaspora* emplega oEmbed per aquesta foncionalitat. "
+"Se publicatz un ligam dirècte cap a un fichièr àudio o vidèo diaspora* "
+"l’embarcarà amb lo lector estandard HTML5. Cada còp sèm compatibles amb mai "
+"sorgas de mèdias. Remembratz-vos de totjorn publicar l’URL completa – pas "
+"cap de ligams acorchits – e esperatz un momenton abans d’actualizar la "
+"pagina aprèp aver publicat per tal de veire l’ulhada."
+
+msgid "help.posts_and_posting.embed_multimedia_q"
+msgstr ""
+"Cossí pòdi inserir un contengut vidèo, àudio, o multimèdia dins una "
+"publicacion ?"
+
+msgid "help.posts_and_posting.format_text_a"
+msgstr ""
+"diaspora* utiliza un sistèma simplifiat apelat %{markdown}. Lo que publica a "
+"de botons per que siá facil de metre en forma lo tèxte. Se volètz formatar "
+"lo tèxte manualament, trapatz tota la sintaxi  Markdown %{here}. L’onglet "
+"d’apercebut fa que podètz veire que semblarà vòstre messatge abans de lo "
+"partejar. Remembratz-vos que podètz pas lo modificar un còp publicat, doncas "
+"utilizatz l’apercebut per èsser segur qu’es coma cal abans de clicar "
+"Partejar !"
+
+msgid "help.posts_and_posting.format_text_q"
+msgstr ""
+"Cossí pòdi formatar lo tèxte dins as publicacions (gras, italic, eca.) ?"
+
+msgid "help.posts_and_posting.hide_posts_a"
+msgstr ""
+"Se posicionatz la mirga de naut d'una publicacion, una X aprareis a man "
+"drecha. Clicatz-la per escondre la publicacion e metre en silenci las "
+"notificacions ligadas a aquela. Podètz totjorn veire la publicacion se "
+"visitatz lo perfil de la persona que la publiquèt."
+
+msgid "help.posts_and_posting.hide_posts_q"
+msgstr "Cossí escondi una publicacion ?"
+
+msgid "help.posts_and_posting.ignore_user_a1"
+msgstr ""
+"Se a l’ora d’ara partejatz amb aquesta persona, la levar de vòstres aspèctes "
+"farà que veiretz fòrça mens de sas publicacions. Un biais mai complet es "
+"« d’ignorar » aqueste compte. Aquò empacharà sas publicacions d’aparéisser "
+"dins vòstre flux e poirà pas mai mostrar que li agradan vòstras publicacions "
+"o las comentar. Poirà pasmens tornar partejar vòstras publicacions, comentar "
+"una publicacions repartejada e sos comentaris sus las publicacions de "
+"qualqu’un mai apareisseràn dins vòstre flux."
+
+msgid "help.posts_and_posting.ignore_user_a2"
+msgstr ""
+"Per dire d’ignorar un compte clicar l’icòna « ignorar » (un cercle copat per "
+"una linha) ennaut a man dreita d’una de sas publicacions. Aquelas "
+"desapareisseràn de vòstre flux sulcòp. Autrament podètz anar a sa pagina de "
+"perfil e clicar l’icòna per ignorar enlà. Poiretz totjorn veire las "
+"publicacions d’una persona qu’ignoratz en anar a sa pagina de perfil."
+
+msgid "help.posts_and_posting.ignore_user_a3"
+msgstr ""
+"Podètz trapar la lista del monde qu’ignoratz dins los paramètres de compte "
+"seccion Vida privada. Per quitar d’ignorar qualqu’un, levatz-los de la lista "
+"d’aquesta pagina."
+
+msgid "help.posts_and_posting.ignore_user_q"
+msgstr ""
+"Cossí empachi las publicacions de qualqu’un de se trobar dins mon flux ?"
+
+msgid "help.posts_and_posting.insert_images_a"
+msgstr ""
+"Se volètz ajustar un imatge enregistrat dins l’ordenador a vòstra "
+"publicacion, clicatz la pichona icòna camèra enbàs de l’editor. Podètz "
+"tanben lissar un imatge o mai de vòstre ordenador en los botant sus l’icòna. "
+"Se volètz inserir un imatge del web, clicatz lo boton imatge amont de "
+"l’editor, aquò crearà lo còdi Markdown per vos."
+
+msgid "help.posts_and_posting.insert_images_comments_a"
+msgstr ""
+"Podètz utilisar la sintaxi Markdown per inserir un imatge del web sus un "
+"comentari, coma per las publicacions. Pr’aquò, podètz pas enviar un imatge "
+"directament dempuèi vòstre ordenador. Mandatz-lo a un servici d’albergament "
+"en linha puèi inserissètz l’imatge en utilizar lo boton al dessús de "
+"l’editor."
+
+msgid "help.posts_and_posting.insert_images_comments_q"
+msgstr "Pòdi inserir d'imatges dins un comentari ?"
+
+msgid "help.posts_and_posting.insert_images_q"
+msgstr "Cossí pòdi inserir d'imatges dins un messatge ?"
+
+msgid "help.posts_and_posting.post_location_a"
+msgstr ""
+"Clicatz dins l'aisina d'edicion l'icòna de l'espilla a costat de la camèra. "
+"Aquò inserirà vòstre emplaçament d'OpenStreetMap. Podètz modificar vòstre "
+"emplaçament – benlèu que volètz pas qu'indicar la vila ont sètz e non pas "
+"l'adreça amb la carrièra."
+
+msgid "help.posts_and_posting.post_location_q"
+msgstr "Cossí pòdi apondre ma posicion a un messatge ?"
+
+msgid "help.posts_and_posting.post_notification_a"
+msgstr ""
+"Trobaretz l'icòna d'una campana prèp de la X a man drecha de la publicacion. "
+"Clicatz-la per activar o desactivar las notificacions per aquesta "
+"publicacion."
+
+msgid "help.posts_and_posting.post_notification_q"
+msgstr "Cossí pòdi activar o desactivar las notificacions per un messatge ?"
+
+msgid "help.posts_and_posting.post_poll_a"
+msgstr ""
+"Clicatz sus l'icòna graf per generar un sondatge. Picatz una question e "
+"almens doas responsas. Oblidetz pas de far vòstre publicacion publica se "
+"volètz que tot lo mond pòsca participar a vòstre sondatge."
+
+msgid "help.posts_and_posting.post_poll_q"
+msgstr "Cossí pòdi apondre un sondatge a mon messatge ?"
+
+msgid "help.posts_and_posting.post_report_a"
+msgstr ""
+"Clicatz l’icòna del triangle d’alèrta amont a man drecha de la publicacion "
+"per la senhalar a vòstre podmin. Marcatz la rason del senhalament d’aquela "
+"publicacion dins la zòna de tèxte. Mercés de solament senhalar las "
+"publicacions que son contra nòstras %{community_guidelines} o las condicions "
+"de vòstre pod, per exemple las publicacions amb un contengut illegal, "
+"grossièr o indesirable."
+
+msgid "help.posts_and_posting.post_report_q"
+msgstr "Cossí pòdi senhalar un messatge ofensant ?"
+
+msgid "help.posts_and_posting.size_of_images_a"
+msgstr ""
+"Non. Los imatges son retalhats automaticament per marcar ben sul flux "
+"d'actualitat o sus la vista de la publicacion. I a pas de còdi Markdown per "
+"donar una talha a un imatge."
+
+msgid "help.posts_and_posting.size_of_images_q"
+msgstr ""
+"Pòdi personalizar la talha dels imatges dins los messatges o los comentaris ?"
+
+msgid "help.posts_and_posting.stream_full_of_posts_a1"
+msgstr "Vòstre flux es fabricat de tres tipes de messatges :"
+
+msgid "help.posts_and_posting.stream_full_of_posts_li1"
+msgstr ""
+"Las publicacions del mond que partejatz, i a doas categorias : las "
+"publicacions publicas e las publicacions limitadas a un aspècte que ne "
+"fasètz partit. Per levar aquelas publicacions de vòstre flux d'actualitat, "
+"vos cal pas que quitar de partejar amb aquela persona."
+
+msgid "help.posts_and_posting.stream_full_of_posts_li2"
+msgstr ""
+"Los messatges publics contenon una de las etiquetas que seguissètz. Per los "
+"suprimir, quitatz de seguir l’etiqueta."
+
+msgid "help.posts_and_posting.stream_full_of_posts_li3"
+msgstr ""
+"Las publicacions publicas del mond listat dins las actualitat de la "
+"comunitat. Pòdon èsser levadas en clicant sus l'opcion « Afichar las novèlas "
+"de la comunitat dins la flux ? » dins l'onglet Compte de vòstre Paramètres."
+
+msgid "help.posts_and_posting.stream_full_of_posts_q"
+msgstr ""
+"Perqué mon flux es plen de messatges que provenon de personas que coneissi "
+"pas e amb las qualas partegi pas ?"
+
+msgid "help.posts_and_posting.title"
+msgstr "Publicacions e publicar"
+
+msgid "help.private_posts.can_comment_a"
+msgstr ""
+"Solament los utilizaires de diaspora* connectats qu'avètz plaçats dins aquel "
+"aspècte abans de passar la publicacion privada pòdon la comentar o l'aimar."
+
+msgid "help.private_posts.can_comment_q"
+msgstr "Qual pòt comentar o a qual pòt agradar un messatge privat ?"
+
+msgid "help.private_posts.can_reshare_a"
+msgstr ""
+"Degun. Las publicacions privadas se pòdon pas tornar partejar. Los "
+"utilizaires connectats dins aqueste aspècte pòdon potencialament o copiar e "
+"pegar pasmens. Depend de vos se vos fisatz d'aqueste monde !"
+
+msgid "help.private_posts.can_reshare_q"
+msgstr "Qual pòt repartejar mos messatges privats ?"
+
+msgid "help.private_posts.see_comment_a"
+msgstr ""
+"Solament lo mond amb qui la publicacion es partejada (lo mond qu'es dins "
+"l'aspècte causit per lo prim publicaire) pòdon veire sos comentaris e "
+"mencion « m'agrada ». "
+
+msgid "help.private_posts.see_comment_q"
+msgstr ""
+"Quand comenti un messatge privat o que marqui que m'agrada, qual o pòt "
+"veire ?"
+
+msgid "help.private_posts.title"
+msgstr "Publicacions privadas"
+
+msgid "help.private_posts.who_sees_post_a"
+msgstr ""
+"Solament los utilizaires de diaspora* connectats qu'avètz plaçats dins aquel "
+"aspècte abans de passar la publicacion privada pòdon la veire."
+
+msgid "help.private_posts.who_sees_post_q"
+msgstr ""
+"Quand mandi un messatge a un aspècte (es a dire un messatge privat), qual o "
+"pòt veire ?"
+
+msgid "help.profile.title"
+msgstr "Perfil"
+
+msgid "help.profile.what_do_tags_do_a"
+msgstr ""
+"Ajudan al monde a vos conéisser. Vòstra fotografia de perfil apareisserà a "
+"man esquèrra de la pagina d’actualitat d’aquelas etiquetas, demest lo monde "
+"que las tenon dins lor perfil de basa."
+
+msgid "help.profile.what_do_tags_do_q"
+msgstr "Per que servisson las etiquetas dins mon perfil de basa ?"
+
+msgid "help.profile.whats_in_profile_a"
+msgstr ""
+"Vòstre perfil es en doas parts : vòstre perfil basic e vòstre perfil "
+"espandit. Vòstre perfil basic conten vòstre nom, las cinc etiquetas qu'avètz "
+"causidas per vos descriure e vòstra fotografia. Vòstre perfil espandit "
+"conten vòstra biografia, vòstre emplaçament, gendre e vòstre aniversari. "
+"Totas aquelas informacions son opcionalas – causissètz vosautres meteisses "
+"de las donar e causissètz de las far venir tantas identificablas o anonimas, "
+"coma o volètz. Vòstre perfil espandit se mòstra en vòstre pagina de perfil a "
+"man esquèrra, jos vòstre fotografia."
+
+msgid "help.profile.whats_in_profile_q"
+msgstr "Que i a dins mon perfil ?"
+
+msgid "help.profile.who_sees_profile_a"
+msgstr ""
+"Vòstre perfil basic (nom, fotografia de perfil e #etiquetas) es public. "
+"Vòstre perfil espandit es privat per defaut, podètz cambiar la "
+"confidencialitat coma vos agrade. Solament lo monde que partejan amb vos "
+"(valent a dire : los avètz aponduts a un de vòstres aspèctes) pòdon veire "
+"vòstre perfil espandit se lo mantenètz privat. La rèsta del monde veson pas "
+"que las informacions de vòstre perfil public. Tota informacion que fasètz "
+"publica pòt èsser vista per qual que siá sus Internet, e pòt èsser indexada "
+"pels motors de recèrca."
+
+msgid "help.profile.who_sees_profile_q"
+msgstr "Qual vei mon perfil public ?"
+
+msgid "help.public_posts.can_comment_reshare_like_a"
+msgstr ""
+"Quin utilizaire connectat a diaspora* que siá, pòt comentar, repartejar "
+"vòstre messatge public o marcar que li agrada. L'excepcion a aquò es pel "
+"mond qu'ignoratz, que pòdon pas comentar o marcar qu'aiman vòstras "
+"publicacions."
+
+msgid "help.public_posts.can_comment_reshare_like_q"
+msgstr ""
+"Qual pòt comentar, repartejar, o marcar que li agrada mon messatge public ?"
+
+msgid "help.public_posts.deselect_aspect_posting_a"
+msgstr ""
+"Deseleccionar d’aspèctes càmbia pas res per las publicacions publicas. "
+"Demoraràn publicas e apareisseràn dins lo flux d’actualitat de vòstres "
+"contactes. Per far venir visibla una publicacion dins un aspècte especific, "
+"vos cal seleccionar los aspèctes al moment de publicar sul selector "
+"d’aspècte jos l’editor."
+
+msgid "help.public_posts.deselect_aspect_posting_q"
+msgstr ""
+"Qué passa quand tira de las seleccion un o mai aspèctes al moment d'escriure "
+"una publicacion publica ?"
+
+msgid "help.public_posts.find_public_post_a"
+msgstr ""
+"Vòstras publicacions publicas apareisseràn dins lo flux d’actualitat de qual "
+"que siá que vos sèc. S’ajustatz unas #etiquetas a vòstra publicacion, qual "
+"que siá que sèc aquelas etiquetas trobarà vòstra publicacion dins lor flux. "
+"Totas las publicacions publicas an una URL especifica que tot lo mond pòdon "
+"veire, amai se son pas connectats – doncas las publicacions publicas pòdon "
+"èsser ligadas directament de Twitter, blogs, etc. Los robòts de recèrca "
+"pòdon tanben las indexar."
+
+msgid "help.public_posts.find_public_post_q"
+msgstr "Cossí las autras personas pòdon trobar mos messatges publics ?"
+
+msgid "help.public_posts.see_comment_reshare_like_a"
+msgstr ""
+"Los comentaris, mencions \"m'agrada\", e repartiments de publicacions "
+"publicas son tanben publics. Tot utilizaire connectat dins diaspora* e qual "
+"que siasgue d'Internet pòt veire vòstras interaccions amb una publicacion "
+"publica."
+
+msgid "help.public_posts.see_comment_reshare_like_q"
+msgstr ""
+"Quand comenti, tòrni partejar, o aimi una publicacion publica, qual pòt o "
+"veire ?"
+
+msgid "help.public_posts.title"
+msgstr "Publicacions publicas"
+
+msgid "help.public_posts.who_sees_post_a"
+msgstr ""
+"Qual que siague qu'utiliza internet pòt potencialament veire una publicacion "
+"que marcatz publica, doncas asseguratz-vos de voler vertadièrament qu'una "
+"publicacion siague publica. Es una manièra de las bonas per aténher de mond."
+
+msgid "help.public_posts.who_sees_post_q"
+msgstr "Quand publiqui quicòm publicament, qual pòt veire ?"
+
+msgid "help.resharing_posts.reshare_private_post_aspects_a"
+msgstr ""
+"Non, es pas possible de tornar partejar una publicacion privada. Aquò es per "
+"respectar las intencions del prim publicaire, que l'a partejada amb un "
+"gropon especial de personas."
+
+msgid "help.resharing_posts.reshare_private_post_aspects_q"
+msgstr "Pòdi repartejar un messatge privat unicament amb certans aspèctes ?"
+
+msgid "help.resharing_posts.reshare_public_post_aspects_a"
+msgstr ""
+"Non, quand tornatz partejar una publicacion publica es automaticament una "
+"publicacion publica vòstra. Per partejar aquò amb cèrts aspèctes, copiatz e "
+"pegatz lo contengut de la publicacion cap a una nòva publicacion limitada."
+
+msgid "help.resharing_posts.reshare_public_post_aspects_q"
+msgstr "Pòdi repartejar un messatge public unicament amb certans aspèctes ?"
+
+msgid "help.resharing_posts.title"
+msgstr "Repartejar los messatges."
+
+msgid "help.sharing.add_to_aspect_a1"
+msgstr ""
+"Direm que l'Amy apond lo Bena un aspècte, mai Ben a pas (encara) apondut Amy "
+"a un aspècte :"
+
+msgid "help.sharing.add_to_aspect_a2"
+msgstr ""
+"Aquò es conegut coma un partage asimetric. Se e quand Ben ajusta tanben Amy "
+"a un aspècte alara vendrà un partatge mutual, quand tan las publicacions "
+"publicas a Amy que las a Ben e que de publicacions privadas apareisson dins "
+"lors flux d'actualitat, e Amy poiriá veire lo perfil privat de Ben. Poiràn "
+"tanben s'enviar de messatges privats."
+
+msgid "help.sharing.add_to_aspect_li1"
+msgstr ""
+"Ben recebrà una notificacion que l'Amy a \"començat de partejar\" amb Ben."
+
+msgid "help.sharing.add_to_aspect_li2"
+msgstr "Amy començarà de veire los messatges publics de Ben dins son flux."
+
+msgid "help.sharing.add_to_aspect_li3"
+msgstr "Amy veirà pas cap dels messatges privats de Ben."
+
+msgid "help.sharing.add_to_aspect_li4"
+msgstr ""
+"Ben veirà pas las publicacions publicas o privadas de l'Amy dins son flux "
+"d'actualitat."
+
+msgid "help.sharing.add_to_aspect_li5"
+msgstr ""
+"Mai se Ben va sus la pagina de perfil d'Amy, alara veirà las publicacions "
+"qu'Amy a causit de partejat amb lo mond de l'aspècte ont a mes Ben (e tanben "
+"sas publicacions publicas que tot lo monde pòt veire aquí)."
+
+msgid "help.sharing.add_to_aspect_li6"
+msgstr ""
+"Ben serà autorizat a veire lo perfil privat d'Amy (bio, localizacion, sèxe, "
+"anniversari)."
+
+msgid "help.sharing.add_to_aspect_li7"
+msgstr ""
+"L'Amy apareisserà coma « Partejan solament amb ieu » sus la pagina de "
+"contact del Ben."
+
+msgid "help.sharing.add_to_aspect_li8"
+msgstr "Amy serà tanben capabla de @mencionar Ben dins un messatge."
+
+msgid "help.sharing.add_to_aspect_q"
+msgstr ""
+"Qué passa quand apondi qualqu'un a un de mos aspèctes, o quand qualqu'un "
+"m'apond als seus aspèctes ?"
+
+msgid "help.sharing.list_not_sharing_a"
+msgstr ""
+"Non pas, mas podètz veire se qualqu'un parteja amb vos en visitant sa pagina "
+"de perfil. Se parteja amb vos i aurà una sageta verda a costat de lor ID "
+"diaspora*. Autrament i aurà un cercle gris."
+
+msgid "help.sharing.list_not_sharing_q"
+msgstr ""
+"I a una lista del mond qu'ai apondut sus un de mos aspèctes mai que m'an pas "
+"apondut de lor costat ?"
+
+msgid "help.sharing.only_sharing_a"
+msgstr ""
+"Son lo mond que vos an apondut a lor aspècte, mai que son pas - encara - "
+"dins vòstres aspèctes. Dich autrament, partejan amb vos, mai partejatz pas "
+"amb eles : podètz o pensar aissí, vos « seguisson ». Se los apondètz a un "
+"aspècte, pareisseràn dins aqueste e non pas coma « Partejan solament amb ieu "
+"». Veire çai-jos."
+
+msgid "help.sharing.only_sharing_q"
+msgstr ""
+"Qui son los listats dins « Partejan solament amb ieu » sus ma pagina de "
+"contactes ?"
+
+msgid "help.sharing.see_old_posts_a"
+msgstr ""
+"Non. Poiràn pas que veire las novèlas publicacions dins aqueste aspècte. "
+"Pòdon veire vòstras vièlhas publicacions sus vòstra pagina de perfil, e "
+"benlèu tanben dins lor flux d'actualitat."
+
+msgid "help.sharing.see_old_posts_q"
+msgstr ""
+"Quand apondi qualqu'un a un aspècte, pòdon veire mas ancianas publicacions "
+"qu'ai ja publicadas a aqueste aspècte ?"
+
+msgid "help.sharing.sharing_notification_a"
+msgstr ""
+"Deuriatz recebre una notificacion a cada còp que qualqu'un comença de "
+"partejar amb vos."
+
+msgid "help.sharing.sharing_notification_q"
+msgstr "Cossí pòdi saber quand qualqu'un comença de partejar amb ieu ?"
+
+msgid "help.sharing.title"
+msgstr "Partatge"
+
+msgid "help.tags.filter_tags_a"
+msgstr ""
+"Aquesta foncion es pas directament disponibla dins diaspora*, mai unas "
+"%{third_party_tools} son estadas escrichas per o far."
+
+msgid "help.tags.filter_tags_q"
+msgstr "Cossí pòdi filtrar/exclure certanas etiquetas de mon flux ?"
+
+msgid "help.tags.followed_tags_a"
+msgstr ""
+"Aprèp aver cercat una etiqueta podètz clicar sul boton amont de la pagina de "
+"las etiquetas per « seguir »aquesta etiqueta. Apareisserà dins vòstre lista "
+"d’etiquetas seguidas sul menú a man drecha. En clicant sus una de vòstras "
+"etiquetas seguidas aquò vos menarà sus la pagina d’aquesta etiqueta per "
+"veire las publicacions recentas que contenon aquesta etiqueta. Clicatz sus "
+"#Etiquetas seguidas per veire un flux de publicacions que contenon totes las "
+"etiquetas que seguissètz. Las publicacions que contenon aquelas etiquetas "
+"tanben apareisseràn dins vòstre flux."
+
+msgid "help.tags.followed_tags_q"
+msgstr ""
+"De qué son las « #Etiquetas Seguidas » e cossí pòdi seguir una etiqueta ?"
+
+msgid "help.tags.people_tag_page_a"
+msgstr ""
+"I a monde qu'an listat aquesta etiqueta per se descriure eles-meteisses dins "
+"lor perfil public."
+
+msgid "help.tags.people_tag_page_q"
+msgstr ""
+"Qualas son las personas listadas sus la partida d'esquèrra d'una pagina "
+"d'etiquetas ?"
+
+msgid "help.tags.tags_in_comments_a"
+msgstr ""
+"Una etiqueta aponduda a un comentari apareisserà coma un ligam cap a la "
+"pagina d'etiquetas correspondenta, mai farà pas aparéisser la publicacion (o "
+"comentari) dins aquela pagina. Aquò fonciona pas qu'amb las etiquetas sus "
+"las publicacions."
+
+msgid "help.tags.tags_in_comments_q"
+msgstr ""
+"Pòdi inserir d'etiquetas dins un comentari o sonque dins una publicacion ?"
+
+msgid "help.tags.title"
+msgstr "Etiquetas"
+
+msgid "help.tags.what_are_tags_for_a"
+msgstr ""
+"Las etiquetas son un biais de triar una publicacion, sovent un tèma. Cercar "
+"una etiqueta ensenha las publicacions, tan publicas coma privadas, amb "
+"aquesta etiqueta qu'avètz la permission de veire. Aquò permet al mond qu'es "
+"interessat per un tèma de trobar de publicacions ligadas a aquò."
+
+msgid "help.tags.what_are_tags_for_q"
+msgstr "A qué servisson las etiquetas ?"
+
+msgid "help.third_party_tools"
+msgstr "Aisinas tèrças"
+
+msgid "help.title_header"
+msgstr "Ajuda"
+
+msgid "help.tutorial"
+msgstr "tutorial"
+
+msgid "help.tutorials"
+msgstr "tutorials"
+
+msgid "help.wiki"
+msgstr "wiki"
+
+msgid "home.default.be_who_you_want_to_be"
+msgstr "Siatz lo que volètz èsser"
+
+msgid "home.default.be_who_you_want_to_be_info"
+msgstr ""
+"Un fum de malhums insistisson per que donetz vòstra identitat reala. "
+"diaspora* non o fa. Aquí podètz causir qual volètz èsser, e partejar tan o "
+"pas tan d'informacion vos tocant. Dépend vertadièrament de cossí volètz "
+"interagir amb la gent."
+
+msgid "home.default.byline"
+msgstr "La ret sociala ont gardatz lo contraròtle."
+
+msgid "home.default.choose_your_audience"
+msgstr "Causissètz vòstre public"
+
+msgid "home.default.choose_your_audience_info"
+msgstr ""
+"Los aspèctes de diaspora* vos permeton de partejar solament amb lo mond que "
+"volètz. Podètz èsser public o privat tan que volètz. Partejatz una fòto "
+"divertissenta amb lo mond complet, o un grand secrèt amb vòstre melhors "
+"amics. Avètz lo contraròtle."
+
+msgid "home.default.diaspora_site_link"
+msgstr "Malhum federat diapora*"
+
+msgid "home.default.headline"
+msgstr "Benvenguda sus %{pod_name}"
+
+msgid "home.default.own_your_data"
+msgstr "Siatz proprietari de vòstras donadas"
+
+msgid "home.default.own_your_data_info"
+msgstr ""
+"Mantun rets emplegan vòstras donadas per se far de moneda en analisant "
+"vòstras interaccions e en emplegant aquelas informacions per vos far de "
+"reclama. diaspora* utilizant pas vòstras donadas que per vos permetre de "
+"comunicar e partejar amb lo mond."
+
+msgid "home.default.part_of_diaspora"
+msgstr "Membre del %{diaspora_site_link}"
+
+msgid "home.podmin.byline"
+msgstr "Sètz a mand de cambiar la fàcia d'Internet. Prèst a vos lançar ?"
+
+msgid "home.podmin.configuration_info"
+msgstr ""
+"Dobrissètz %{database_path} e %{diaspora_path} dins vòstre editor de tèxte "
+"favorit e relegissètz-los menimosament, son comentats abondament."
+
+msgid "home.podmin.configure_your_pod"
+msgstr "Configuratz vòstre pod"
+
+msgid "home.podmin.contact_irc"
+msgstr "nos contactar sus IRC"
+
+msgid "home.podmin.contribute"
+msgstr "Contribuissètz"
+
+msgid "home.podmin.contribute_info"
+msgstr ""
+"Rendètz diaspora* encara melhor ! Se rencontratz de bugs, %{report_bugs} se "
+"vos plai."
+
+msgid "home.podmin.create_an_account"
+msgstr "Creatz un compte"
+
+msgid "home.podmin.create_an_account_info"
+msgstr "%{sign_up_link} per un novèl compte"
+
+msgid "home.podmin.faq_for_podmins"
+msgstr "FAQ pels podmins sus nòstre wiki"
+
+msgid "home.podmin.getting_help"
+msgstr "Obtenètz d'ajuda"
+
+msgid "home.podmin.getting_help_info"
+msgstr ""
+"Mostrem qualquas %{faq} inclusses conselhs e astúcias per lo màger problèma "
+"comun. Podètz tanben ensajar l'%{irc}."
+
+msgid "home.podmin.headline"
+msgstr "Benvenguda, l'amic."
+
+msgid "home.podmin.make_yourself_an_admin"
+msgstr "Venètz administrator"
+
+msgid "home.podmin.make_yourself_an_admin_info"
+msgstr ""
+"Podètz trapar las instruccions dins lo %{wiki}. Aquò deu apondre un ligam "
+"\"%{admin_dashboard}\" dins vòstre cap menú quand sètz connectat. Vos dòna "
+"de causas coma la recèrca d'utilizaires e estatisticas de vòstre pod."
+
+msgid "home.podmin.report_bugs"
+msgstr "raportatz-los"
+
+msgid "home.podmin.update_instructions"
+msgstr "d'instruccions de mesa a jorn sul wiki de diaspora*"
+
+msgid "home.podmin.update_your_pod"
+msgstr "Mantenètz vòstre pod a jorn"
+
+msgid "home.podmin.update_your_pod_info"
+msgstr "Trobaretz %{update_instructions}."
+
+msgid "invitation_codes.already_logged_in"
+msgstr ""
+"%{inviter} vos a convidat a rejónher aqueste pod mas sètz ja connectat."
+
+msgid "invitation_codes.not_valid"
+msgstr "Aqueste còdi es pas pus valid."
+
+msgid "invitations.create.closed"
+msgstr "Los convits son tampats sus aqueste pod diaspora*."
+
+msgid "invitations.create.empty"
+msgstr "Mercés de picar almens una adreça de corrièl."
+
+msgid "invitations.create.no_more"
+msgstr "Avètz pas mai de convits."
+
+msgid "invitations.create.note_already_sent"
+msgstr "Las invitacions son ja estadas mandadas a : %{emails}"
+
+msgid "invitations.create.rejected"
+msgstr ""
+"Las adreças de corrièr electronic seguentas an rencontrat un problèma :"
+" %{emails}"
+
+msgid "invitations.create.sent"
+msgstr "Los convits son estats mandats a %{emails}"
+
+msgid "invitations.new.codes_left"
+msgid_plural "invitations.new.codes_left.zero"
+msgstr[0] "Pas mai qu'un convit de disponible amb aqueste còdi."
+msgstr[1] "Pas mai de convit de disponible amb aqueste còdi."
+
+msgid "invitations.new.comma_separated_plz"
+msgstr "Podètz entrar mantuna adreça de corrièl separadas per de virgulas."
+
+msgid "invitations.new.invite_someone_to_join"
+msgstr "Convidar qualqu'un a rejónher diaspora* !"
+
+msgid "invitations.new.language"
+msgstr "Lenga"
+
+msgid "invitations.new.paste_link"
+msgstr ""
+"Partejatz aqueste ligam amb vòstres amics per los convidar dins diaspora*, o "
+"mandatz-lor aqueste ligam dirèctament per corrièl."
+
+msgid "invitations.new.send_an_invitation"
+msgstr "Mandar un convit"
+
+msgid "invitations.new.sending_invitation"
+msgstr "Mandadís del convit..."
+
+msgid "layouts.application.back_to_top"
+msgstr "Tornar amont"
+
+msgid "layouts.application.be_excellent"
+msgstr "Siatz benvolent amb cadun !"
+
+msgid "layouts.application.discourse"
+msgstr "Discutidas e assisténcia del projècte"
+
+msgid "layouts.application.powered_by"
+msgstr "Propulsat per dispora*"
+
+msgid "layouts.application.public_feed"
+msgstr "Flux diaspora* public per %{name}"
+
+msgid "layouts.application.source_package"
+msgstr "Telecargatz lo còdi font"
+
+msgid "layouts.application.statistics_link"
+msgstr "Estatisticas del pod"
+
+msgid "layouts.application.switch_to_standard_mode"
+msgstr "Passar al mòde estandard"
+
+msgid "layouts.application.switch_to_touch_optimized_mode"
+msgstr "Passar al mòde optimizat pel tactil"
+
+msgid "layouts.application.whats_new"
+msgstr "Qué de nòu ?"
+
+msgid "layouts.header.code"
+msgstr "Còdi"
+
+msgid "layouts.header.logout"
+msgstr "Desconnexion"
+
+msgid "layouts.header.profile"
+msgstr "Perfil"
+
+msgid "layouts.header.settings"
+msgstr "Paramètres"
+
+msgid "layouts.header.toggle_navigation"
+msgstr "Afichar/amagar lo menú"
+
+msgid "likes.create.error"
+msgstr "Fracàs al moment d'aimar."
+
+msgid "likes.destroy.error"
+msgstr "Fracàs al moment de quitar d'aimar."
+
+msgid "limited"
+msgstr "Limitat"
+
+msgid "more"
+msgstr "Mai"
+
+msgid "no_results"
+msgstr "Cap de resultat pas trobat"
+
+msgid "notifications.also_commented"
+msgid_plural "notifications.also_commented.zero"
+msgstr[0] "%{actors} a tanben comentat %{post_link} de %{post_author}."
+msgstr[1] "%{actors} a tanben comentat %{post_link} de %{post_author}."
+
+msgid "notifications.also_commented_deleted"
+msgid_plural "notifications.also_commented_deleted.zero"
+msgstr[0] "%{actors} a comentat una publicacion suprimida."
+msgstr[1] "%{actors} a comentat una publicacion suprimida."
+
+msgid "notifications.comment_on_post"
+msgid_plural "notifications.comment_on_post.zero"
+msgstr[0] "%{actors} a comentat vòstra publicacion %{post_link}."
+msgstr[1] "%{actors} a comentat vòstra publicacion %{post_link}."
+
+msgid "notifications.contacts_birthday"
+msgid_plural "notifications.contacts_birthday.zero"
+msgstr[0] "%{actors} farà un an mai lo %{date}"
+msgstr[1] "%{actors} farà un an mai lo %{date}"
+
+msgid "notifications.index.all_notifications"
+msgstr "Totas las notificacions"
+
+msgid "notifications.index.also_commented"
+msgstr "Tanben comentat"
+
+msgid "notifications.index.and"
+msgstr "e"
+
+msgid "notifications.index.and_others"
+msgid_plural "notifications.index.and_others.zero"
+msgstr[0] "e una persona mai"
+msgstr[1] "e degun mai"
+
+msgid "notifications.index.comment_on_post"
+msgstr "Comentari sus un de vòstres messatges"
+
+msgid "notifications.index.contacts_birthday"
+msgstr "Anniversari"
+
+msgid "notifications.index.liked"
+msgstr "Que m'agrada"
+
+msgid "notifications.index.mark_all_as_read"
+msgstr "O marcar tot coma legit"
+
+msgid "notifications.index.mark_all_shown_as_read"
+msgstr "O marcar tot coma legit"
+
+msgid "notifications.index.mark_read"
+msgstr "Marcar coma legit"
+
+msgid "notifications.index.mark_unread"
+msgstr "Marcar coma pas legit"
+
+msgid "notifications.index.mentioned"
+msgstr "Mencionat dins una publicacion"
+
+msgid "notifications.index.mentioned_in_comment"
+msgstr "Mencionat dins un comentari"
+
+msgid "notifications.index.no_notifications"
+msgstr "Avètz pas encara cap de notificacion."
+
+msgid "notifications.index.notifications"
+msgstr "Notificacions"
+
+msgid "notifications.index.reshared"
+msgstr "Repartejat"
+
+msgid "notifications.index.show_all"
+msgstr "O mostrar tot"
+
+msgid "notifications.index.show_unread"
+msgstr "Afichar los que son pas legits"
+
+msgid "notifications.index.started_sharing"
+msgstr "A començat de partejar"
+
+msgid "notifications.liked"
+msgid_plural "notifications.liked.zero"
+msgstr[0] "Vòstra publicacion %{post_link} agrada a %{actors}."
+msgstr[1] "Vòstra publicacion %{post_link} agrada a %{actors}."
+
+msgid "notifications.liked_post_deleted"
+msgid_plural "notifications.liked_post_deleted.zero"
+msgstr[0] "Vòstra publicacion suprimida a pas agradat %{actors} persona."
+msgstr[1] "Vòstra publicacion suprimida a pas agradat %{actors} persona."
+
+msgid "notifications.mentioned"
+msgid_plural "notifications.mentioned.zero"
+msgstr[0] "%{actors} vos a mencionat dins la publicacion %{post_link}."
+msgstr[1] "%{actors} vos a mencionat dins la publicacion %{post_link}."
+
+msgid "notifications.mentioned_deleted"
+msgid_plural "notifications.mentioned_deleted.other"
+msgstr[0] "%{actors} vos a mencionat en una publicacion suprimida."
+msgstr[1] "%{actors} vos an mencionat en una publicacion suprimida."
+
+msgid "notifications.mentioned_in_comment"
+msgid_plural "notifications.mentioned_in_comment.other"
+msgstr[0] ""
+"%{actors} vos a mencionat dins un <a href='%{comment_path}'>comentari</a> de "
+"la publicacion %{post_link}."
+msgstr[1] ""
+"%{actors} vos an mencionat dins un <a href='%{comment_path}'>comentari</a> "
+"de la publicacion %{post_link}."
+
+msgid "notifications.mentioned_in_comment_deleted"
+msgid_plural "notifications.mentioned_in_comment_deleted.other"
+msgstr[0] "%{actors} vos a mencionat dins un comentari suprimit."
+msgstr[1] "%{actors} vos an mencionat dins un comentari suprimit."
+
+msgid "notifications.private_message"
+msgid_plural "notifications.private_message.zero"
+msgstr[0] "%{actors} vos a mandat un messatge."
+msgstr[1] "%{actors} vos a mandat un messatge."
+
+msgid "notifications.reshared"
+msgid_plural "notifications.reshared.zero"
+msgstr[0] "%{actors} a repartejat vòstra publicacion %{post_link}."
+msgstr[1] "%{actors} a repartejat vòstra publicacion %{post_link}."
+
+msgid "notifications.reshared_post_deleted"
+msgid_plural "notifications.reshared_post_deleted.zero"
+msgstr[0] "%{actors} a tornat partejar vòstra publicacion suprimida."
+msgstr[1] "%{actors} a tornat partejar vòstra publicacion suprimida."
+
+msgid "notifications.started_sharing"
+msgid_plural "notifications.started_sharing.zero"
+msgstr[0] "%{actors} a començat de partejar amb vos."
+msgstr[1] "%{actors} a començat de partejar amb vos."
+
+msgid "notifier.a_limited_post_comment"
+msgstr "Avètz un comentari novèl sus un messatge amb visibilitat limitada."
+
+msgid "notifier.a_post_you_shared"
+msgstr "una publicacion."
+
+msgid "notifier.a_private_message"
+msgstr "Avètz un nòu messatge privat dins diaspora* de legir."
+
+msgid "notifier.also_commented.limited_subject"
+msgstr "I a un comentari novèl sus un messatge qu'avètz comentat"
+
+msgid "notifier.click_here"
+msgstr "Clicatz aicí"
+
+msgid "notifier.comment_on_post.limited_subject"
+msgstr "I a un comentari novèl sus una publicacion qu'avètz comentada"
+
+msgid "notifier.comment_on_post.reply"
+msgstr "Respondre o veire lo messatge de %{name} >"
+
+msgid "notifier.confirm_email.click_link"
+msgstr ""
+"Per activar vòstre novèla adreça de corrièl %{unconfirmed_email}, seguissètz "
+"aqueste ligam :"
+
+msgid "notifier.confirm_email.subject"
+msgstr "Mercés d'activar vòstre novèl corrièl %{unconfirmed_email}"
+
+msgid "notifier.contacts_birthday.birthday"
+msgstr "Es l’anniversari a %{name} uèi. Desiratz-li un Bon Anniversari !"
+
+msgid "notifier.contacts_birthday.subject"
+msgstr "Es l’anniversari a %{name} uèi"
+
+msgid "notifier.contacts_birthday.view_profile"
+msgstr "Veire lo perfil a %{name}"
+
+msgid "notifier.csrf_token_fail.body"
+msgstr ""
+"Adissiatz %{name}, \n"
+"\n"
+"diaspora* a detectat un ensag d’accès a vòstre sesilha que poiriá èsser pas "
+"autorizat. Per evitar que vòstras donadas sián gastadas sètz estat "
+"desconnectat. Vos copetz pas lo cap, vos podètz tornar connectar en "
+"seguretat ara. \n"
+" \n"
+"Una demanda es estada facha n’emplegant un geton CSRF incorrècte o absent. "
+"Aquò poiriá èsser completament innocent, mai aquò pòt tanben èsser un atac "
+"apelat Cross-site request forgery (CSRF). \n"
+" \n"
+"Aquò pòt venir de :\n"
+" \n"
+"  - una extension que manipula la demanda o que fa de demanda sens lo geton;"
+"\n"
+"  - un onglet daissat dubèrt d’una anciana session;\n"
+"  - un fum d’aisinas extèrnas;\n"
+"  - un marrit còdi qu’ensaja d'accedir a vòstras donadas. \n"
+" \n"
+"Per mai informacion subre l’atac CSRF vejatz [%{link}](%{link}). \n"
+" \n"
+"Se tenètz vist aqueste messatge, mercés de verificar los punts al dessús, "
+"inclús las extensions de qual que siá navigador. \n"
+" \n"
+"Mercés, \n"
+"Lo robòt de corrièl a diaspora* !"
+
+msgid "notifier.csrf_token_fail.subject"
+msgstr "Avèm recebut una demanda sens autorizacion de vòstre compte, %{name}"
+
+msgid "notifier.email_sent_by_diaspora"
+msgstr ""
+"%{pod_name} a mandat aqueste corrièl. Se volètz pas mai de corrièls atal,"
+
+msgid "notifier.export_email.body"
+msgstr ""
+"Bonjorn %{name},\n"
+"\n"
+"Vòstras donadas personalas son estadas tractadas e ara, las podètz "
+"telecargar en clicant sus [aqueste ligam](%{url}).\n"
+"\n"
+"Coralament,\n"
+"\n"
+"Lo messatgièr automatic de diaspora*"
+
+msgid "notifier.export_email.subject"
+msgstr "Vòstras donadas personalas son prèstas a èsser telecargadas, %{name}"
+
+msgid "notifier.export_failure_email.body"
+msgstr ""
+"Bonjorn %{name},\n"
+"\n"
+"I a agut un problèma al moment del tractament de vòstras donadas personalas "
+"en vista d'un telecargament.\n"
+"Mercé de tornar ensajar.\n"
+"\n"
+"O planhèm sincèrament.\n"
+"\n"
+"Lo messatgièr automatic de diaspora*"
+
+msgid "notifier.export_failure_email.subject"
+msgstr "I a agut un problèma amb vòstras donadas, %{name}"
+
+msgid "notifier.export_photos_email.body"
+msgstr ""
+"Bonjorn %{name},\n"
+"\n"
+"Vòstras fòtos son estadas preparadas e son prèstas a èsser telecargadas en "
+"seguissent sus [aqueste ligam](%{url}).\n"
+"\n"
+"Coralament,\n"
+"\n"
+"Lo messatgièr automatic de diaspora*"
+
+msgid "notifier.export_photos_email.subject"
+msgstr "%{name}, vòstras fòtos son prèstas per èsser telecargadas."
+
+msgid "notifier.export_photos_failure_email.body"
+msgstr ""
+"Bonjorn %{name},\n"
+"\n"
+"I a agut un problèma al moment del tractament de vòstras fòtos personalas en "
+"vista d'un telecargament.\n"
+"Mercé de tornar ensajar.\n"
+"\n"
+"O planhèm sincèrament.\n"
+"\n"
+"Lo messatgièr automatic de diaspora*"
+
+msgid "notifier.export_photos_failure_email.subject"
+msgstr "I a agut un problèma amb vòstras fòtos, %{name}"
+
+msgid "notifier.hello"
+msgstr "Adiu %{name} !"
+
+msgid "notifier.invite.message"
+msgstr ""
+"Bonjorn !\n"
+"\n"
+"%{user} vos a convidat a rejónher diaspora* !\n"
+"\n"
+"Clicatz sul ligam per començar\n"
+"\n"
+"%{invite_url}[1]\n"
+"\n"
+"O podètz apondre %{diaspora_id} amb vòstres contactes s’avètz ja un compte.\n"
+"\n"
+"\n"
+"Amistats,\n"
+"\n"
+"Lo messatgièr automatic de diaspora* !\n"
+"\n"
+"P.S : En cas que coneisseriatz pas (encara) çò qu’es diapora*, aicí[2] i a "
+"la responsa !\n"
+"\n"
+"[1] : %{invite_url}\n"
+"[2] : %{diasporafoundation_url}"
+
+msgid "notifier.invited_you"
+msgstr "%{name} vos a convidat sus diaspora*"
+
+msgid "notifier.liked.liked"
+msgstr "A %{name}, li a agradat vòstra publicacion"
+
+msgid "notifier.liked.limited_post"
+msgstr "A %{name}, li a agradat vòstra publicacion restrenta"
+
+msgid "notifier.liked.view_post"
+msgstr "Veire la publicacion >"
+
+msgid "notifier.mentioned.limited_post"
+msgstr "Qualqu'un vos a mencionat dins una publicacion restenta."
+
+msgid "notifier.mentioned.subject"
+msgstr "%{name} vos a mencionat sus diaspora*"
+
+msgid "notifier.mentioned_in_comment.limited_post"
+msgstr "Qualqu'un vos a mencionat dins un comentari al accès limitat."
+
+msgid "notifier.mentioned_in_comment.reply"
+msgstr "Respondre o veire la conversacion >"
+
+msgid "notifier.private_message.reply_to_or_view"
+msgstr "Respondre o afichar aquela conversacion >"
+
+msgid "notifier.private_message.subject"
+msgstr "Avètz un novèl messatge privat"
+
+msgid "notifier.remove_old_user.body"
+msgstr ""
+"Bonjorn,\n"
+"En rason de l'inactivitat de vòstre compte diaspora* %{pod_url}, planhèm de "
+"vos informar que lo sistèma l'a identificat coma devent èsser suprimit "
+"automaticament. Aquesta procedura se desenclava aprèp un periòde "
+"d'inactivitat superior a %{after_days} jorns.\n"
+"\n"
+"Podètz evitar la pèrda de vòstre compte en vos connectant a aqueste abans "
+"%{remove_after}, dins aqueste cas la procedura de supression serà "
+"automaticament anullada.\n"
+"\n"
+"Aquesta mantenença es efectuada per assegurar als utilizaires actius lo "
+"melhor foncionament possible d'aquesta instància de diaspora*. Vos mercejam "
+"de vòstra compreneson.\n"
+"\n"
+"Se volètz conservar vòstre compte, identificatz-vos aicí : \n"
+"%{login_url}\n"
+"\n"
+"Esperam vos reveire lèu !\n"
+"\n"
+"Lo messatgièr automatic de diaspora*"
+
+msgid "notifier.remove_old_user.subject"
+msgstr ""
+"Vòstre compte diaspora* es estat senhalat coma devent èsser suprimit en "
+"rason de son inactivitat"
+
+msgid "notifier.report_email.body"
+msgstr ""
+"Bonjorn,\n"
+"\n"
+"lo %{type} amb l'identificant %{id} es estat marcat coma ofensant.\n"
+"\n"
+"Rason : %{reason}\n"
+"\n"
+"[%{url}][1]\n"
+"\n"
+"Mercé de lo verificar tre que possible !\n"
+"\n"
+"\n"
+"Coralament,\n"
+"\n"
+"Lo messatgièr automatic de diaspora*\n"
+"\n"
+"[1] : %{url}"
+
+msgid "notifier.report_email.subject"
+msgstr "Un novèl %{type} es estat marcat coma ofensant"
+
+msgid "notifier.report_email.type.comment"
+msgstr "comentari"
+
+msgid "notifier.report_email.type.post"
+msgstr "messatge"
+
+msgid "notifier.reshared.reshared"
+msgstr "%{name} a tornat partejar vòstra publicacion"
+
+msgid "notifier.reshared.view_post"
+msgstr "Veire la publicacion >"
+
+msgid "notifier.single_admin.admin"
+msgstr "Vòstre administrator diaspora*"
+
+msgid "notifier.single_admin.subject"
+msgstr "Un messatge subre vòstre compte diaspora*"
+
+msgid "notifier.started_sharing.sharing"
+msgstr "a començat de partejar amb vos !"
+
+msgid "notifier.started_sharing.subject"
+msgstr "%{name} a començat de partejar amb vos sus diaspora*"
+
+msgid "notifier.started_sharing.view_profile"
+msgstr "Veire lo perfil de %{name}"
+
+msgid "notifier.thanks"
+msgstr "Mercé,"
+
+msgid "notifier.to_change_your_notification_settings"
+msgstr "per cambiar vòstres reglatges de notificacion"
+
+msgid "nsfw"
+msgstr "NSFW"
+
+msgid "ok"
+msgstr "D'acòrdi"
+
+msgid "people.add_contact.invited_by"
+msgstr "Sètz estat convidat per"
+
+msgid "people.index.couldnt_find_them"
+msgstr "Los trobatz pas ?"
+
+msgid "people.index.looking_for"
+msgstr "Recercar publicacions marcadas %{tag_link}"
+
+msgid "people.index.no_one_found"
+msgstr "... e pas cap trobat."
+
+msgid "people.index.no_results"
+msgstr "E ben ! Vos cal cercar quicòm."
+
+msgid "people.index.results_for"
+msgstr "Utilizaires que correspondon a %{search_term}"
+
+msgid "people.index.search_handle"
+msgstr ""
+"Utilizatz lor ID diaspora* (nomdutiliaire@pod.tld) per èsser segur de trobar "
+"vòstres amics."
+
+msgid "people.index.searching"
+msgstr "Recèrca en cors, mercés d'esperar..."
+
+msgid "people.index.send_invite"
+msgstr "Pas res encara ? Mandatz-lor un convidacion !"
+
+msgid "people.person.thats_you"
+msgstr "Sètz vosautres !"
+
+msgid "people.profile_sidebar.bio"
+msgstr "Biografia"
+
+msgid "people.profile_sidebar.born"
+msgstr "Anniversari"
+
+msgid "people.profile_sidebar.gender"
+msgstr "Sèxe"
+
+msgid "people.profile_sidebar.location"
+msgstr "Localizacion"
+
+msgid "people.show.closed_account"
+msgstr "Aqueste compte es estat tampat"
+
+msgid "people.show.does_not_exist"
+msgstr "Aquesta persona existís pas !"
+
+msgid "people.show.has_not_shared_with_you_yet"
+msgstr "%{name} a pas encara partejar cap de publicacions amb vos !"
+
+msgid "photos.create.integrity_error"
+msgstr "Fracàs al moment de mandar l'imatge. Sètz segur qu'èra un imatge ?"
+
+msgid "photos.create.runtime_error"
+msgstr ""
+"Fracàs al moment de mandar l'imatge. Sètz segur que vòstre cinta de "
+"seguretat es estacada ?"
+
+msgid "photos.create.type_error"
+msgstr ""
+"Fracàs al moment de mandar l'imatge. Sètz segur qu'un imatge es estat "
+"apondut ?"
+
+msgid "photos.destroy.notice"
+msgstr "Fòto suprimida"
+
+msgid "photos.new_profile_photo.upload"
+msgstr "Mandatz una novèla fòto de perfil !"
+
+msgid "polls.votes"
+msgid_plural "polls.votes.zero"
+msgstr[0] "%{count} vòte pel moment"
+msgstr[1] "%{count} vòte pel moment"
+
+msgid "posts.presenter.title"
+msgstr "Una publicacion de %{name}"
+
+msgid "posts.show.forbidden"
+msgstr "Sètz pas autorizat a far aquò"
+
+msgid "posts.show.location"
+msgstr "Publicat de : %{location}"
+
+msgid "posts.show.photos_by"
+msgid_plural "posts.show.photos_by.zero"
+msgstr[0] "Una fòto per %{author}"
+msgstr[1] "Pas cap de fòto per %{author}"
+
+msgid "posts.show.reshare_by"
+msgstr "Repartejat per %{author}"
+
+msgid "privacy"
+msgstr "Vida privada"
+
+msgid "profile"
+msgstr "Perfil"
+
+msgid "profiles.edit.allow_search"
+msgstr "Autorizar lo monde a vos recercar dins diaspora*"
+
+msgid "profiles.edit.basic"
+msgstr "Mon perfil basic"
+
+msgid "profiles.edit.basic_hint"
+msgstr ""
+"Totes los elements de vòstre perfil son opcionals. Vòstre perfil basic serà "
+"totjorn visible publicament."
+
+msgid "profiles.edit.extended"
+msgstr "Mon perfil espandit"
+
+msgid "profiles.edit.extended_hint"
+msgstr ""
+"Clicatz sul boton per definir la visibilitat de vòstre perfil complet. "
+"Public significa qu'es visible per tot Internet, limitat significa solament "
+"lo mond amb qui partejatz poiràn veire aquelas informacions."
+
+msgid "profiles.edit.extended_visibility_text"
+msgstr "Visibilitat de vòstre perfil complet."
+
+msgid "profiles.edit.first_name"
+msgstr "Pichon nom"
+
+msgid "profiles.edit.last_name"
+msgstr "Nom d'ostal"
+
+msgid "profiles.edit.limited"
+msgstr "Limitat"
+
+msgid "profiles.edit.nsfw_check"
+msgstr "Amagar tot çò que pòsti coma #NSFW"
+
+msgid "profiles.edit.nsfw_explanation"
+msgstr ""
+"NSFW (“not safe for work” pas conselhat al trabalh) in diaspora* es un "
+"estandard gerit per la comunautat pel cotengut qu'es pas apropriat d'agachar "
+"al trabalh. S'avètz previst de ne partejar sovent, mercés de causir aquesta "
+"opcion per que tot çò que partejatz siaque escondut dins lo flux del mond "
+"qu'an pas causit de veire aquò."
+
+msgid "profiles.edit.nsfw_explanation2"
+msgstr ""
+"Se causissètz pas de seleccionar aquesta opcion, mercés d'apondre l'etiqueta "
+"#nsfw cada còp que partejatz de material d'aqueste tip."
+
+msgid "profiles.edit.public"
+msgstr "Public"
+
+msgid "profiles.edit.settings"
+msgstr "Paramètres del perfil"
+
+msgid "profiles.edit.update_profile"
+msgstr "Actualizar lo perfil"
+
+msgid "profiles.edit.your_bio"
+msgstr "Vòstra biografia"
+
+msgid "profiles.edit.your_birthday"
+msgstr "Vòstre anniversari"
+
+msgid "profiles.edit.your_gender"
+msgstr "Vòstre sèxe"
+
+msgid "profiles.edit.your_location"
+msgstr "Vòstra localizacion"
+
+msgid "profiles.edit.your_name"
+msgstr "Vòstre nom"
+
+msgid "profiles.edit.your_photo"
+msgstr "Vòstra fòto"
+
+msgid "profiles.edit.your_tags"
+msgstr "Descrivètz-vos en 5 mots"
+
+msgid "profiles.edit.your_tags_placeholder"
+msgstr "Per exemple #filme #catons #viatjar #professor #tolosa"
+
+msgid "profiles.update.failed"
+msgstr "Fracàs de l'actualizacion del perfil"
+
+msgid "profiles.update.updated"
+msgstr "Perfil a jorn"
+
+msgid "public"
+msgstr "Public"
+
+msgid "registrations.closed.another_pod"
+msgstr "un autre pod"
+
+msgid "registrations.closed.closed_pod"
+msgstr ""
+"Aqueste pod es actualament pas dubèrt per las inscripcions. Pasmens, podètz "
+"jonher lo malhum diaspora* en vos marcar sus %{wiki} . Perque totes los pods "
+"son connectats entre eles, enlà auretz accès al meteis contengut."
+
+msgid "registrations.closed.find_pods"
+msgstr "Vaquí una lista de pods ont podètz vos marcar %{poduptime}."
+
+msgid "registrations.closed.other_questions"
+msgstr ""
+"S’avètz mai de questions tocant la causida d’un pod, gaitatz nòstre %{wiki}."
+
+msgid "registrations.create.success"
+msgstr "Avètz rejunt diaspora*!"
+
+msgid "registrations.invalid_invite"
+msgstr "Lo ligam de convit donat es pas mai valid !"
+
+msgid "registrations.new.email"
+msgstr "Adreça electronica"
+
+msgid "registrations.new.enter_email"
+msgstr "Picatz vòstra adreça de corrièl"
+
+msgid "registrations.new.enter_password"
+msgstr "Picatz un senhal (sièis caractèrs minimum)"
+
+msgid "registrations.new.enter_password_again"
+msgstr "Picatz lo meteis senhal coma de per abans"
+
+msgid "registrations.new.enter_username"
+msgstr "Picatz un nom d'utilizaire (sonque letras, chifras e jonhent bas _)"
+
+msgid "registrations.new.password"
+msgstr "Senhal"
+
+msgid "registrations.new.password_confirmation"
+msgstr "Confirmacion del senhal"
+
+msgid "registrations.new.sign_up"
+msgstr "Marcatz-vos"
+
+msgid "registrations.new.submitting"
+msgstr "Mandadís en cors..."
+
+msgid "registrations.new.terms"
+msgstr "En creant un compte, acceptatz las %{terms_link}"
+
+msgid "registrations.new.terms_link"
+msgstr "condicions d'utilizacion"
+
+msgid "registrations.new.username"
+msgstr "Nom d'utilizaire"
+
+msgid "report.comment_label"
+msgstr "<strong>Comentari</strong> : %{data}"
+
+msgid "report.confirm_deletion"
+msgstr "Sètz segur que volètz suprimir aqueste element ?"
+
+msgid "report.delete_link"
+msgstr "Suprimir l'element"
+
+msgid "report.not_found"
+msgstr ""
+"La publicacion/comentari es pas estat trobat. Sembla qu'es estat suprimit "
+"per l'utilizaire !"
+
+msgid "report.post_label"
+msgstr "<strong>Publicacion</strong> : %{content}"
+
+msgid "report.reason_label"
+msgstr "Rason :"
+
+msgid "report.reported_label"
+msgstr "<strong>Senhalat per</strong> %{person}"
+
+msgid "report.reported_user_details"
+msgstr "Detalhs sus l'utilizaire senhalat"
+
+msgid "report.review_link"
+msgstr "Marcat coma revist."
+
+msgid "report.status.destroyed"
+msgstr "Lo messatge es estat destruit"
+
+msgid "report.status.failed"
+msgstr "I a agut un problèma."
+
+msgid "report.title"
+msgstr "Vista d'ensemble dels senhalaments"
+
+msgid "report.unreviewed_reports"
+msgid_plural "report.unreviewed_reports.zero"
+msgstr[0] "I a un rapòrt pas repassat."
+msgstr[1] "I a pas cap de rapòrt pas repassat."
+
+msgid "reshares.comment_email_subject"
+msgstr "Partiment per %{resharer} d'un messatge de %{author}"
+
+msgid "reshares.create.error"
+msgstr "Fracàs al moment de tornar partejar."
+
+msgid "reshares.reshare.deleted"
+msgstr "La publicacion originala foguèt suprimida per son autor."
+
+msgid "reshares.reshare.reshare_confirmation"
+msgstr "Volètz tornar partejar la publicacion a %{author} ?"
+
+msgid "reshares.reshare.reshared_via"
+msgstr "Repartejat per"
+
+msgid "search"
+msgstr "Recercar"
+
+msgid "services.create.already_authorized"
+msgstr ""
+"Un utilizaire que l'identificant diaspora*%{service_name} es %{diaspora_id} "
+"a ja autorizat aqueste compte %{service_name}."
+
+msgid "services.create.failure"
+msgstr "Fracàs de l'autentificacion."
+
+msgid "services.create.read_only_access"
+msgstr "Accès en lectura sola, ensajatz tornamai d'autorizar pus tard"
+
+msgid "services.create.success"
+msgstr "Autentificacion capitada"
+
+msgid "services.destroy.success"
+msgstr "Autentificacion suprimida."
+
+msgid "services.failure.error"
+msgstr "Una error s'es produita al moment de la connexion amb aqueste servici"
+
+msgid "services.index.connect"
+msgstr "Connectar"
+
+msgid "services.index.disconnect"
+msgstr "Se desconnectar"
+
+msgid "services.index.edit_services"
+msgstr "Modificar los servicis"
+
+msgid "services.index.logged_in_as"
+msgstr "Connectat coma %{nickname}."
+
+msgid "services.index.no_services_available"
+msgstr "I a pas cap de servici de disponible sus aqueste pod."
+
+msgid "services.index.not_logged_in"
+msgstr "Actualament, sètz pas connectat."
+
+msgid "services.index.really_disconnect"
+msgstr "Se desconnectar de %{service} ?"
+
+msgid "services.index.services_explanation"
+msgstr ""
+"Se connectar a de servicis tèrces vos permet de publicar vòstras "
+"publicacions suls aqueles servicis quand n'escrivètz sus diaspora*."
+
+msgid "services.index.share_to"
+msgstr "Partejar amb %{provider}"
+
+msgid "services.index.title"
+msgstr "Gerir los servicis connectats"
+
+msgid "services.provider.tumblr"
+msgstr "Tumblr"
+
+msgid "services.provider.twitter"
+msgstr "Twitter"
+
+msgid "services.provider.wordpress"
+msgstr "WordPress"
+
+msgid "settings"
+msgstr "Paramètres"
+
+msgid "shared.aspect_dropdown.mobile_row_checked"
+msgstr "%{name} (suprimir)"
+
+msgid "shared.aspect_dropdown.mobile_row_unchecked"
+msgstr "%{name} (apondre)"
+
+msgid "shared.aspect_dropdown.toggle"
+msgid_plural "shared.aspect_dropdown.toggle.zero"
+msgstr[0] "Dins %{count} aspècte"
+msgstr[1] "Apondre lo contacte"
+
+msgid "shared.invitations.by_email"
+msgstr "Convidar de monde per corrièl"
+
+msgid "shared.invitations.invite_your_friends"
+msgstr "Convidar vòstres amics"
+
+msgid "shared.invitations.invites"
+msgstr "Convits"
+
+msgid "shared.invitations.share_this"
+msgstr "Partejatz aqueste ligam via corrièl, blog, o malhums socials !"
+
+msgid "shared.public_explain.atom_feed"
+msgstr "Flux Atom"
+
+msgid "shared.public_explain.control_your_audience"
+msgstr "Contrarotlatz vòstra audiéncia"
+
+msgid "shared.public_explain.logged_in"
+msgstr "Connectat a %{service}"
+
+msgid "shared.public_explain.manage"
+msgstr "Gerir los servicis connectats"
+
+msgid "shared.public_explain.new_user_welcome_message"
+msgstr ""
+"Utilizatz las #etiquetas per triar vòstras publicacions e per trobar de "
+"monde que partejan vòstres interèsses. Interpellatz de personas genialas amb "
+"las @Mencions"
+
+msgid "shared.public_explain.outside"
+msgstr ""
+"Los messatges publics poiràn èsser vistes per totes, quitament en defòra de "
+"diaspora*."
+
+msgid "shared.public_explain.share"
+msgstr "Partejatz"
+
+msgid "shared.public_explain.title"
+msgstr "Metre en plaça de servicis connectats"
+
+msgid "shared.public_explain.visibility_dropdown"
+msgstr ""
+"Utilizatz aqueste menú per cambiar la visibilitat de vòstra publicacion. "
+"(Vos recomandam de marcar la primièra coma publica)"
+
+msgid "shared.publisher.discard_post"
+msgstr "Suprimir la publicacion"
+
+msgid "shared.publisher.formatWithMarkdown"
+msgstr ""
+"Utilizatz la sintaxi %{markdown_link} per metre en forma vòstre messatge"
+
+msgid "shared.publisher.get_location"
+msgstr "Apondre vòstra localizacion"
+
+msgid "shared.publisher.new_user_prefill.hello"
+msgstr "Adiu mond, soi %{new_user_tag}. "
+
+msgid "shared.publisher.new_user_prefill.i_like"
+msgstr "M'interèssa %{tags}. "
+
+msgid "shared.publisher.new_user_prefill.invited_by"
+msgstr "Mercé pel convit, "
+
+msgid "shared.publisher.new_user_prefill.newhere"
+msgstr "novèlaicí"
+
+msgid "shared.publisher.poll.add_a_poll"
+msgstr "Apondre un sondatge"
+
+msgid "shared.publisher.posting"
+msgstr "Publicacion..."
+
+msgid "shared.publisher.remove_location"
+msgstr "Suprimir l'emplaçament"
+
+msgid "shared.publisher.share"
+msgstr "Partejar"
+
+msgid "shared.publisher.whats_on_your_mind"
+msgstr "A de qué pensatz ?"
+
+msgid "shared.stream_element.via"
+msgstr "Via %{link}"
+
+msgid "shared.stream_element.via_mobile"
+msgstr "Enviat d'un mobil"
+
+msgid "simple_captcha.label"
+msgstr "Entratz lo còdi dins lo camp"
+
+msgid "simple_captcha.message.default"
+msgstr "Lo còdi provesit correspond pas a l'imatge"
+
+msgid "simple_captcha.message.failed"
+msgstr "La verificacion antirobòt a fracassat"
+
+msgid "simple_captcha.message.user"
+msgstr "L'imatge e lo còdi son diferents"
+
+msgid "simple_captcha.placeholder"
+msgstr "Sasissètz lo contengut de l'imatge"
+
+msgid "statistics.active_users_halfyear"
+msgstr "Utilizaires actius aqueste semèstre"
+
+msgid "statistics.active_users_monthly"
+msgstr "Utilizaires actius per mes"
+
+msgid "statistics.closed"
+msgstr "Tampat"
+
+msgid "statistics.disabled"
+msgstr "Indisponible"
+
+msgid "statistics.enabled"
+msgstr "Disponible"
+
+msgid "statistics.local_comments"
+msgstr "Comentaris locals"
+
+msgid "statistics.local_posts"
+msgstr "Messatges locals"
+
+msgid "statistics.name"
+msgstr "Nom"
+
+msgid "statistics.network"
+msgstr "Ret"
+
+msgid "statistics.open"
+msgstr "Dubèrt"
+
+msgid "statistics.registrations"
+msgstr "Enregistraments"
+
+msgid "statistics.services"
+msgstr "Servicis"
+
+msgid "statistics.total_users"
+msgstr "Total d'utilizaires"
+
+msgid "statistics.version"
+msgstr "Version"
+
+msgid "status_messages.bad_aspects"
+msgstr ""
+"Los ID d’aspèctes fornits son pas aplicables (existisson pas o son pas "
+"vòstres)"
+
+msgid "status_messages.new.mentioning"
+msgstr "Menciona : %{person}"
+
+msgid "status_messages.too_long"
+msgstr ""
+"Avisatz-vos d'escriure un messatge d'estatut de %{count} caractèrs maximum. "
+"Compta actualament %{current_length} caractèrs."
+
+msgid "stream_helper.no_more_posts"
+msgstr "Avètz atent la fin d'aqueste flux."
+
+msgid "stream_helper.no_posts_yet"
+msgstr "I a pas encara cap de messatge aicí."
+
+msgid "streams.activity.title"
+msgstr "Mon activitat"
+
+msgid "streams.admin.title"
+msgstr "Administracion"
+
+msgid "streams.aspects.all"
+msgstr "Totes los aspèctes"
+
+msgid "streams.aspects.title"
+msgstr "Mos aspèctes"
+
+msgid "streams.aspects_stream"
+msgstr "Aspèctes"
+
+msgid "streams.comment_stream.title"
+msgstr "Publicacions comentadas"
+
+msgid "streams.commented.title"
+msgstr "Publicacions comentadas"
+
+msgid "streams.community_spotlight_stream"
+msgstr "Actualitat de la comunitat"
+
+msgid "streams.followed_tag.add_a_tag"
+msgstr "Apondre una etiqueta"
+
+msgid "streams.followed_tag.all"
+msgstr "Totas las etiquetas"
+
+msgid "streams.followed_tag.follow"
+msgstr "Seguir"
+
+msgid "streams.followed_tag.title"
+msgstr "#Etiquetas seguidas"
+
+msgid "streams.followed_tags_stream"
+msgstr "#Etiquetas seguidas"
+
+msgid "streams.like_stream.title"
+msgstr "Flux dels elements qu'agradan"
+
+msgid "streams.liked.title"
+msgstr "Publicacions aimadas"
+
+msgid "streams.mentioned_stream"
+msgstr "@Mencions"
+
+msgid "streams.mentions.title"
+msgstr "@Mencions"
+
+msgid "streams.multi.title"
+msgstr "Flux"
+
+msgid "streams.public.title"
+msgstr "Activitat publica"
+
+msgid "streams.tags.title"
+msgstr "Messatges etiquetats : %{tags}"
+
+msgid "tag_followings.manage.no_tags"
+msgstr "Seguissètz pas cap d'etiquetas."
+
+msgid "tag_followings.manage.title"
+msgstr "Gerir las etiquetas"
+
+msgid "tags.name_too_long"
+msgstr ""
+"Vòstre tag deu far mens de %{count} caractèrs ( actualament, "
+"%{current_length})"
+
+msgid "tags.show.follow"
+msgstr "Seguir #%{tag}"
+
+msgid "tags.show.none"
+msgstr "L'etiqueta voida existís pas !"
+
+msgid "tags.show.stop_following"
+msgstr "Quitar de seguir #%{tag}"
+
+msgid "tags.show.tagged_people"
+msgid_plural "tags.show.tagged_people.zero"
+msgstr[0] "1 persona marcada amb %{tag}"
+msgstr[1] "Degun es pas marcat amb %{tag}"
+
+msgid "two_factor_auth.activated.change_button"
+msgstr "Desactivar"
+
+msgid "two_factor_auth.activated.change_label"
+msgstr "Desactivatz l’autentificacion en dos temps en picar vòstre senhal"
+
+msgid "two_factor_auth.activated.status"
+msgstr "Autentificacion en dos temps activiada"
+
+msgid "two_factor_auth.confirm.activate_button"
+msgstr "Confirmar e activar"
+
+msgid "two_factor_auth.confirm.input_explanation"
+msgstr ""
+"Aprèp aver numerizat o picat lo secret, picatz lo còdi de sièis chifras que "
+"vesètz e confirmatz lo parametratge."
+
+msgid "two_factor_auth.confirm.input_title"
+msgstr "Confirmar amb un geton TOTP"
+
+msgid "two_factor_auth.confirm.manual_explanation"
+msgstr ""
+"Se per cas poscatz pas numerizar lo còdi QR automaticament podètz picar a la "
+"man lo secret dins vòstra aplicacion."
+
+msgid "two_factor_auth.confirm.manual_explanation_cont"
+msgstr ""
+"Utilizam TOTP (time-based one-time passwords, senhal unic basat sus l’ora) "
+"amb de getons de sièis chifras. Se per cas vòstra aplicacion vos demande un "
+"interval de temps e un algoritme picatz 30 segondas e sha1.<br /> Los "
+"espacis son per una lectura de bon legir, volgatz picar lo còdi sens eles."
+
+msgid "two_factor_auth.confirm.scan_explanation"
+msgstr ""
+"Volgatz numerizar lo còdi QR amb una aplicacion compatibla TOTP, coma andOTP "
+"(Android), FreeOTP (iOS), SailOTP (SailfishOS)."
+
+msgid "two_factor_auth.confirm.scan_title"
+msgstr "Numerizar lo còdi QR"
+
+msgid "two_factor_auth.confirm.status"
+msgstr ""
+"L’autentificacion es pas complètament activada, vos cal confirmar "
+"l’activacion amb un geton TOTP"
+
+msgid "two_factor_auth.confirm.title"
+msgstr "Confirmatz l’activacion"
+
+msgid "two_factor_auth.deactivated.change_button"
+msgstr "Activar"
+
+msgid "two_factor_auth.deactivated.change_label"
+msgstr "Activar l’autentificacion en dos temps"
+
+msgid "two_factor_auth.deactivated.status"
+msgstr "L’autentificacion en dos temps es pas activada"
+
+msgid "two_factor_auth.explanation"
+msgstr ""
+"L’autentificacion dos factors es un biais poderós de s’assegurar que sètz "
+"ben vos l’unica persona a vos connectar a vòstre compte. Al moment de vos "
+"connectar, picaretz un còdi de 6 chifras aprèp vòstre senhal per provar "
+"vòstra identitat. Siatz prudent : se perdatz vòstre mobil e los còdis de "
+"recuperacion creats a l’activacion d’aquesta foncionalitat, l’accès a vòstre "
+"compte diaspora* serà blocat per totjorn."
+
+msgid "two_factor_auth.flash.error_token"
+msgstr "Lo geton èra incorrècte o invalid"
+
+msgid "two_factor_auth.flash.success_activation"
+msgstr "Autentificacion en dos temps corrèctament activada"
+
+msgid "two_factor_auth.flash.success_deactivation"
+msgstr "Autentificacion en dos temps corrèctament desactivada"
+
+msgid "two_factor_auth.input_token.label"
+msgstr "Geton dos factors"
+
+msgid "two_factor_auth.input_token.placeholder"
+msgstr "geton dos factor en sièis chifras"
+
+msgid "two_factor_auth.recovery.button"
+msgstr "Generar de nòus còdis de recuperacion"
+
+msgid "two_factor_auth.recovery.explanation"
+msgstr ""
+"Se per cas perdatz lo mobil, podètz utilizar un dels còdis de recuperacion "
+"çai-jos per tornar obténer l’accès al compte. Gardatz los còdis de "
+"recuperacion en un lòc segur. Per exemple, podètz los imprimir e gardar amb "
+"d’autres documents importants."
+
+msgid "two_factor_auth.recovery.explanation_short"
+msgstr ""
+"Los còdis de recuperacion vos permeton de tornar obténer l’accès al compte "
+"se per cas perdatz lo mobil. Notatz que podètz pas qu’utilizar cada còdi pas "
+"qu’un còp."
+
+msgid "two_factor_auth.recovery.invalidation_notice"
+msgstr ""
+"Se perdètz los còdis de recuperacion, podètz los regenerar aquí. Los ancians "
+"còdis de recuperacion seràn pas mai valids."
+
+msgid "two_factor_auth.recovery.reminder"
+msgstr "Autrament podètz utilizar un dels còdis de recuperacion."
+
+msgid "two_factor_auth.recovery.title"
+msgstr "Còdis de recuperacion"
+
+msgid "two_factor_auth.title"
+msgstr "Autentificacion en dos temps"
+
+msgid "username"
+msgstr "Nom d'utilizaire"
+
+msgid "users.confirm_email.email_confirmed"
+msgstr "Corrièl %{email} activat"
+
+msgid "users.confirm_email.email_not_confirmed"
+msgstr "Avèm pas pogut activar lo corrièl. Marrit ligam ?"
+
+msgid "users.destroy.no_password"
+msgstr "Mercé de picar vòstre sehnal actual per tampar lo vòstre compte."
+
+msgid "users.destroy.success"
+msgstr ""
+"Vòstre compte es estat verrolhat. Pòt prene vint minuta per ne finalizar la "
+"tampadura. Mercés d'aver ensajat diaspora*."
+
+msgid "users.destroy.wrong_password"
+msgstr "Lo senhal dintrat correpond pas amb lo senhal actual."
+
+msgid "users.edit.also_commented"
+msgstr "qualqu'un a comentat una publicacion qu'avètz comentada"
+
+msgid "users.edit.auto_follow_aspect"
+msgstr "Aspècte pels utilizaires seguits automaticament :"
+
+msgid "users.edit.auto_follow_back"
+msgstr "Apondre automaticament los utilizaires que partejan amb vos"
+
+msgid "users.edit.birthday"
+msgstr "qualqu’un fa un an mai"
+
+msgid "users.edit.change"
+msgstr "Modificar"
+
+msgid "users.edit.change_color_theme"
+msgstr "Cambiar lo tèma de color"
+
+msgid "users.edit.change_email"
+msgstr "Cambiar de corrièl"
+
+msgid "users.edit.change_language"
+msgstr "Cambiar la lenga"
+
+msgid "users.edit.change_password"
+msgstr "Cambiar lo senhal"
+
+msgid "users.edit.character_minimum_expl"
+msgstr "deu conténer sièis caractèrs al minim"
+
+msgid "users.edit.close_account.dont_go"
+msgstr "E, se vos plai, patiscatz pas !"
+
+msgid "users.edit.close_account.lock_username"
+msgstr ""
+"Vòstre nom d'utilizaire serà verrolhat. Poiretz pas crear un novèl compte "
+"sus aqueste pod amb lo meteis ID."
+
+msgid "users.edit.close_account.locked_out"
+msgstr ""
+"Seretz desconnectat e vòstre compte serà inaccessible fins a sa supression."
+
+msgid "users.edit.close_account.make_diaspora_better"
+msgstr ""
+"Nos agradariá fòrça que demorèssetz e nos ajudèssetz a far un melhor "
+"diaspora* puslèu que de nos daissar. Se volètz vertadièrament partir, "
+"pasmens, vaquí çò que se va passar :"
+
+msgid "users.edit.close_account.mr_wiggles"
+msgstr "Mossur Wiggles serà triste de vos veire partir."
+
+msgid "users.edit.close_account.no_turning_back"
+msgstr ""
+"Es pas possible de tornar en arrièr ! Se sètz segur de vos, sasissètz vòstre "
+"senhal çaijós."
+
+msgid "users.edit.close_account.what_we_delete"
+msgstr ""
+"Suprimirem totas vòstras publicacions e informacions de perfil tre que "
+"possible. Vòstres comentaris sus la publicacion del mond desapareisseràn, "
+"mai seràn associats a vòstre ID diaspora* al lòc de vòstre nom."
+
+msgid "users.edit.close_account_text"
+msgstr "Tampar lo compte"
+
+msgid "users.edit.comment_on_post"
+msgstr "qualqu'un a comentat vòstra publicacion"
+
+msgid "users.edit.current_password"
+msgstr "Senhal actual"
+
+msgid "users.edit.current_password_expl"
+msgstr "Lo senhal que causissètz..."
+
+msgid "users.edit.default_post_visibility"
+msgstr "Aspèctes per defaut seleccionats per las publicacions"
+
+msgid "users.edit.download_export"
+msgstr "Telecargar mon perfil"
+
+msgid "users.edit.download_export_photos"
+msgstr "Telecargar mas fòtos"
+
+msgid "users.edit.edit_account"
+msgstr "Modificar lo compte"
+
+msgid "users.edit.email_awaiting_confirmation"
+msgstr ""
+"Vos avèm mandat un ligam d'activacion a l'adreça %{unconfirmed_email}. Fins "
+"al moment qu'auretz sul ligam e activetz la novèla adreça, anam contunhar "
+"d'utilizar vòstra adreça d'origina %{email}."
+
+msgid "users.edit.export_data"
+msgstr "Exportar de donadas"
+
+msgid "users.edit.export_in_progress"
+msgstr ""
+"Sèm a tractar vòstras donadas. Verificatz tornamai l'avançament dins un "
+"moment."
+
+msgid "users.edit.export_photos_in_progress"
+msgstr "Sèm a tractar vòstras fòtos. Tornatz aicí dins un momenton."
+
+msgid "users.edit.following"
+msgstr "Paramètres de partiment"
+
+msgid "users.edit.last_exported_html"
+msgstr "(Darrièra mesa a jorn %{timeago})"
+
+msgid "users.edit.liked"
+msgstr "qualqu'un a aimat vòstra publicacion"
+
+msgid "users.edit.mentioned"
+msgstr "qualqu'un vos a mencionat dins un messatge"
+
+msgid "users.edit.mentioned_in_comment"
+msgstr "qualqu'un vos a mencionat dins un comentari"
+
+msgid "users.edit.new_password"
+msgstr "Senhal novèl"
+
+msgid "users.edit.private_message"
+msgstr "avètz recebut un messatge privat."
+
+msgid "users.edit.protocol_handler.browser"
+msgstr ""
+"Aqueste protocòl es a una etapa experimentala e lo bon foncionament de las "
+"interraccions depend del navigador. Se volètz gerir o tirar aqueste "
+"gestionari, avètz d’utilizar los paramètres del navegador. Lo boton çai-jos "
+"serà totjorn activat, vos caldrà configurar lo gestionari a despart en cada "
+"navegador qu’utilizatz."
+
+msgid "users.edit.protocol_handler.description"
+msgstr ""
+"Clicatz lo boton per configurar lo navegador per permetre la dobertura de "
+"las URL web+diaspora:// a partir de vòstre pod preferit. Aquò es "
+"experimental pel moment e las interaccions dependràn de vòstre navegador."
+
+msgid "users.edit.protocol_handler.register"
+msgstr "Enregistrar"
+
+msgid "users.edit.protocol_handler.title"
+msgstr "Gestionari de protocòl web+diaspora://"
+
+msgid "users.edit.receive_email_notifications"
+msgstr "Recebre una notificacion per corrièl quand :"
+
+msgid "users.edit.request_export"
+msgstr "Demandar mas donadas de perfil"
+
+msgid "users.edit.request_export_photos"
+msgstr "Demandar mas fòtos"
+
+msgid "users.edit.request_export_photos_update"
+msgstr "Refrescar mas fòtos."
+
+msgid "users.edit.request_export_update"
+msgstr "Refrescar mas donadas de perfil"
+
+msgid "users.edit.reshared"
+msgstr "qualqu'un a tornat partejar vòstra publicacion"
+
+msgid "users.edit.show_community_spotlight"
+msgstr "Mostrar l'actualitat de la comunitat dins lo flux"
+
+msgid "users.edit.show_getting_started"
+msgstr "Mostrar las astúcias de descoberta"
+
+msgid "users.edit.someone_reported"
+msgstr "Qualqu'un a senhalat un messatge"
+
+msgid "users.edit.started_sharing"
+msgstr "qualqu'un a començat de partejar amb vos"
+
+msgid "users.edit.stream_preferences"
+msgstr "Preferéncias del flux"
+
+msgid "users.edit.your_email"
+msgstr "Vòstre corrièl"
+
+msgid "users.edit.your_email_private"
+msgstr "Vòstre email serà pas jamai vist per d'autres utilizaires"
+
+msgid "users.edit.your_handle"
+msgstr "Vòstre ID diaspora*"
+
+msgid "users.getting_started.awesome_take_me_to_diaspora"
+msgstr "Òsca ! Mena-me cap a diaspora*"
+
+msgid "users.getting_started.community_welcome"
+msgstr "La comunautat diaspora* es contenta de vos aver a bòrd."
+
+msgid "users.getting_started.hashtag_explanation"
+msgstr ""
+"Las etiquetas vos permeton de charrar e seguir vòstres interèsses. Son "
+"tanben una bona manièra de trobar de mond novèl sus diaspora*."
+
+msgid "users.getting_started.hashtag_suggestions"
+msgstr "Ensajatz etiquetas coma aquestas #art #filmes #gif, etc."
+
+msgid "users.getting_started.well_hello_there"
+msgstr "E ben, adiu monde !"
+
+msgid "users.getting_started.what_are_you_in_to"
+msgstr "Qué vos interèssa ?"
+
+msgid "users.getting_started.who_are_you"
+msgstr "Qual sètz ?"
+
+msgid "users.privacy_settings.ignored_users"
+msgstr "Utilizaires ignorats"
+
+msgid "users.privacy_settings.no_user_ignored_message"
+msgstr "Actualament, ignoratz pas degun"
+
+msgid "users.privacy_settings.stop_ignoring"
+msgstr "Arrestar d'ignorar"
+
+msgid "users.privacy_settings.strip_exif"
+msgstr ""
+"Levar dels imatges mandats las metadonadas talas coma luòc de presa, autor o "
+"modèl d'aparelh fòto (recomandat)"
+
+msgid "users.privacy_settings.title"
+msgstr "Reglatges de confidencialitat"
+
+msgid "users.public.does_not_exist"
+msgstr "L’utilizaire %{username} existís pas !"
+
+msgid "users.update.color_theme_changed"
+msgstr "Tèma de color cambiat."
+
+msgid "users.update.color_theme_not_changed"
+msgstr "Una error s'es produita pendent lo cambiament de tèma de color."
+
+msgid "users.update.email_notifications_changed"
+msgstr "Notificacions corrièl cambiadas"
+
+msgid "users.update.follow_settings_changed"
+msgstr "Reglatges cambiats pel seguiment"
+
+msgid "users.update.follow_settings_not_changed"
+msgstr "Cambiament dels reglatges pel seguiment fracassat."
+
+msgid "users.update.language_changed"
+msgstr "Lenga cambiada"
+
+msgid "users.update.language_not_changed"
+msgstr "Cambiament de lenga fracassat"
+
+msgid "users.update.password_changed"
+msgstr "Senhal cambiat. Ara, vos podètz connectar amb lo senhal novèl."
+
+msgid "users.update.password_not_changed"
+msgstr "Cambiament de senhal mancat"
+
+msgid "users.update.settings_not_updated"
+msgstr "Mesa a jorn fracassada"
+
+msgid "users.update.settings_updated"
+msgstr "Reglatges mes a jorn"
+
+msgid "users.update.unconfirmed_email_changed"
+msgstr "Corrièl cambiat. Cal far una activacion."
+
+msgid "users.update.unconfirmed_email_not_changed"
+msgstr "Cambiament de corrièl mancat"
+
+msgid "will_paginate.next_label"
+msgstr "seguent &raquo;"
+
+msgid "will_paginate.previous_label"
+msgstr "&laquo; precedent"

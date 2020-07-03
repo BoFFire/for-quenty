@@ -1,0 +1,2907 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: en.yml conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 18:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Api-Version: 1.0.24 20200529-1"
+
+msgid "settings"
+msgstr ""
+
+msgid "profile"
+msgstr ""
+
+msgid "account"
+msgstr ""
+
+msgid "privacy"
+msgstr ""
+
+msgid "_services"
+msgstr ""
+
+msgid "_applications"
+msgstr ""
+
+msgid "_help"
+msgstr ""
+
+msgid "ok"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "delete"
+msgstr ""
+
+msgid "username"
+msgstr ""
+
+msgid "email"
+msgstr ""
+
+msgid "are_you_sure"
+msgstr ""
+
+msgid "are_you_sure_delete_account"
+msgstr ""
+
+msgid "are_you_sure_ignore_user"
+msgstr ""
+
+msgid "fill_me_out"
+msgstr ""
+
+msgid "public"
+msgstr ""
+
+msgid "limited"
+msgstr ""
+
+msgid "search"
+msgstr ""
+
+msgid "nsfw"
+msgstr ""
+
+msgid "find_people"
+msgstr ""
+
+msgid "more"
+msgstr ""
+
+msgid "all_aspects"
+msgstr ""
+
+msgid "no_results"
+msgstr ""
+
+msgid "_contacts"
+msgstr ""
+
+msgid "_terms"
+msgstr ""
+
+msgid "_statistics"
+msgstr ""
+
+msgid "activerecord.errors.models.user.attributes.person.invalid"
+msgstr ""
+
+msgid "activerecord.errors.models.user.attributes.username.taken"
+msgstr ""
+
+msgid "activerecord.errors.models.user.attributes.username.invalid"
+msgstr ""
+
+msgid "activerecord.errors.models.user.attributes.email.taken"
+msgstr ""
+
+msgid "activerecord.errors.models.person.attributes.diaspora_handle.taken"
+msgstr ""
+
+msgid "activerecord.errors.models.contact.attributes.person_id.taken"
+msgstr ""
+
+msgid "activerecord.errors.models.reshare.attributes.root_guid.taken"
+msgstr ""
+
+msgid ""
+"activerecord.errors.models.poll.attributes.poll_answers."
+"not_enough_poll_answers"
+msgstr ""
+
+msgid ""
+"activerecord.errors.models.poll_participation.attributes.poll."
+"already_participated"
+msgstr ""
+
+msgid "errors.messages.carrierwave_processing_error"
+msgstr ""
+
+msgid "errors.messages.carrierwave_integrity_error"
+msgstr ""
+
+msgid "errors.messages.carrierwave_download_error"
+msgstr ""
+
+msgid "errors.messages.extension_whitelist_error"
+msgstr ""
+
+msgid "errors.messages.extension_blacklist_error"
+msgstr ""
+
+msgid "errors.messages.content_type_whitelist_error"
+msgstr ""
+
+msgid "errors.messages.content_type_blacklist_error"
+msgstr ""
+
+msgid "errors.messages.rmagick_processing_error"
+msgstr ""
+
+msgid "errors.messages.mini_magick_processing_error"
+msgstr ""
+
+msgid "errors.messages.min_size_error"
+msgstr ""
+
+msgid "errors.messages.max_size_error"
+msgstr ""
+
+msgid "error_messages.helper.correct_the_following_errors_and_try_again"
+msgstr ""
+
+msgid "error_messages.need_javascript"
+msgstr ""
+
+msgid "error_messages.csrf_token_fail"
+msgstr ""
+
+msgid "admins.admin_bar.pages"
+msgstr ""
+
+msgid "admins.admin_bar.dashboard"
+msgstr ""
+
+msgid "admins.admin_bar.user_search"
+msgstr ""
+
+msgid "admins.admin_bar.weekly_user_stats"
+msgstr ""
+
+msgid "admins.admin_bar.pod_stats"
+msgstr ""
+
+msgid "admins.admin_bar.report"
+msgstr ""
+
+msgid "admins.admin_bar.sidekiq_monitor"
+msgstr ""
+
+msgid "admins.admin_bar.pod_network"
+msgstr ""
+
+msgid "admins.dashboard.pod_status"
+msgstr ""
+
+msgid "admins.dashboard.fetching_diaspora_version"
+msgstr ""
+
+msgid "admins.user_search.you_currently"
+msgid_plural "admins.user_search.you_currently.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.user_search.view_profile"
+msgstr ""
+
+msgid "admins.user_search.add_invites"
+msgstr ""
+
+msgid "admins.user_search.close_account"
+msgstr ""
+
+msgid "admins.user_search.lock_account"
+msgstr ""
+
+msgid "admins.user_search.unlock_account"
+msgstr ""
+
+msgid "admins.user_search.are_you_sure"
+msgstr ""
+
+msgid "admins.user_search.are_you_sure_lock_account"
+msgstr ""
+
+msgid "admins.user_search.are_you_sure_unlock_account"
+msgstr ""
+
+msgid "admins.user_search.account_closing_scheduled"
+msgstr ""
+
+msgid "admins.user_search.account_locking_scheduled"
+msgstr ""
+
+msgid "admins.user_search.account_unlocking_scheduled"
+msgstr ""
+
+msgid "admins.user_search.make_admin"
+msgstr ""
+
+msgid "admins.user_search.remove_admin"
+msgstr ""
+
+msgid "admins.user_search.make_moderator"
+msgstr ""
+
+msgid "admins.user_search.remove_moderator"
+msgstr ""
+
+msgid "admins.user_search.make_spotlight"
+msgstr ""
+
+msgid "admins.user_search.remove_spotlight"
+msgstr ""
+
+msgid "admins.user_search.add_admin"
+msgstr ""
+
+msgid "admins.user_search.delete_admin"
+msgstr ""
+
+msgid "admins.user_search.add_moderator"
+msgstr ""
+
+msgid "admins.user_search.delete_moderator"
+msgstr ""
+
+msgid "admins.user_search.add_spotlight"
+msgstr ""
+
+msgid "admins.user_search.delete_spotlight"
+msgstr ""
+
+msgid "admins.user_search.does_not_exist"
+msgstr ""
+
+msgid "admins.user_search.role_implemented"
+msgstr ""
+
+msgid "admins.user_search.role_removal_implemented"
+msgstr ""
+
+msgid "admins.user_search.email_to"
+msgstr ""
+
+msgid "admins.user_search.invite"
+msgstr ""
+
+msgid "admins.user_search.under_13"
+msgstr ""
+
+msgid "admins.user_search.users"
+msgid_plural "admins.user_search.users.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.user_entry.id"
+msgstr ""
+
+msgid "admins.user_entry.guid"
+msgstr ""
+
+msgid "admins.user_entry.email"
+msgstr ""
+
+msgid "admins.user_entry.diaspora_handle"
+msgstr ""
+
+msgid "admins.user_entry.last_seen"
+msgstr ""
+
+msgid "admins.user_entry.account_closed"
+msgstr ""
+
+msgid "admins.user_entry.nsfw"
+msgstr ""
+
+msgid "admins.user_entry.admin"
+msgstr ""
+
+msgid "admins.user_entry.moderator"
+msgstr ""
+
+msgid "admins.user_entry.spotlight"
+msgstr ""
+
+msgid "admins.user_entry.unknown"
+msgstr ""
+
+msgid "admins.user_entry.invite_token"
+msgstr ""
+
+msgid "admins.user_entry.yes"
+msgstr ""
+
+msgid "admins.user_entry.no"
+msgstr ""
+
+msgid "admins.weekly_user_stats.current_server"
+msgstr ""
+
+msgid "admins.weekly_user_stats.amount_of"
+msgid_plural "admins.weekly_user_stats.amount_of.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.stats.week"
+msgstr ""
+
+msgid "admins.stats.2weeks"
+msgstr ""
+
+msgid "admins.stats.month"
+msgstr ""
+
+msgid "admins.stats.daily"
+msgstr ""
+
+msgid "admins.stats.usage_statistic"
+msgstr ""
+
+msgid "admins.stats.go"
+msgstr ""
+
+msgid "admins.stats.display_results"
+msgstr ""
+
+msgid "admins.stats.posts"
+msgid_plural "admins.stats.posts.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.stats.comments"
+msgid_plural "admins.stats.comments.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.stats.shares"
+msgid_plural "admins.stats.shares.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.stats.users"
+msgid_plural "admins.stats.users.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "admins.stats.current_segment"
+msgstr ""
+
+msgid "admins.stats.50_most"
+msgstr ""
+
+msgid "admins.stats.tag_name"
+msgstr ""
+
+msgid "admins.pods.pod_network"
+msgstr ""
+
+msgid "admins.pods.pod_desktop_view"
+msgstr ""
+
+msgid "admins.pods.pod_desktop_link"
+msgstr ""
+
+msgid "aspects.edit.confirm_remove_aspect"
+msgstr ""
+
+msgid "aspects.edit.rename"
+msgstr ""
+
+msgid "aspects.edit.aspect_list_is_visible"
+msgstr ""
+
+msgid "aspects.edit.aspect_list_is_not_visible"
+msgstr ""
+
+msgid "aspects.edit.update"
+msgstr ""
+
+msgid "aspects.edit.updating"
+msgstr ""
+
+msgid "aspects.no_contacts_message.you_should_add_some_more_contacts"
+msgstr ""
+
+msgid "aspects.no_contacts_message.try_adding_some_more_contacts"
+msgstr ""
+
+msgid "aspects.no_contacts_message.invite_link_text"
+msgstr ""
+
+msgid "aspects.no_contacts_message.or_spotlight"
+msgstr ""
+
+msgid "aspects.no_contacts_message.community_spotlight"
+msgstr ""
+
+msgid "aspects.aspect_listings.add_an_aspect"
+msgstr ""
+
+msgid "aspects.destroy.success"
+msgstr ""
+
+msgid "aspects.destroy.success_auto_follow_back"
+msgstr ""
+
+msgid "aspects.destroy.failure"
+msgstr ""
+
+msgid "aspects.update.success"
+msgstr ""
+
+msgid "aspects.update.failure"
+msgstr ""
+
+msgid "aspects.add_to_aspect.failure"
+msgstr ""
+
+msgid "aspects.add_to_aspect.success"
+msgstr ""
+
+msgid "aspects.seed.family"
+msgstr ""
+
+msgid "aspects.seed.work"
+msgstr ""
+
+msgid "aspects.seed.acquaintances"
+msgstr ""
+
+msgid "aspects.seed.friends"
+msgstr ""
+
+msgid "aspects.index.donate"
+msgstr ""
+
+msgid "aspects.index.keep_pod_running"
+msgstr ""
+
+msgid "aspects.index.donate_liberapay"
+msgstr ""
+
+msgid "aspects.index.welcome_to_diaspora"
+msgstr ""
+
+msgid "aspects.index.introduce_yourself"
+msgstr ""
+
+msgid "aspects.index.new_here.title"
+msgstr ""
+
+msgid "aspects.index.new_here.follow"
+msgstr ""
+
+msgid "aspects.index.new_here.learn_more"
+msgstr ""
+
+msgid "aspects.index.help.need_help"
+msgstr ""
+
+msgid "aspects.index.help.here_to_help"
+msgstr ""
+
+msgid "aspects.index.help.do_you"
+msgstr ""
+
+msgid "aspects.index.help.have_a_question"
+msgstr ""
+
+msgid "aspects.index.help.tag_question"
+msgstr ""
+
+msgid "aspects.index.help.find_a_bug"
+msgstr ""
+
+msgid "aspects.index.help.tag_bug"
+msgstr ""
+
+msgid "aspects.index.help.feature_suggestion"
+msgstr ""
+
+msgid "aspects.index.help.tag_feature"
+msgstr ""
+
+msgid "aspects.index.help.tutorials_and_wiki"
+msgstr ""
+
+msgid "aspects.index.help.tutorial_link_text"
+msgstr ""
+
+msgid "aspects.index.help.support_forum"
+msgstr ""
+
+msgid "aspects.index.help.support_forum_link"
+msgstr ""
+
+msgid "aspects.index.help.any_problem"
+msgstr ""
+
+msgid "aspects.index.help.contact_podmin"
+msgstr ""
+
+msgid "aspects.index.help.mail_podmin"
+msgstr ""
+
+msgid "aspects.index.services.heading"
+msgstr ""
+
+msgid "aspects.index.services.content"
+msgstr ""
+
+msgid "aspects.aspect_stream.stay_updated"
+msgstr ""
+
+msgid "aspects.aspect_stream.stay_updated_explanation"
+msgstr ""
+
+msgid "aspects.aspect_stream.make_something"
+msgstr ""
+
+msgid "aspect_memberships.destroy.success"
+msgstr ""
+
+msgid "aspect_memberships.destroy.failure"
+msgstr ""
+
+msgid "aspect_memberships.destroy.no_membership"
+msgstr ""
+
+msgid "aspect_memberships.destroy.forbidden"
+msgstr ""
+
+msgid "aspect_memberships.destroy.invalid_statement"
+msgstr ""
+
+msgid "bookmarklet.heading"
+msgstr ""
+
+msgid "bookmarklet.post_something"
+msgstr ""
+
+msgid "bookmarklet.explanation"
+msgstr ""
+
+msgid "color_themes.dark"
+msgstr ""
+
+msgid "color_themes.dark_green"
+msgstr ""
+
+msgid "color_themes.egyptian_blue"
+msgstr ""
+
+msgid "color_themes.magenta"
+msgstr ""
+
+msgid "color_themes.original"
+msgstr ""
+
+msgid "color_themes.original_white"
+msgstr ""
+
+msgid "comments.create.fail"
+msgstr ""
+
+msgid "comments.new_comment.comment"
+msgstr ""
+
+msgid "comments.new_comment.commenting"
+msgstr ""
+
+msgid "comments.destroy.success"
+msgstr ""
+
+msgid "comments.destroy.fail"
+msgstr ""
+
+msgid "comments.not_found"
+msgstr ""
+
+msgid "contacts.index.start_a_conversation"
+msgstr ""
+
+msgid "contacts.index.title"
+msgstr ""
+
+msgid "contacts.index.no_contacts"
+msgstr ""
+
+msgid "contacts.index.no_contacts_message"
+msgstr ""
+
+msgid "contacts.index.community_spotlight"
+msgstr ""
+
+msgid "contacts.index.no_contacts_in_aspect"
+msgstr ""
+
+msgid "contacts.index.my_contacts"
+msgstr ""
+
+msgid "contacts.index.all_contacts"
+msgstr ""
+
+msgid "contacts.index.only_sharing_with_me"
+msgstr ""
+
+msgid "contacts.index.add_contact"
+msgstr ""
+
+msgid "contacts.index.user_search"
+msgstr ""
+
+msgid "contacts.spotlight.community_spotlight"
+msgstr ""
+
+msgid "contacts.spotlight.suggest_member"
+msgstr ""
+
+msgid "contacts.spotlight.no_members"
+msgstr ""
+
+msgid "conversations.index.conversations_inbox"
+msgstr ""
+
+msgid "conversations.index.new_conversation"
+msgstr ""
+
+msgid "conversations.index.no_messages"
+msgstr ""
+
+msgid "conversations.index.inbox"
+msgstr ""
+
+msgid "conversations.index.no_contacts"
+msgstr ""
+
+msgid "conversations.show.reply"
+msgstr ""
+
+msgid "conversations.show.replying"
+msgstr ""
+
+msgid "conversations.show.hide"
+msgstr ""
+
+msgid "conversations.show.delete"
+msgstr ""
+
+msgid "conversations.show.last_message"
+msgstr ""
+
+msgid "conversations.new.to"
+msgstr ""
+
+msgid "conversations.new.subject"
+msgstr ""
+
+msgid "conversations.new.subject_default"
+msgstr ""
+
+msgid "conversations.new.message"
+msgstr ""
+
+msgid "conversations.new.send"
+msgstr ""
+
+msgid "conversations.new.sending"
+msgstr ""
+
+msgid "conversations.create.sent"
+msgstr ""
+
+msgid "conversations.create.fail"
+msgstr ""
+
+msgid "conversations.new_conversation.fail"
+msgstr ""
+
+msgid "conversations.destroy.delete_success"
+msgstr ""
+
+msgid "conversations.destroy.hide_success"
+msgstr ""
+
+msgid "conversations.not_found"
+msgstr ""
+
+msgid "date.formats.fullmonth_day"
+msgstr ""
+
+msgid "date.formats.birthday"
+msgstr ""
+
+msgid "date.formats.birthday_with_year"
+msgstr ""
+
+msgid "help.title_header"
+msgstr ""
+
+msgid "help.tutorials"
+msgstr ""
+
+msgid "help.tutorial"
+msgstr ""
+
+msgid "help.irc"
+msgstr ""
+
+msgid "help.wiki"
+msgstr ""
+
+msgid "help.faq"
+msgstr ""
+
+msgid "help.markdown"
+msgstr ""
+
+msgid "help.here"
+msgstr ""
+
+msgid "help.foundation_website"
+msgstr ""
+
+msgid "help.third_party_tools"
+msgstr ""
+
+msgid "help.getting_started_tutorial"
+msgstr ""
+
+msgid "help.community_guidelines"
+msgstr ""
+
+msgid "help.getting_help.title"
+msgstr ""
+
+msgid "help.getting_help.getting_started_q"
+msgstr ""
+
+msgid "help.getting_help.getting_started_a"
+msgstr ""
+
+msgid "help.getting_help.get_support_q"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_website"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_tutorials"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_wiki"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_irc"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_faq"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_hashtag"
+msgstr ""
+
+msgid "help.getting_help.get_support_a_discourse"
+msgstr ""
+
+msgid "help.account_and_data_management.title"
+msgstr ""
+
+msgid "help.account_and_data_management.move_pods_q"
+msgstr ""
+
+msgid "help.account_and_data_management.move_pods_a"
+msgstr ""
+
+msgid "help.account_and_data_management.download_data_q"
+msgstr ""
+
+msgid "help.account_and_data_management.download_data_a"
+msgstr ""
+
+msgid "help.account_and_data_management.close_account_q"
+msgstr ""
+
+msgid "help.account_and_data_management.close_account_a"
+msgstr ""
+
+msgid "help.account_and_data_management.data_visible_to_podmin_q"
+msgstr ""
+
+msgid "help.account_and_data_management.data_visible_to_podmin_a"
+msgstr ""
+
+msgid "help.account_and_data_management.data_other_podmins_q"
+msgstr ""
+
+msgid "help.account_and_data_management.data_other_podmins_a"
+msgstr ""
+
+msgid "help.aspects.title"
+msgstr ""
+
+msgid "help.aspects.what_is_an_aspect_q"
+msgstr ""
+
+msgid "help.aspects.what_is_an_aspect_a"
+msgstr ""
+
+msgid "help.aspects.who_sees_post_q"
+msgstr ""
+
+msgid "help.aspects.who_sees_post_a"
+msgstr ""
+
+msgid "help.aspects.contacts_know_aspect_q"
+msgstr ""
+
+msgid "help.aspects.contacts_know_aspect_a"
+msgstr ""
+
+msgid "help.aspects.person_multiple_aspects_q"
+msgstr ""
+
+msgid "help.aspects.person_multiple_aspects_a"
+msgstr ""
+
+msgid "help.aspects.remove_notification_q"
+msgstr ""
+
+msgid "help.aspects.remove_notification_a"
+msgstr ""
+
+msgid "help.aspects.change_aspect_of_post_q"
+msgstr ""
+
+msgid "help.aspects.change_aspect_of_post_a"
+msgstr ""
+
+msgid "help.aspects.post_multiple_aspects_q"
+msgstr ""
+
+msgid "help.aspects.post_multiple_aspects_a"
+msgstr ""
+
+msgid "help.aspects.restrict_posts_i_see_q"
+msgstr ""
+
+msgid "help.aspects.restrict_posts_i_see_a"
+msgstr ""
+
+msgid "help.aspects.rename_aspect_q"
+msgstr ""
+
+msgid "help.aspects.rename_aspect_a"
+msgstr ""
+
+msgid "help.aspects.delete_aspect_q"
+msgstr ""
+
+msgid "help.aspects.delete_aspect_a"
+msgstr ""
+
+msgid "help.mentions.title"
+msgstr ""
+
+msgid "help.mentions.what_is_a_mention_q"
+msgstr ""
+
+msgid "help.mentions.what_is_a_mention_a"
+msgstr ""
+
+msgid "help.mentions.how_to_mention_q"
+msgstr ""
+
+msgid "help.mentions.how_to_mention_a"
+msgstr ""
+
+msgid "help.mentions.mention_in_comment_q"
+msgstr ""
+
+msgid "help.mentions.mention_in_comment_a"
+msgstr ""
+
+msgid "help.mentions.see_mentions_q"
+msgstr ""
+
+msgid "help.mentions.see_mentions_a"
+msgstr ""
+
+msgid "help.pods.title"
+msgstr ""
+
+msgid "help.pods.what_is_a_pod_q"
+msgstr ""
+
+msgid "help.pods.what_is_a_pod_a"
+msgstr ""
+
+msgid "help.pods.find_people_q"
+msgstr ""
+
+msgid "help.pods.find_people_a"
+msgstr ""
+
+msgid "help.pods.use_search_box_q"
+msgstr ""
+
+msgid "help.pods.use_search_box_a"
+msgstr ""
+
+msgid "help.posts_and_posting.title"
+msgstr ""
+
+msgid "help.posts_and_posting.stream_full_of_posts_q"
+msgstr ""
+
+msgid "help.posts_and_posting.stream_full_of_posts_a1"
+msgstr ""
+
+msgid "help.posts_and_posting.stream_full_of_posts_li1"
+msgstr ""
+
+msgid "help.posts_and_posting.stream_full_of_posts_li2"
+msgstr ""
+
+msgid "help.posts_and_posting.stream_full_of_posts_li3"
+msgstr ""
+
+msgid "help.posts_and_posting.hide_posts_q"
+msgstr ""
+
+msgid "help.posts_and_posting.hide_posts_a"
+msgstr ""
+
+msgid "help.posts_and_posting.post_notification_q"
+msgstr ""
+
+msgid "help.posts_and_posting.post_notification_a"
+msgstr ""
+
+msgid "help.posts_and_posting.ignore_user_q"
+msgstr ""
+
+msgid "help.posts_and_posting.ignore_user_a1"
+msgstr ""
+
+msgid "help.posts_and_posting.ignore_user_a2"
+msgstr ""
+
+msgid "help.posts_and_posting.ignore_user_a3"
+msgstr ""
+
+msgid "help.posts_and_posting.post_report_q"
+msgstr ""
+
+msgid "help.posts_and_posting.post_report_a"
+msgstr ""
+
+msgid "help.posts_and_posting.character_limit_q"
+msgstr ""
+
+msgid "help.posts_and_posting.character_limit_a"
+msgstr ""
+
+msgid "help.posts_and_posting.char_limit_services_q"
+msgstr ""
+
+msgid "help.posts_and_posting.char_limit_services_a"
+msgstr ""
+
+msgid "help.posts_and_posting.format_text_q"
+msgstr ""
+
+msgid "help.posts_and_posting.format_text_a"
+msgstr ""
+
+msgid "help.posts_and_posting.insert_images_q"
+msgstr ""
+
+msgid "help.posts_and_posting.insert_images_a"
+msgstr ""
+
+msgid "help.posts_and_posting.insert_images_comments_q"
+msgstr ""
+
+msgid "help.posts_and_posting.insert_images_comments_a"
+msgstr ""
+
+msgid "help.posts_and_posting.size_of_images_q"
+msgstr ""
+
+msgid "help.posts_and_posting.size_of_images_a"
+msgstr ""
+
+msgid "help.posts_and_posting.embed_multimedia_q"
+msgstr ""
+
+msgid "help.posts_and_posting.embed_multimedia_a"
+msgstr ""
+
+msgid "help.posts_and_posting.post_location_q"
+msgstr ""
+
+msgid "help.posts_and_posting.post_location_a"
+msgstr ""
+
+msgid "help.posts_and_posting.post_poll_q"
+msgstr ""
+
+msgid "help.posts_and_posting.post_poll_a"
+msgstr ""
+
+msgid "help.private_posts.title"
+msgstr ""
+
+msgid "help.private_posts.who_sees_post_q"
+msgstr ""
+
+msgid "help.private_posts.who_sees_post_a"
+msgstr ""
+
+msgid "help.private_posts.can_comment_q"
+msgstr ""
+
+msgid "help.private_posts.can_comment_a"
+msgstr ""
+
+msgid "help.private_posts.can_reshare_q"
+msgstr ""
+
+msgid "help.private_posts.can_reshare_a"
+msgstr ""
+
+msgid "help.private_posts.see_comment_q"
+msgstr ""
+
+msgid "help.private_posts.see_comment_a"
+msgstr ""
+
+msgid "help.public_posts.title"
+msgstr ""
+
+msgid "help.public_posts.who_sees_post_q"
+msgstr ""
+
+msgid "help.public_posts.who_sees_post_a"
+msgstr ""
+
+msgid "help.public_posts.find_public_post_q"
+msgstr ""
+
+msgid "help.public_posts.find_public_post_a"
+msgstr ""
+
+msgid "help.public_posts.can_comment_reshare_like_q"
+msgstr ""
+
+msgid "help.public_posts.can_comment_reshare_like_a"
+msgstr ""
+
+msgid "help.public_posts.see_comment_reshare_like_q"
+msgstr ""
+
+msgid "help.public_posts.see_comment_reshare_like_a"
+msgstr ""
+
+msgid "help.public_posts.deselect_aspect_posting_q"
+msgstr ""
+
+msgid "help.public_posts.deselect_aspect_posting_a"
+msgstr ""
+
+msgid "help.profile.title"
+msgstr ""
+
+msgid "help.profile.whats_in_profile_q"
+msgstr ""
+
+msgid "help.profile.whats_in_profile_a"
+msgstr ""
+
+msgid "help.profile.who_sees_profile_q"
+msgstr ""
+
+msgid "help.profile.who_sees_profile_a"
+msgstr ""
+
+msgid "help.profile.what_do_tags_do_q"
+msgstr ""
+
+msgid "help.profile.what_do_tags_do_a"
+msgstr ""
+
+msgid "help.resharing_posts.title"
+msgstr ""
+
+msgid "help.resharing_posts.reshare_public_post_aspects_q"
+msgstr ""
+
+msgid "help.resharing_posts.reshare_public_post_aspects_a"
+msgstr ""
+
+msgid "help.resharing_posts.reshare_private_post_aspects_q"
+msgstr ""
+
+msgid "help.resharing_posts.reshare_private_post_aspects_a"
+msgstr ""
+
+msgid "help.sharing.title"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_q"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_a1"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li1"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li2"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li3"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li4"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li5"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li6"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li7"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_li8"
+msgstr ""
+
+msgid "help.sharing.add_to_aspect_a2"
+msgstr ""
+
+msgid "help.sharing.sharing_notification_q"
+msgstr ""
+
+msgid "help.sharing.sharing_notification_a"
+msgstr ""
+
+msgid "help.sharing.only_sharing_q"
+msgstr ""
+
+msgid "help.sharing.only_sharing_a"
+msgstr ""
+
+msgid "help.sharing.list_not_sharing_q"
+msgstr ""
+
+msgid "help.sharing.list_not_sharing_a"
+msgstr ""
+
+msgid "help.sharing.see_old_posts_q"
+msgstr ""
+
+msgid "help.sharing.see_old_posts_a"
+msgstr ""
+
+msgid "help.tags.title"
+msgstr ""
+
+msgid "help.tags.what_are_tags_for_q"
+msgstr ""
+
+msgid "help.tags.what_are_tags_for_a"
+msgstr ""
+
+msgid "help.tags.tags_in_comments_q"
+msgstr ""
+
+msgid "help.tags.tags_in_comments_a"
+msgstr ""
+
+msgid "help.tags.followed_tags_q"
+msgstr ""
+
+msgid "help.tags.followed_tags_a"
+msgstr ""
+
+msgid "help.tags.people_tag_page_q"
+msgstr ""
+
+msgid "help.tags.people_tag_page_a"
+msgstr ""
+
+msgid "help.tags.filter_tags_q"
+msgstr ""
+
+msgid "help.tags.filter_tags_a"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.title"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_q"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_a1"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li1"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li2"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li3"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li4"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li5"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li6"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li7"
+msgstr ""
+
+msgid "help.keyboard_shortcuts.keyboard_shortcuts_li8"
+msgstr ""
+
+msgid "help.miscellaneous.title"
+msgstr ""
+
+msgid "help.miscellaneous.back_to_top_q"
+msgstr ""
+
+msgid "help.miscellaneous.back_to_top_a"
+msgstr ""
+
+msgid "help.miscellaneous.photo_albums_q"
+msgstr ""
+
+msgid "help.miscellaneous.photo_albums_a"
+msgstr ""
+
+msgid "help.miscellaneous.subscribe_feed_q"
+msgstr ""
+
+msgid "help.miscellaneous.subscribe_feed_a"
+msgstr ""
+
+msgid "help.miscellaneous.diaspora_app_q"
+msgstr ""
+
+msgid "help.miscellaneous.diaspora_app_a"
+msgstr ""
+
+msgid "home.default.headline"
+msgstr ""
+
+msgid "home.default.part_of_diaspora"
+msgstr ""
+
+msgid "home.default.diaspora_site_link"
+msgstr ""
+
+msgid "home.default.byline"
+msgstr ""
+
+msgid "home.default.be_who_you_want_to_be"
+msgstr ""
+
+msgid "home.default.be_who_you_want_to_be_info"
+msgstr ""
+
+msgid "home.default.choose_your_audience"
+msgstr ""
+
+msgid "home.default.choose_your_audience_info"
+msgstr ""
+
+msgid "home.default.own_your_data"
+msgstr ""
+
+msgid "home.default.own_your_data_info"
+msgstr ""
+
+msgid "home.podmin.headline"
+msgstr ""
+
+msgid "home.podmin.byline"
+msgstr ""
+
+msgid "home.podmin.configure_your_pod"
+msgstr ""
+
+msgid "home.podmin.create_an_account"
+msgstr ""
+
+msgid "home.podmin.make_yourself_an_admin"
+msgstr ""
+
+msgid "home.podmin.update_your_pod"
+msgstr ""
+
+msgid "home.podmin.getting_help"
+msgstr ""
+
+msgid "home.podmin.contribute"
+msgstr ""
+
+msgid "home.podmin.configuration_info"
+msgstr ""
+
+msgid "home.podmin.create_an_account_info"
+msgstr ""
+
+msgid "home.podmin.make_yourself_an_admin_info"
+msgstr ""
+
+msgid "home.podmin.update_your_pod_info"
+msgstr ""
+
+msgid "home.podmin.update_instructions"
+msgstr ""
+
+msgid "home.podmin.getting_help_info"
+msgstr ""
+
+msgid "home.podmin.faq_for_podmins"
+msgstr ""
+
+msgid "home.podmin.contact_irc"
+msgstr ""
+
+msgid "home.podmin.contribute_info"
+msgstr ""
+
+msgid "home.podmin.report_bugs"
+msgstr ""
+
+msgid "invitation_codes.not_valid"
+msgstr ""
+
+msgid "invitation_codes.already_logged_in"
+msgstr ""
+
+msgid "invitations.create.sent"
+msgstr ""
+
+msgid "invitations.create.rejected"
+msgstr ""
+
+msgid "invitations.create.no_more"
+msgstr ""
+
+msgid "invitations.create.empty"
+msgstr ""
+
+msgid "invitations.create.note_already_sent"
+msgstr ""
+
+msgid "invitations.create.closed"
+msgstr ""
+
+msgid "invitations.new.language"
+msgstr ""
+
+msgid "invitations.new.invite_someone_to_join"
+msgstr ""
+
+msgid "invitations.new.comma_separated_plz"
+msgstr ""
+
+msgid "invitations.new.send_an_invitation"
+msgstr ""
+
+msgid "invitations.new.sending_invitation"
+msgstr ""
+
+msgid "invitations.new.paste_link"
+msgstr ""
+
+msgid "invitations.new.codes_left"
+msgid_plural "invitations.new.codes_left.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "layouts.header.profile"
+msgstr ""
+
+msgid "layouts.header.settings"
+msgstr ""
+
+msgid "layouts.header.logout"
+msgstr ""
+
+msgid "layouts.header.code"
+msgstr ""
+
+msgid "layouts.header.toggle_navigation"
+msgstr ""
+
+msgid "layouts.application.powered_by"
+msgstr ""
+
+msgid "layouts.application.whats_new"
+msgstr ""
+
+msgid "layouts.application.statistics_link"
+msgstr ""
+
+msgid "layouts.application.discourse"
+msgstr ""
+
+msgid "layouts.application.switch_to_touch_optimized_mode"
+msgstr ""
+
+msgid "layouts.application.switch_to_standard_mode"
+msgstr ""
+
+msgid "layouts.application.public_feed"
+msgstr ""
+
+msgid "layouts.application.back_to_top"
+msgstr ""
+
+msgid "layouts.application.source_package"
+msgstr ""
+
+msgid "layouts.application.be_excellent"
+msgstr ""
+
+msgid "likes.create.error"
+msgstr ""
+
+msgid "likes.create.fail"
+msgstr ""
+
+msgid "likes.destroy.error"
+msgstr ""
+
+msgid "likes.people_like_this"
+msgid_plural "likes.people_like_this.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "likes.people_like_this_comment"
+msgid_plural "likes.people_like_this_comment.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "likes.people_dislike_this"
+msgid_plural "likes.people_dislike_this.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "likes.not_found"
+msgstr ""
+
+msgid "notifications.started_sharing"
+msgid_plural "notifications.started_sharing.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.private_message"
+msgid_plural "notifications.private_message.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.comment_on_post"
+msgid_plural "notifications.comment_on_post.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.also_commented"
+msgid_plural "notifications.also_commented.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.mentioned"
+msgid_plural "notifications.mentioned.other"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.mentioned_in_comment"
+msgid_plural "notifications.mentioned_in_comment.other"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.liked"
+msgid_plural "notifications.liked.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.reshared"
+msgid_plural "notifications.reshared.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.contacts_birthday"
+msgid_plural "notifications.contacts_birthday.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.also_commented_deleted"
+msgid_plural "notifications.also_commented_deleted.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.liked_post_deleted"
+msgid_plural "notifications.liked_post_deleted.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.reshared_post_deleted"
+msgid_plural "notifications.reshared_post_deleted.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.mentioned_deleted"
+msgid_plural "notifications.mentioned_deleted.other"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.mentioned_in_comment_deleted"
+msgid_plural "notifications.mentioned_in_comment_deleted.other"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.index.notifications"
+msgstr ""
+
+msgid "notifications.index.mark_all_as_read"
+msgstr ""
+
+msgid "notifications.index.mark_all_shown_as_read"
+msgstr ""
+
+msgid "notifications.index.mark_read"
+msgstr ""
+
+msgid "notifications.index.mark_unread"
+msgstr ""
+
+msgid "notifications.index.show_all"
+msgstr ""
+
+msgid "notifications.index.show_unread"
+msgstr ""
+
+msgid "notifications.index.all_notifications"
+msgstr ""
+
+msgid "notifications.index.also_commented"
+msgstr ""
+
+msgid "notifications.index.comment_on_post"
+msgstr ""
+
+msgid "notifications.index.liked"
+msgstr ""
+
+msgid "notifications.index.mentioned"
+msgstr ""
+
+msgid "notifications.index.mentioned_in_comment"
+msgstr ""
+
+msgid "notifications.index.reshared"
+msgstr ""
+
+msgid "notifications.index.started_sharing"
+msgstr ""
+
+msgid "notifications.index.contacts_birthday"
+msgstr ""
+
+msgid "notifications.index.no_notifications"
+msgstr ""
+
+msgid "notifications.index.and_others"
+msgid_plural "notifications.index.and_others.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "notifications.index.and"
+msgstr ""
+
+msgid "notifier.a_post_you_shared"
+msgstr ""
+
+msgid "notifier.a_private_message"
+msgstr ""
+
+msgid "notifier.a_limited_post_comment"
+msgstr ""
+
+msgid "notifier.email_sent_by_diaspora"
+msgstr ""
+
+msgid "notifier.click_here"
+msgstr ""
+
+msgid "notifier.hello"
+msgstr ""
+
+msgid "notifier.thanks"
+msgstr ""
+
+msgid "notifier.to_change_your_notification_settings"
+msgstr ""
+
+msgid "notifier.single_admin.subject"
+msgstr ""
+
+msgid "notifier.single_admin.admin"
+msgstr ""
+
+msgid "notifier.started_sharing.subject"
+msgstr ""
+
+msgid "notifier.started_sharing.sharing"
+msgstr ""
+
+msgid "notifier.started_sharing.view_profile"
+msgstr ""
+
+msgid "notifier.comment_on_post.limited_subject"
+msgstr ""
+
+msgid "notifier.comment_on_post.reply"
+msgstr ""
+
+msgid "notifier.also_commented.limited_subject"
+msgstr ""
+
+msgid "notifier.mentioned.subject"
+msgstr ""
+
+msgid "notifier.mentioned.limited_post"
+msgstr ""
+
+msgid "notifier.mentioned_in_comment.limited_post"
+msgstr ""
+
+msgid "notifier.mentioned_in_comment.reply"
+msgstr ""
+
+msgid "notifier.private_message.subject"
+msgstr ""
+
+msgid "notifier.private_message.reply_to_or_view"
+msgstr ""
+
+msgid "notifier.liked.liked"
+msgstr ""
+
+msgid "notifier.liked.limited_post"
+msgstr ""
+
+msgid "notifier.liked.view_post"
+msgstr ""
+
+msgid "notifier.reshared.reshared"
+msgstr ""
+
+msgid "notifier.reshared.view_post"
+msgstr ""
+
+msgid "notifier.contacts_birthday.subject"
+msgstr ""
+
+msgid "notifier.contacts_birthday.birthday"
+msgstr ""
+
+msgid "notifier.contacts_birthday.view_profile"
+msgstr ""
+
+msgid "notifier.confirm_email.subject"
+msgstr ""
+
+msgid "notifier.confirm_email.click_link"
+msgstr ""
+
+msgid "notifier.csrf_token_fail.subject"
+msgstr ""
+
+msgid "notifier.csrf_token_fail.body"
+msgstr ""
+
+msgid "notifier.report_email.type.post"
+msgstr ""
+
+msgid "notifier.report_email.type.comment"
+msgstr ""
+
+msgid "notifier.report_email.subject"
+msgstr ""
+
+msgid "notifier.report_email.body"
+msgstr ""
+
+msgid "notifier.export_email.subject"
+msgstr ""
+
+msgid "notifier.export_email.body"
+msgstr ""
+
+msgid "notifier.export_failure_email.subject"
+msgstr ""
+
+msgid "notifier.export_failure_email.body"
+msgstr ""
+
+msgid "notifier.export_photos_email.subject"
+msgstr ""
+
+msgid "notifier.export_photos_email.body"
+msgstr ""
+
+msgid "notifier.export_photos_failure_email.subject"
+msgstr ""
+
+msgid "notifier.export_photos_failure_email.body"
+msgstr ""
+
+msgid "notifier.invited_you"
+msgstr ""
+
+msgid "notifier.invite.message"
+msgstr ""
+
+msgid "notifier.remove_old_user.subject"
+msgstr ""
+
+msgid "notifier.remove_old_user.body"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.redirection_message"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.access"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.no_requirement"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.approve"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.deny"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.bad_request"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.client_id_not_found"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.private_contacts_linkage_error"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.new.unknown_scope"
+msgstr ""
+
+msgid "api.openid_connect.authorizations.destroy.fail"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.index.edit_applications"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.index.title"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.index.access"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.index.no_requirement"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.no_applications"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.revoke_autorization"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.tos"
+msgstr ""
+
+msgid "api.openid_connect.user_applications.policy"
+msgstr ""
+
+msgid "api.openid_connect.scopes.openid.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.openid.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.sub.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.sub.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.name.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.name.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.nickname.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.nickname.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.picture.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.picture.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.contacts:read.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.contacts:read.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.contacts:modify.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.contacts:modify.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.conversations.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.conversations.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.email.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.email.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.interactions.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.interactions.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.notifications.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.notifications.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.private:read.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.private:read.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.private:modify.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.private:modify.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.public:read.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.public:read.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.public:modify.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.public:modify.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile:modify.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile:modify.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile:read_private.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.profile:read_private.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.tags:read.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.tags:read.description"
+msgstr ""
+
+msgid "api.openid_connect.scopes.tags:modify.name"
+msgstr ""
+
+msgid "api.openid_connect.scopes.tags:modify.description"
+msgstr ""
+
+msgid "api.openid_connect.error_page.title"
+msgstr ""
+
+msgid "api.openid_connect.error_page.contact_developer"
+msgstr ""
+
+msgid "api.openid_connect.error_page.login_required"
+msgstr ""
+
+msgid "api.openid_connect.error_page.could_not_authorize"
+msgstr ""
+
+msgid "people.person.thats_you"
+msgstr ""
+
+msgid "people.index.results_for"
+msgstr ""
+
+msgid "people.index.no_results"
+msgstr ""
+
+msgid "people.index.couldnt_find_them"
+msgstr ""
+
+msgid "people.index.search_handle"
+msgstr ""
+
+msgid "people.index.send_invite"
+msgstr ""
+
+msgid "people.index.no_one_found"
+msgstr ""
+
+msgid "people.index.searching"
+msgstr ""
+
+msgid "people.index.looking_for"
+msgstr ""
+
+msgid "people.show.has_not_shared_with_you_yet"
+msgstr ""
+
+msgid "people.show.does_not_exist"
+msgstr ""
+
+msgid "people.show.closed_account"
+msgstr ""
+
+msgid "people.profile_sidebar.bio"
+msgstr ""
+
+msgid "people.profile_sidebar.location"
+msgstr ""
+
+msgid "people.profile_sidebar.gender"
+msgstr ""
+
+msgid "people.profile_sidebar.born"
+msgstr ""
+
+msgid "people.add_contact.invited_by"
+msgstr ""
+
+msgid "photos.create.runtime_error"
+msgstr ""
+
+msgid "photos.create.integrity_error"
+msgstr ""
+
+msgid "photos.create.type_error"
+msgstr ""
+
+msgid "photos.destroy.notice"
+msgstr ""
+
+msgid "photos.new_profile_photo.upload"
+msgstr ""
+
+msgid "polls.votes"
+msgid_plural "polls.votes.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "posts.presenter.title"
+msgstr ""
+
+msgid "posts.show.location"
+msgstr ""
+
+msgid "posts.show.forbidden"
+msgstr ""
+
+msgid "posts.show.photos_by"
+msgid_plural "posts.show.photos_by.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "posts.show.reshare_by"
+msgstr ""
+
+msgid "report.title"
+msgstr ""
+
+msgid "report.post_label"
+msgstr ""
+
+msgid "report.comment_label"
+msgstr ""
+
+msgid "report.reported_label"
+msgstr ""
+
+msgid "report.reason_label"
+msgstr ""
+
+msgid "report.review_link"
+msgstr ""
+
+msgid "report.delete_link"
+msgstr ""
+
+msgid "report.reported_user_details"
+msgstr ""
+
+msgid "report.confirm_deletion"
+msgstr ""
+
+msgid "report.not_found"
+msgstr ""
+
+msgid "report.status.destroyed"
+msgstr ""
+
+msgid "report.status.failed"
+msgstr ""
+
+msgid "report.unreviewed_reports"
+msgid_plural "report.unreviewed_reports.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "profiles.edit.basic"
+msgstr ""
+
+msgid "profiles.edit.extended"
+msgstr ""
+
+msgid "profiles.edit.settings"
+msgstr ""
+
+msgid "profiles.edit.extended_visibility_text"
+msgstr ""
+
+msgid "profiles.edit.public"
+msgstr ""
+
+msgid "profiles.edit.limited"
+msgstr ""
+
+msgid "profiles.edit.basic_hint"
+msgstr ""
+
+msgid "profiles.edit.extended_hint"
+msgstr ""
+
+msgid "profiles.edit.your_name"
+msgstr ""
+
+msgid "profiles.edit.first_name"
+msgstr ""
+
+msgid "profiles.edit.last_name"
+msgstr ""
+
+msgid "profiles.edit.your_gender"
+msgstr ""
+
+msgid "profiles.edit.your_birthday"
+msgstr ""
+
+msgid "profiles.edit.your_tags"
+msgstr ""
+
+msgid "profiles.edit.your_tags_placeholder"
+msgstr ""
+
+msgid "profiles.edit.your_bio"
+msgstr ""
+
+msgid "profiles.edit.your_location"
+msgstr ""
+
+msgid "profiles.edit.your_photo"
+msgstr ""
+
+msgid "profiles.edit.update_profile"
+msgstr ""
+
+msgid "profiles.edit.allow_search"
+msgstr ""
+
+msgid "profiles.edit.nsfw_explanation"
+msgstr ""
+
+msgid "profiles.edit.nsfw_explanation2"
+msgstr ""
+
+msgid "profiles.edit.nsfw_check"
+msgstr ""
+
+msgid "profiles.update.updated"
+msgstr ""
+
+msgid "profiles.update.failed"
+msgstr ""
+
+msgid "registrations.new.enter_email"
+msgstr ""
+
+msgid "registrations.new.enter_username"
+msgstr ""
+
+msgid "registrations.new.enter_password"
+msgstr ""
+
+msgid "registrations.new.enter_password_again"
+msgstr ""
+
+msgid "registrations.new.sign_up"
+msgstr ""
+
+msgid "registrations.new.email"
+msgstr ""
+
+msgid "registrations.new.username"
+msgstr ""
+
+msgid "registrations.new.password"
+msgstr ""
+
+msgid "registrations.new.password_confirmation"
+msgstr ""
+
+msgid "registrations.new.submitting"
+msgstr ""
+
+msgid "registrations.new.terms"
+msgstr ""
+
+msgid "registrations.new.terms_link"
+msgstr ""
+
+msgid "registrations.create.success"
+msgstr ""
+
+msgid "registrations.closed.closed_pod"
+msgstr ""
+
+msgid "registrations.closed.another_pod"
+msgstr ""
+
+msgid "registrations.closed.find_pods"
+msgstr ""
+
+msgid "registrations.closed.other_questions"
+msgstr ""
+
+msgid "registrations.invalid_invite"
+msgstr ""
+
+msgid "reshares.create.error"
+msgstr ""
+
+msgid "reshares.reshare.reshared_via"
+msgstr ""
+
+msgid "reshares.reshare.reshare_confirmation"
+msgstr ""
+
+msgid "reshares.reshare.deleted"
+msgstr ""
+
+msgid "reshares.comment_email_subject"
+msgstr ""
+
+msgid "services.provider.tumblr"
+msgstr ""
+
+msgid "services.provider.twitter"
+msgstr ""
+
+msgid "services.provider.wordpress"
+msgstr ""
+
+msgid "services.index.title"
+msgstr ""
+
+msgid "services.index.connect"
+msgstr ""
+
+msgid "services.index.disconnect"
+msgstr ""
+
+msgid "services.index.logged_in_as"
+msgstr ""
+
+msgid "services.index.no_services_available"
+msgstr ""
+
+msgid "services.index.not_logged_in"
+msgstr ""
+
+msgid "services.index.really_disconnect"
+msgstr ""
+
+msgid "services.index.edit_services"
+msgstr ""
+
+msgid "services.index.services_explanation"
+msgstr ""
+
+msgid "services.index.share_to"
+msgstr ""
+
+msgid "services.create.success"
+msgstr ""
+
+msgid "services.create.failure"
+msgstr ""
+
+msgid "services.create.already_authorized"
+msgstr ""
+
+msgid "services.create.read_only_access"
+msgstr ""
+
+msgid "services.destroy.success"
+msgstr ""
+
+msgid "services.failure.error"
+msgstr ""
+
+msgid "blocks.create.success"
+msgstr ""
+
+msgid "blocks.create.failure"
+msgstr ""
+
+msgid "blocks.destroy.success"
+msgstr ""
+
+msgid "blocks.destroy.failure"
+msgstr ""
+
+msgid "shared.aspect_dropdown.mobile_row_checked"
+msgstr ""
+
+msgid "shared.aspect_dropdown.mobile_row_unchecked"
+msgstr ""
+
+msgid "shared.aspect_dropdown.toggle"
+msgid_plural "shared.aspect_dropdown.toggle.other"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "shared.publisher.formatWithMarkdown"
+msgstr ""
+
+msgid "shared.publisher.posting"
+msgstr ""
+
+msgid "shared.publisher.share"
+msgstr ""
+
+msgid "shared.publisher.get_location"
+msgstr ""
+
+msgid "shared.publisher.remove_location"
+msgstr ""
+
+msgid "shared.publisher.whats_on_your_mind"
+msgstr ""
+
+msgid "shared.publisher.discard_post"
+msgstr ""
+
+msgid "shared.publisher.new_user_prefill.newhere"
+msgstr ""
+
+msgid "shared.publisher.new_user_prefill.hello"
+msgstr ""
+
+msgid "shared.publisher.new_user_prefill.i_like"
+msgstr ""
+
+msgid "shared.publisher.new_user_prefill.invited_by"
+msgstr ""
+
+msgid "shared.publisher.poll.add_a_poll"
+msgstr ""
+
+msgid "shared.invitations.invites"
+msgstr ""
+
+msgid "shared.invitations.invite_your_friends"
+msgstr ""
+
+msgid "shared.invitations.by_email"
+msgstr ""
+
+msgid "shared.invitations.share_this"
+msgstr ""
+
+msgid "shared.public_explain.control_your_audience"
+msgstr ""
+
+msgid "shared.public_explain.new_user_welcome_message"
+msgstr ""
+
+msgid "shared.public_explain.visibility_dropdown"
+msgstr ""
+
+msgid "shared.public_explain.title"
+msgstr ""
+
+msgid "shared.public_explain.share"
+msgstr ""
+
+msgid "shared.public_explain.outside"
+msgstr ""
+
+msgid "shared.public_explain.logged_in"
+msgstr ""
+
+msgid "shared.public_explain.manage"
+msgstr ""
+
+msgid "shared.public_explain.atom_feed"
+msgstr ""
+
+msgid "shared.stream_element.via"
+msgstr ""
+
+msgid "shared.stream_element.via_mobile"
+msgstr ""
+
+msgid "status_messages.new.mentioning"
+msgstr ""
+
+msgid "status_messages.too_long"
+msgstr ""
+
+msgid "status_messages.bad_aspects"
+msgstr ""
+
+msgid "stream_helper.no_more_posts"
+msgstr ""
+
+msgid "stream_helper.no_posts_yet"
+msgstr ""
+
+msgid "tags.show.tagged_people"
+msgid_plural "tags.show.tagged_people.zero"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "tags.show.follow"
+msgstr ""
+
+msgid "tags.show.stop_following"
+msgstr ""
+
+msgid "tags.show.none"
+msgstr ""
+
+msgid "tags.name_too_long"
+msgstr ""
+
+msgid "tag_followings.manage.title"
+msgstr ""
+
+msgid "tag_followings.manage.no_tags"
+msgstr ""
+
+msgid "streams.community_spotlight_stream"
+msgstr ""
+
+msgid "streams.aspects_stream"
+msgstr ""
+
+msgid "streams.mentioned_stream"
+msgstr ""
+
+msgid "streams.followed_tags_stream"
+msgstr ""
+
+msgid "streams.mentions.title"
+msgstr ""
+
+msgid "streams.comment_stream.title"
+msgstr ""
+
+msgid "streams.like_stream.title"
+msgstr ""
+
+msgid "streams.followed_tag.title"
+msgstr ""
+
+msgid "streams.followed_tag.add_a_tag"
+msgstr ""
+
+msgid "streams.followed_tag.follow"
+msgstr ""
+
+msgid "streams.followed_tag.all"
+msgstr ""
+
+msgid "streams.admin.title"
+msgstr ""
+
+msgid "streams.tags.title"
+msgstr ""
+
+msgid "streams.public.title"
+msgstr ""
+
+msgid "streams.multi.title"
+msgstr ""
+
+msgid "streams.aspects.title"
+msgstr ""
+
+msgid "streams.aspects.all"
+msgstr ""
+
+msgid "streams.activity.title"
+msgstr ""
+
+msgid "streams.liked.title"
+msgstr ""
+
+msgid "streams.commented.title"
+msgstr ""
+
+msgid "users.edit.edit_account"
+msgstr ""
+
+msgid "users.edit.change"
+msgstr ""
+
+msgid "users.edit.your_handle"
+msgstr ""
+
+msgid "users.edit.your_email"
+msgstr ""
+
+msgid "users.edit.your_email_private"
+msgstr ""
+
+msgid "users.edit.change_email"
+msgstr ""
+
+msgid "users.edit.email_awaiting_confirmation"
+msgstr ""
+
+msgid "users.edit.change_password"
+msgstr ""
+
+msgid "users.edit.new_password"
+msgstr ""
+
+msgid "users.edit.current_password"
+msgstr ""
+
+msgid "users.edit.current_password_expl"
+msgstr ""
+
+msgid "users.edit.character_minimum_expl"
+msgstr ""
+
+msgid "users.edit.change_language"
+msgstr ""
+
+msgid "users.edit.change_color_theme"
+msgstr ""
+
+msgid "users.edit.close_account_text"
+msgstr ""
+
+msgid "users.edit.stream_preferences"
+msgstr ""
+
+msgid "users.edit.show_community_spotlight"
+msgstr ""
+
+msgid "users.edit.show_getting_started"
+msgstr ""
+
+msgid "users.edit.following"
+msgstr ""
+
+msgid "users.edit.auto_follow_back"
+msgstr ""
+
+msgid "users.edit.auto_follow_aspect"
+msgstr ""
+
+msgid "users.edit.default_post_visibility"
+msgstr ""
+
+msgid "users.edit.receive_email_notifications"
+msgstr ""
+
+msgid "users.edit.started_sharing"
+msgstr ""
+
+msgid "users.edit.someone_reported"
+msgstr ""
+
+msgid "users.edit.mentioned"
+msgstr ""
+
+msgid "users.edit.mentioned_in_comment"
+msgstr ""
+
+msgid "users.edit.liked"
+msgstr ""
+
+msgid "users.edit.reshared"
+msgstr ""
+
+msgid "users.edit.comment_on_post"
+msgstr ""
+
+msgid "users.edit.also_commented"
+msgstr ""
+
+msgid "users.edit.private_message"
+msgstr ""
+
+msgid "users.edit.birthday"
+msgstr ""
+
+msgid "users.edit.download_export"
+msgstr ""
+
+msgid "users.edit.request_export"
+msgstr ""
+
+msgid "users.edit.request_export_update"
+msgstr ""
+
+msgid "users.edit.export_data"
+msgstr ""
+
+msgid "users.edit.export_in_progress"
+msgstr ""
+
+msgid "users.edit.last_exported_html"
+msgstr ""
+
+msgid "users.edit.download_export_photos"
+msgstr ""
+
+msgid "users.edit.request_export_photos"
+msgstr ""
+
+msgid "users.edit.request_export_photos_update"
+msgstr ""
+
+msgid "users.edit.export_photos_in_progress"
+msgstr ""
+
+msgid "users.edit.close_account.dont_go"
+msgstr ""
+
+msgid "users.edit.close_account.make_diaspora_better"
+msgstr ""
+
+msgid "users.edit.close_account.mr_wiggles"
+msgstr ""
+
+msgid "users.edit.close_account.what_we_delete"
+msgstr ""
+
+msgid "users.edit.close_account.locked_out"
+msgstr ""
+
+msgid "users.edit.close_account.lock_username"
+msgstr ""
+
+msgid "users.edit.close_account.no_turning_back"
+msgstr ""
+
+msgid "users.edit.protocol_handler.title"
+msgstr ""
+
+msgid "users.edit.protocol_handler.description"
+msgstr ""
+
+msgid "users.edit.protocol_handler.browser"
+msgstr ""
+
+msgid "users.edit.protocol_handler.register"
+msgstr ""
+
+msgid "users.privacy_settings.title"
+msgstr ""
+
+msgid "users.privacy_settings.strip_exif"
+msgstr ""
+
+msgid "users.privacy_settings.ignored_users"
+msgstr ""
+
+msgid "users.privacy_settings.stop_ignoring"
+msgstr ""
+
+msgid "users.privacy_settings.no_user_ignored_message"
+msgstr ""
+
+msgid "users.destroy.success"
+msgstr ""
+
+msgid "users.destroy.no_password"
+msgstr ""
+
+msgid "users.destroy.wrong_password"
+msgstr ""
+
+msgid "users.getting_started.well_hello_there"
+msgstr ""
+
+msgid "users.getting_started.community_welcome"
+msgstr ""
+
+msgid "users.getting_started.awesome_take_me_to_diaspora"
+msgstr ""
+
+msgid "users.getting_started.who_are_you"
+msgstr ""
+
+msgid "users.getting_started.what_are_you_in_to"
+msgstr ""
+
+msgid "users.getting_started.hashtag_explanation"
+msgstr ""
+
+msgid "users.getting_started.hashtag_suggestions"
+msgstr ""
+
+msgid "users.update.password_changed"
+msgstr ""
+
+msgid "users.update.password_not_changed"
+msgstr ""
+
+msgid "users.update.language_changed"
+msgstr ""
+
+msgid "users.update.language_not_changed"
+msgstr ""
+
+msgid "users.update.settings_updated"
+msgstr ""
+
+msgid "users.update.settings_not_updated"
+msgstr ""
+
+msgid "users.update.email_notifications_changed"
+msgstr ""
+
+msgid "users.update.unconfirmed_email_changed"
+msgstr ""
+
+msgid "users.update.unconfirmed_email_not_changed"
+msgstr ""
+
+msgid "users.update.follow_settings_changed"
+msgstr ""
+
+msgid "users.update.follow_settings_not_changed"
+msgstr ""
+
+msgid "users.update.color_theme_changed"
+msgstr ""
+
+msgid "users.update.color_theme_not_changed"
+msgstr ""
+
+msgid "users.public.does_not_exist"
+msgstr ""
+
+msgid "users.confirm_email.email_confirmed"
+msgstr ""
+
+msgid "users.confirm_email.email_not_confirmed"
+msgstr ""
+
+msgid "two_factor_auth.title"
+msgstr ""
+
+msgid "two_factor_auth.explanation"
+msgstr ""
+
+msgid "two_factor_auth.activated.status"
+msgstr ""
+
+msgid "two_factor_auth.activated.change_label"
+msgstr ""
+
+msgid "two_factor_auth.activated.change_button"
+msgstr ""
+
+msgid "two_factor_auth.deactivated.status"
+msgstr ""
+
+msgid "two_factor_auth.deactivated.change_label"
+msgstr ""
+
+msgid "two_factor_auth.deactivated.change_button"
+msgstr ""
+
+msgid "two_factor_auth.confirm.title"
+msgstr ""
+
+msgid "two_factor_auth.confirm.status"
+msgstr ""
+
+msgid "two_factor_auth.confirm.scan_title"
+msgstr ""
+
+msgid "two_factor_auth.confirm.scan_explanation"
+msgstr ""
+
+msgid "two_factor_auth.confirm.manual_explanation"
+msgstr ""
+
+msgid "two_factor_auth.confirm.manual_explanation_cont"
+msgstr ""
+
+msgid "two_factor_auth.confirm.input_title"
+msgstr ""
+
+msgid "two_factor_auth.confirm.input_explanation"
+msgstr ""
+
+msgid "two_factor_auth.confirm.activate_button"
+msgstr ""
+
+msgid "two_factor_auth.input_token.label"
+msgstr ""
+
+msgid "two_factor_auth.input_token.placeholder"
+msgstr ""
+
+msgid "two_factor_auth.recovery.title"
+msgstr ""
+
+msgid "two_factor_auth.recovery.reminder"
+msgstr ""
+
+msgid "two_factor_auth.recovery.explanation"
+msgstr ""
+
+msgid "two_factor_auth.recovery.explanation_short"
+msgstr ""
+
+msgid "two_factor_auth.recovery.invalidation_notice"
+msgstr ""
+
+msgid "two_factor_auth.recovery.button"
+msgstr ""
+
+msgid "two_factor_auth.flash.success_activation"
+msgstr ""
+
+msgid "two_factor_auth.flash.success_deactivation"
+msgstr ""
+
+msgid "two_factor_auth.flash.error_token"
+msgstr ""
+
+msgid "will_paginate.previous_label"
+msgstr ""
+
+msgid "will_paginate.next_label"
+msgstr ""
+
+msgid "simple_captcha.placeholder"
+msgstr ""
+
+msgid "simple_captcha.label"
+msgstr ""
+
+msgid "simple_captcha.message.default"
+msgstr ""
+
+msgid "simple_captcha.message.user"
+msgstr ""
+
+msgid "simple_captcha.message.failed"
+msgstr ""
+
+msgid "statistics.name"
+msgstr ""
+
+msgid "statistics.network"
+msgstr ""
+
+msgid "statistics.services"
+msgstr ""
+
+msgid "statistics.total_users"
+msgstr ""
+
+msgid "statistics.active_users_halfyear"
+msgstr ""
+
+msgid "statistics.active_users_monthly"
+msgstr ""
+
+msgid "statistics.local_posts"
+msgstr ""
+
+msgid "statistics.local_comments"
+msgstr ""
+
+msgid "statistics.version"
+msgstr ""
+
+msgid "statistics.registrations"
+msgstr ""
+
+msgid "statistics.enabled"
+msgstr ""
+
+msgid "statistics.disabled"
+msgstr ""
+
+msgid "statistics.open"
+msgstr ""
+
+msgid "statistics.closed"
+msgstr ""
